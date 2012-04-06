@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="libunicapgtk-UnicapgtkVideoFormatSelection">
+<refmeta>
+<refentrytitle role="top_of_page" id="libunicapgtk-UnicapgtkVideoFormatSelection.top_of_page">UnicapgtkVideoFormatSelection</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>UnicapgtkVideoFormatSelection</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="libunicapgtk-UnicapgtkVideoFormatSelection.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="UNICAPGTK-VIDEO-FORMAT-SELECTION-TYPE:CAPS">UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE</link>
+#define             <link linkend="UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS">UNICAPGTK_VIDEO_FORMAT_SELECTION</link>    (obj)
+#define             <link linkend="UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS">UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS</link>(klass)
+#define             <link linkend="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS">IS_UNICAPGTK_VIDEO_FORMAT_SELECTION</link> (obj)
+#define             <link linkend="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS">IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS</link>(klass)
+                    <link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link>;
+<link linkend="GType">GType</link>               <link linkend="unicapgtk-video-format-selection-get-type">unicapgtk_video_format_selection_get_type</link>
+                                                        (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-video-format-selection-new">unicapgtk_video_format_selection_new</link>
+                                                        (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-video-format-selection-new-by-handle">unicapgtk_video_format_selection_new_by_handle</link>
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-video-format-selection-new-by-device">unicapgtk_video_format_selection_new_by_device</link>
+                                                        (<link linkend="unicap-device-t">unicap_device_t</link> *device_spec);
+<link linkend="unicap-format-t">unicap_format_t</link>*    <link linkend="unicapgtk-video-format-selection-get-format">unicapgtk_video_format_selection_get_format</link>
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-video-format-selection-set-device">unicapgtk_video_format_selection_set_device</link>
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device_spec);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-format-selection-set-handle">unicapgtk_video_format_selection_set_handle</link>
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk,
+                                                         <link linkend="unicap-handle-t">unicap_handle_t</link> handle);
+<link linkend="unicap-handle-t">unicap_handle_t</link>     <link linkend="unicapgtk-video-format-selection-get-handle">unicapgtk_video_format_selection_get_handle</link>
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="libunicapgtk-UnicapgtkVideoFormatSelection.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="libunicapgtk-UnicapgtkVideoFormatSelection.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="UNICAPGTK-VIDEO-FORMAT-SELECTION-TYPE:CAPS" role="macro">
+<title>UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE</title>
+<indexterm zone="UNICAPGTK-VIDEO-FORMAT-SELECTION-TYPE:CAPS"><primary>UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE</primary></indexterm><programlisting>#define UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE            (unicapgtk_video_format_selection_get_type ())
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS" role="macro">
+<title>UNICAPGTK_VIDEO_FORMAT_SELECTION()</title>
+<indexterm zone="UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS"><primary>UNICAPGTK_VIDEO_FORMAT_SELECTION</primary></indexterm><programlisting>#define             UNICAPGTK_VIDEO_FORMAT_SELECTION(obj)</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>obj</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS" role="macro">
+<title>UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()</title>
+<indexterm zone="UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS"><primary>UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS</primary></indexterm><programlisting>#define             UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS(klass)</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>klass</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS" role="macro">
+<title>IS_UNICAPGTK_VIDEO_FORMAT_SELECTION()</title>
+<indexterm zone="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS"><primary>IS_UNICAPGTK_VIDEO_FORMAT_SELECTION</primary></indexterm><programlisting>#define IS_UNICAPGTK_VIDEO_FORMAT_SELECTION(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE))
+</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>obj</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS" role="macro">
+<title>IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()</title>
+<indexterm zone="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS"><primary>IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS</primary></indexterm><programlisting>#define IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE))
+</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>klass</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="UnicapgtkVideoFormatSelection" role="struct">
+<title>UnicapgtkVideoFormatSelection</title>
+<indexterm zone="UnicapgtkVideoFormatSelection"><primary>UnicapgtkVideoFormatSelection</primary></indexterm><programlisting>typedef struct {
+		GtkHBox hbox;
+		GtkWidget *fourcc_menu;
+		GtkWidget *size_menu;
+
+		unicap_handle_t unicap_handle;
+		unicap_device_t device;
+		unicap_format_t format;
+} UnicapgtkVideoFormatSelection;
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-get-type" role="function">
+<title>unicapgtk_video_format_selection_get_type ()</title>
+<indexterm zone="unicapgtk-video-format-selection-get-type"><primary>unicapgtk_video_format_selection_get_type</primary></indexterm><programlisting><link linkend="GType">GType</link>               unicapgtk_video_format_selection_get_type
+                                                        (void);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-new" role="function">
+<title>unicapgtk_video_format_selection_new ()</title>
+<indexterm zone="unicapgtk-video-format-selection-new"><primary>unicapgtk_video_format_selection_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_video_format_selection_new
+                                                        (void);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-new-by-handle" role="function">
+<title>unicapgtk_video_format_selection_new_by_handle ()</title>
+<indexterm zone="unicapgtk-video-format-selection-new-by-handle"><primary>unicapgtk_video_format_selection_new_by_handle</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_video_format_selection_new_by_handle
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-new-by-device" role="function">
+<title>unicapgtk_video_format_selection_new_by_device ()</title>
+<indexterm zone="unicapgtk-video-format-selection-new-by-device"><primary>unicapgtk_video_format_selection_new_by_device</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_video_format_selection_new_by_device
+                                                        (<link linkend="unicap-device-t">unicap_device_t</link> *device_spec);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>device_spec</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-get-format" role="function">
+<title>unicapgtk_video_format_selection_get_format ()</title>
+<indexterm zone="unicapgtk-video-format-selection-get-format"><primary>unicapgtk_video_format_selection_get_format</primary></indexterm><programlisting><link linkend="unicap-format-t">unicap_format_t</link>*    unicapgtk_video_format_selection_get_format
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-set-device" role="function">
+<title>unicapgtk_video_format_selection_set_device ()</title>
+<indexterm zone="unicapgtk-video-format-selection-set-device"><primary>unicapgtk_video_format_selection_set_device</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_video_format_selection_set_device
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device_spec);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>device_spec</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-set-handle" role="function">
+<title>unicapgtk_video_format_selection_set_handle ()</title>
+<indexterm zone="unicapgtk-video-format-selection-set-handle"><primary>unicapgtk_video_format_selection_set_handle</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_format_selection_set_handle
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk,
+                                                         <link linkend="unicap-handle-t">unicap_handle_t</link> handle);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-format-selection-get-handle" role="function">
+<title>unicapgtk_video_format_selection_get_handle ()</title>
+<indexterm zone="unicapgtk-video-format-selection-get-handle"><primary>unicapgtk_video_format_selection_get_handle</primary></indexterm><programlisting><link linkend="unicap-handle-t">unicap_handle_t</link>     unicapgtk_video_format_selection_get_handle
+                                                        (<link linkend="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</link> *ugtk);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

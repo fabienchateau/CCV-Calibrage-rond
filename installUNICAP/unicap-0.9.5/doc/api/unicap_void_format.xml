@@ -1,0 +1,36 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_void_format</function-name>
+	<parameter>
+	  <parameter-name>
+	    format
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_format_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Initializes the fields of a unicap_format_t structure
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  format
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

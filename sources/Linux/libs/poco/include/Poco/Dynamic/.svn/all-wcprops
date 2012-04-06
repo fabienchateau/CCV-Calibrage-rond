@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Dynamic
+END
+Struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Dynamic/Struct.h
+END
+VarHolder.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Dynamic/VarHolder.h
+END
+Var.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Dynamic/Var.h
+END

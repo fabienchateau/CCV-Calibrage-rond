@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/sound
+END
+ofSoundStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/sound/ofSoundStream.h
+END
+ofSoundPlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/sound/ofSoundPlayer.h
+END
+ofSoundStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/sound/ofSoundStream.cpp
+END
+ofSoundPlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/sound/ofSoundPlayer.cpp
+END

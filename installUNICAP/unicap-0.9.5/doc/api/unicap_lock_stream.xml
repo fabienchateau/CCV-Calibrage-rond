@@ -1,0 +1,42 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_lock_stream</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_handle_t
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Reserves exclusive access to the image stream of this device. When a device stream is locked, stream functions
+      like unicap_queue_buffer and unicap_set_format may only be called with the handle that gathered the lock. 
+      <p>
+	The lock works for all processes on the system but it is not guarranteed to work for processes running on 
+	remote computers ( eg. a lock aquired for a FireWire camera on one system is not seen by an application 
+	running on another computer on the same FireWire bus ). 
+      </p>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

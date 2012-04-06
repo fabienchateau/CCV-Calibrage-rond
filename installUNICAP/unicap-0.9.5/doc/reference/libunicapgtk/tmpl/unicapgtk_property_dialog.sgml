@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+UnicapgtkPropertyDialog
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT UnicapgtkPropertyDialog ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG UnicapgtkPropertyDialog:update-interval ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION unicapgtk_property_dialog_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_property_dialog_new_by_handle ##### -->
+<para>
+
+</para>
+
+@handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_property_dialog_reset ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+
+
+<!-- ##### FUNCTION unicapgtk_property_dialog_set_device ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@device_spec: 
+
+
+<!-- ##### FUNCTION unicapgtk_property_dialog_set_handle ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@handle: 
+
+

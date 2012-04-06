@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="UnicapgtkVideoDisplay">
+<refmeta>
+<refentrytitle role="top_of_page" id="UnicapgtkVideoDisplay.top_of_page">UnicapgtkVideoDisplay</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>UnicapgtkVideoDisplay</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="UnicapgtkVideoDisplay.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</link>;
+                    <link linkend="UnicapgtkVideoDisplay-struct">UnicapgtkVideoDisplay</link>;
+<link linkend="GType">GType</link>               <link linkend="unicapgtk-video-display-get-type">unicapgtk_video_display_get_type</link>    (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-video-display-new">unicapgtk_video_display_new</link>         (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-video-display-new-by-device">unicapgtk_video_display_new_by_device</link>
+                                                        (<link linkend="unicap-device-t">unicap_device_t</link> *device_spec);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-video-display-new-by-handle">unicapgtk_video_display_new_by_handle</link>
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-video-display-start">unicapgtk_video_display_start</link>       (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-stop">unicapgtk_video_display_stop</link>        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);
+<link linkend="unicap-device-t">unicap_device_t</link>*    <link linkend="unicapgtk-video-display-get-device">unicapgtk_video_display_get_device</link>  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);
+<link linkend="unicap-handle-t">unicap_handle_t</link>     <link linkend="unicapgtk-video-display-get-handle">unicapgtk_video_display_get_handle</link>  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugkt);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-video-display-set-format">unicapgtk_video_display_set_format</link>  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format_spec);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-get-format">unicapgtk_video_display_get_format</link>  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-set-pause">unicapgtk_video_display_set_pause</link>   (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="gboolean">gboolean</link> state);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-video-display-get-pause">unicapgtk_video_display_get_pause</link>   (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-video-display-set-device">unicapgtk_video_display_set_device</link>  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device_spec);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-video-display-set-handle">unicapgtk_video_display_set_handle</link>  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-handle-t">unicap_handle_t</link> handle);
+<link linkend="GdkPixbuf">GdkPixbuf</link>*          <link linkend="unicapgtk-video-display-get-still-image">unicapgtk_video_display_get_still_image</link>
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-set-still-image">unicapgtk_video_display_set_still_image</link>
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *buffer);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-get-data-buffer">unicapgtk_video_display_get_data_buffer</link>
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> **dest_buffer);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-set-crop">unicapgtk_video_display_set_crop</link>    (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</link> *crop);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-get-crop">unicapgtk_video_display_get_crop</link>    (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</link> *crop);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-set-size">unicapgtk_video_display_set_size</link>    (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="gint">gint</link> width,
+                                                         <link linkend="gint">gint</link> height);
+<link linkend="void">void</link>                <link linkend="unicapgtk-video-display-set-scale-to-fit">unicapgtk_video_display_set_scale_to_fit</link>
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="gboolean">gboolean</link> scale);
+<link linkend="unicap-new-frame-callback-t">unicap_new_frame_callback_t</link> <link linkend="unicapgtk-video-display-set-new-frame-callback">unicapgtk_video_display_set_new_frame_callback</link>
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="UnicapgtkCallbackFlags">UnicapgtkCallbackFlags</link> flags,
+                                                         <link linkend="unicap-new-frame-callback-t">unicap_new_frame_callback_t</link> cb,
+                                                         <link linkend="void">void</link> *data);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="UnicapgtkVideoDisplay.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBin">GtkBin</link>
+                                 +----<link linkend="GtkFrame">GtkFrame</link>
+                                       +----<link linkend="GtkAspectFrame">GtkAspectFrame</link>
+                                             +----UnicapgtkVideoDisplay
+</synopsis>
+
+</refsect1>
+
+
+
+<refsect1 id="UnicapgtkVideoDisplay.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+UnicapgtkVideoDisplay implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link> and  <link linkend="GtkBuildable">GtkBuildable</link>.</para>
+
+</refsect1>
+
+
+<refsect1 id="UnicapgtkVideoDisplay.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="UnicapgtkVideoDisplay--backend">backend</link>&quot;                  <link linkend="gchar">gchar</link>*                : Read / Write
+  &quot;<link linkend="UnicapgtkVideoDisplay--backend-fourcc">backend-fourcc</link>&quot;           <link linkend="guint">guint</link>                 : Read / Write
+  &quot;<link linkend="UnicapgtkVideoDisplay--scale-to-fit">scale-to-fit</link>&quot;             <link linkend="gboolean">gboolean</link>              : Read / Write
+</synopsis>
+</refsect1>
+
+<refsect1 id="UnicapgtkVideoDisplay.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="UnicapgtkVideoDisplay-unicapgtk-video-display-predisplay">unicapgtk-video-display-predisplay</link>&quot;             : Run First / Action
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="UnicapgtkVideoDisplay.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="UnicapgtkVideoDisplay.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="UnicapgtkVideoDisplayCropping" role="struct">
+<title>UnicapgtkVideoDisplayCropping</title>
+<indexterm zone="UnicapgtkVideoDisplayCropping"><primary>UnicapgtkVideoDisplayCropping</primary></indexterm><programlisting>typedef struct {
+  int crop_x;
+  int crop_y;
+  int crop_width;
+  int crop_height;
+} UnicapgtkVideoDisplayCropping;
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="UnicapgtkVideoDisplay-struct" role="struct">
+<title>UnicapgtkVideoDisplay</title>
+<indexterm zone="UnicapgtkVideoDisplay-struct"><primary>UnicapgtkVideoDisplay</primary></indexterm><programlisting>typedef struct _UnicapgtkVideoDisplay UnicapgtkVideoDisplay;</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-video-display-get-type" role="function">
+<title>unicapgtk_video_display_get_type ()</title>
+<indexterm zone="unicapgtk-video-display-get-type"><primary>unicapgtk_video_display_get_type</primary></indexterm><programlisting><link linkend="GType">GType</link>               unicapgtk_video_display_get_type    (void);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-new" role="function">
+<title>unicapgtk_video_display_new ()</title>
+<indexterm zone="unicapgtk-video-display-new"><primary>unicapgtk_video_display_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_video_display_new         (void);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link></para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-new-by-device" role="function">
+<title>unicapgtk_video_display_new_by_device ()</title>
+<indexterm zone="unicapgtk-video-display-new-by-device"><primary>unicapgtk_video_display_new_by_device</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_video_display_new_by_device
+                                                        (<link linkend="unicap-device-t">unicap_device_t</link> *device_spec);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link> and opens the given device to
+operate with.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>device_spec</parameter>&nbsp;:</term>
+<listitem><simpara> the device to be used by this video display widget
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-new-by-handle" role="function">
+<title>unicapgtk_video_display_new_by_handle ()</title>
+<indexterm zone="unicapgtk-video-display-new-by-handle"><primary>unicapgtk_video_display_new_by_handle</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_video_display_new_by_handle
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link> and uses the handle to control
+the video device. The handle gets cloned by this call.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara> a handle of the device to be used by this video display
+widget
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-start" role="function">
+<title>unicapgtk_video_display_start ()</title>
+<indexterm zone="unicapgtk-video-display-start"><primary>unicapgtk_video_display_start</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_video_display_start       (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);</programlisting>
+<para>
+Calls <link linkend="unicap-start-capture"><type>unicap_start_capture</type></link> on the device and starts displaying the
+live video stream.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> TRUE when the live display could be successfully started.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-stop" role="function">
+<title>unicapgtk_video_display_stop ()</title>
+<indexterm zone="unicapgtk-video-display-stop"><primary>unicapgtk_video_display_stop</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_stop        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);</programlisting>
+<para>
+Calls <link linkend="unicap-stop-capture"><type>unicap_stop_capture</type></link> on the device and stops displaying the
+live video image.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-get-device" role="function">
+<title>unicapgtk_video_display_get_device ()</title>
+<indexterm zone="unicapgtk-video-display-get-device"><primary>unicapgtk_video_display_get_device</primary></indexterm><programlisting><link linkend="unicap-device-t">unicap_device_t</link>*    unicapgtk_video_display_get_device  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);</programlisting>
+<para>
+Returns the device currently used by the video display. The
+returned data is owned by the library and should not be freed by
+the application.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> an <link linkend="unicap-device-t"><type>unicap_device_t</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-get-handle" role="function">
+<title>unicapgtk_video_display_get_handle ()</title>
+<indexterm zone="unicapgtk-video-display-get-handle"><primary>unicapgtk_video_display_get_handle</primary></indexterm><programlisting><link linkend="unicap-handle-t">unicap_handle_t</link>     unicapgtk_video_display_get_handle  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugkt);</programlisting>
+<para>
+Returns a handle to the device currently used by the display. This
+is a clone of the handle used by the display so <link linkend="unicap-close"><type>unicap_close</type></link> must
+be called on this handle by the calling application.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugkt</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a cloned <link linkend="unicap-handle-t"><type>unicap_handle_t</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-format" role="function">
+<title>unicapgtk_video_display_set_format ()</title>
+<indexterm zone="unicapgtk-video-display-set-format"><primary>unicapgtk_video_display_set_format</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_video_display_set_format  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format_spec);</programlisting>
+<para>
+Sets the video format used by the display. If a handle is set on
+the display ( ie. the display controls a device ), the video format
+is also changed and only video formats supported by the device can
+be set.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>format_spec</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="unicap-format-t"><type>unicap_format_t</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> TRUE when the format change was successfull. 
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-get-format" role="function">
+<title>unicapgtk_video_display_get_format ()</title>
+<indexterm zone="unicapgtk-video-display-get-format"><primary>unicapgtk_video_display_get_format</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_get_format  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>format</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-pause" role="function">
+<title>unicapgtk_video_display_set_pause ()</title>
+<indexterm zone="unicapgtk-video-display-set-pause"><primary>unicapgtk_video_display_set_pause</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_set_pause   (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="gboolean">gboolean</link> state);</programlisting>
+<para>
+Pauses or unpauses the video display. If the display is controling
+a device, the device is not stopped or paused by this call. When
+the video display is paused, no new frames are retrieved from the
+device and the display is constantly updated with the last image
+retrieved from the device. 
+</para>
+<para>
+Buffer display events are still called. This way an application can
+still draw an overlay onto the image.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an UnicapgtkVideoDisplay
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>state</parameter>&nbsp;:</term>
+<listitem><simpara> TRUE to put the device into pause state; FALSE to put it
+into running state
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-get-pause" role="function">
+<title>unicapgtk_video_display_get_pause ()</title>
+<indexterm zone="unicapgtk-video-display-get-pause"><primary>unicapgtk_video_display_get_pause</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_video_display_get_pause   (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);</programlisting>
+<para>
+Retrieve current pause state</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> TRUE when the display is currently paused
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-device" role="function">
+<title>unicapgtk_video_display_set_device ()</title>
+<indexterm zone="unicapgtk-video-display-set-device"><primary>unicapgtk_video_display_set_device</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_video_display_set_device  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device_spec);</programlisting>
+<para>
+Set a new device on the display.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>device_spec</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="unicap-device-t"><type>unicap_device_t</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> TRUE when the new device could be successfully set. 
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-handle" role="function">
+<title>unicapgtk_video_display_set_handle ()</title>
+<indexterm zone="unicapgtk-video-display-set-handle"><primary>unicapgtk_video_display_set_handle</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_video_display_set_handle  (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-handle-t">unicap_handle_t</link> handle);</programlisting>
+<para>
+Set a new device on the display, specified by a handle. The handle
+gets cloned by this call.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="unicap-handle-t"><type>unicap_handle_t</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> TRUE when the device change was successful. 
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-get-still-image" role="function">
+<title>unicapgtk_video_display_get_still_image ()</title>
+<indexterm zone="unicapgtk-video-display-get-still-image"><primary>unicapgtk_video_display_get_still_image</primary></indexterm><programlisting><link linkend="GdkPixbuf">GdkPixbuf</link>*          unicapgtk_video_display_get_still_image
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk);</programlisting>
+<para>
+Retrieves a still image from the live video stream.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new allocated <link linkend="GdkPixbuf"><type>GdkPixbuf</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-still-image" role="function">
+<title>unicapgtk_video_display_set_still_image ()</title>
+<indexterm zone="unicapgtk-video-display-set-still-image"><primary>unicapgtk_video_display_set_still_image</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_set_still_image
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *buffer);</programlisting>
+<para>
+Sets a still image. If the video display is currently running, it
+is put to pause state by this call.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>buffer</parameter>&nbsp;:</term>
+<listitem><simpara> a data_buffer to be displayed
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-get-data-buffer" role="function">
+<title>unicapgtk_video_display_get_data_buffer ()</title>
+<indexterm zone="unicapgtk-video-display-get-data-buffer"><primary>unicapgtk_video_display_get_data_buffer</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_get_data_buffer
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> **dest_buffer);</programlisting>
+<para>
+Retrieves a still image from the live video stream.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>dest_buffer</parameter>&nbsp;:</term>
+<listitem><simpara> a pointer where to store the new data_buffer
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-crop" role="function">
+<title>unicapgtk_video_display_set_crop ()</title>
+<indexterm zone="unicapgtk-video-display-set-crop"><primary>unicapgtk_video_display_set_crop</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_set_crop    (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</link> *crop);</programlisting>
+<para>
+Set a cropping window. The video display will only display the
+region specified in the cropping window.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicagtkVideoDisplay"><type>UnicagtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>crop</parameter>&nbsp;:</term>
+<listitem><simpara> cropping specification
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-get-crop" role="function">
+<title>unicapgtk_video_display_get_crop ()</title>
+<indexterm zone="unicapgtk-video-display-get-crop"><primary>unicapgtk_video_display_get_crop</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_get_crop    (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</link> *crop);</programlisting>
+<para>
+Retrieves the current cropping window.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>crop</parameter>&nbsp;:</term>
+<listitem><simpara> pointer to where to store the <link linkend="UnicapgtkVideoDisplayCropping"><type>UnicapgtkVideoDisplayCropping</type></link>
+structure
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-size" role="function">
+<title>unicapgtk_video_display_set_size ()</title>
+<indexterm zone="unicapgtk-video-display-set-size"><primary>unicapgtk_video_display_set_size</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_set_size    (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="gint">gint</link> width,
+                                                         <link linkend="gint">gint</link> height);</programlisting>
+<para>
+Sets the output size of the display. Video data that is to be
+displayed will be scaled to this size.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>width</parameter>&nbsp;:</term>
+<listitem><simpara> new width
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>height</parameter>&nbsp;:</term>
+<listitem><simpara> new height
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-scale-to-fit" role="function">
+<title>unicapgtk_video_display_set_scale_to_fit ()</title>
+<indexterm zone="unicapgtk-video-display-set-scale-to-fit"><primary>unicapgtk_video_display_set_scale_to_fit</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_video_display_set_scale_to_fit
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="gboolean">gboolean</link> scale);</programlisting>
+<para>
+If scale_to_fit is set, the video display will get scaled to the
+size allocated to the widget.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>scale</parameter>&nbsp;:</term>
+<listitem><simpara> TRUE if the display should scale to fit
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-video-display-set-new-frame-callback" role="function">
+<title>unicapgtk_video_display_set_new_frame_callback ()</title>
+<indexterm zone="unicapgtk-video-display-set-new-frame-callback"><primary>unicapgtk_video_display_set_new_frame_callback</primary></indexterm><programlisting><link linkend="unicap-new-frame-callback-t">unicap_new_frame_callback_t</link> unicapgtk_video_display_set_new_frame_callback
+                                                        (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *ugtk,
+                                                         <link linkend="UnicapgtkCallbackFlags">UnicapgtkCallbackFlags</link> flags,
+                                                         <link linkend="unicap-new-frame-callback-t">unicap_new_frame_callback_t</link> cb,
+                                                         <link linkend="void">void</link> *data);</programlisting>
+<para>
+Registers a callback function which is called in the unicap capture
+thread context.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkVideoDisplay"><type>UnicapgtkVideoDisplay</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>flags</parameter>&nbsp;:</term>
+<listitem><simpara> flags
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>cb</parameter>&nbsp;:</term>
+<listitem><simpara> a callback function
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>data</parameter>&nbsp;:</term>
+<listitem><simpara> a pointer to user data that is passed to the callback
+function
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> old callback 
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+<refsect1 id="UnicapgtkVideoDisplay.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="UnicapgtkVideoDisplay--backend"><title>The <literal>&quot;backend&quot;</literal> property</title>
+<indexterm zone="UnicapgtkVideoDisplay--backend"><primary>UnicapgtkVideoDisplay:backend</primary></indexterm><programlisting>  &quot;backend&quot;                  <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para></para><para>Default value: NULL</para>
+</refsect2>
+<refsect2 id="UnicapgtkVideoDisplay--backend-fourcc"><title>The <literal>&quot;backend-fourcc&quot;</literal> property</title>
+<indexterm zone="UnicapgtkVideoDisplay--backend-fourcc"><primary>UnicapgtkVideoDisplay:backend-fourcc</primary></indexterm><programlisting>  &quot;backend-fourcc&quot;           <link linkend="guint">guint</link>                 : Read / Write</programlisting>
+<para></para><para>Default value: 0</para>
+</refsect2>
+<refsect2 id="UnicapgtkVideoDisplay--scale-to-fit"><title>The <literal>&quot;scale-to-fit&quot;</literal> property</title>
+<indexterm zone="UnicapgtkVideoDisplay--scale-to-fit"><primary>UnicapgtkVideoDisplay:scale-to-fit</primary></indexterm><programlisting>  &quot;scale-to-fit&quot;             <link linkend="gboolean">gboolean</link>              : Read / Write</programlisting>
+<para></para><para>Default value: FALSE</para>
+</refsect2>
+
+</refsect1>
+
+<refsect1 id="UnicapgtkVideoDisplay.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="UnicapgtkVideoDisplay-unicapgtk-video-display-predisplay"><title>The <literal>&quot;unicapgtk-video-display-predisplay&quot;</literal> signal</title>
+<indexterm zone="UnicapgtkVideoDisplay-unicapgtk-video-display-predisplay"><primary>UnicapgtkVideoDisplay::unicapgtk-video-display-predisplay</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</link> *unicapgtkvideodisplay,
+                                                        <link linkend="gpointer">gpointer</link>               arg1,
+                                                        <link linkend="gpointer">gpointer</link>               user_data)                  : Run First / Action</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>unicapgtkvideodisplay</parameter>&nbsp;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>arg1</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&nbsp;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+</refsect1>
+
+
+
+</refentry>

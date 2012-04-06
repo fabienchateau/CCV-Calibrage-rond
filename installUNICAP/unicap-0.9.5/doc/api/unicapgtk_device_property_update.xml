@@ -1,0 +1,37 @@
+<api-page>
+  <title>update</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  void
+	</return-value>
+	<function-name>unicapgtk_device_property_update</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkDeviceProperty *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Reads the current property setting and updates the widget. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

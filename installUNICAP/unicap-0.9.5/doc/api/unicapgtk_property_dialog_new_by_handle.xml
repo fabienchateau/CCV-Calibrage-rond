@@ -1,0 +1,40 @@
+<api-page>
+  <title>new_by_handle</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  GtkWidget *
+	</return-value>
+	<function-name>unicapgtk_property_dialog_new_by_handle</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_handle_t
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Creates a new <api-link>UnicapgtkPropertyDialog</api-link> for the device controlled by 
+      <param-name>handle</param-name>. 
+      <p>
+	Reference count of <param-name>handle</param-name> is incremented by 1.
+      </p>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

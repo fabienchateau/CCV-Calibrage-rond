@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/lib
+END
+libPocoUtil.a
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/lib/libPocoUtil.a
+END
+libPocoXML.a
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/lib/libPocoXML.a
+END
+libPocoFoundation.a
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/lib/libPocoFoundation.a
+END
+libPocoNet.a
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/lib/libPocoNet.a
+END

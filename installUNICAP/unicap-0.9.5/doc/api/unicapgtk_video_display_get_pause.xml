@@ -1,0 +1,37 @@
+<api-page>
+  <title>get_pause</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  gboolean
+	</return-value>
+	<function-name>unicapgtk_video_display_get_pause</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkVideoDisplay
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+	Returns true when pause mode is enabled
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

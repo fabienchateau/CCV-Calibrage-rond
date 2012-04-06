@@ -1,0 +1,260 @@
+<!-- ##### SECTION Title ##### -->
+UnicapgtkVideoDisplay
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT UnicapgtkVideoDisplayCropping ##### -->
+<para>
+
+</para>
+
+@crop_x: 
+@crop_y: 
+@crop_width: 
+@crop_height: 
+
+<!-- ##### STRUCT UnicapgtkVideoDisplay ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL UnicapgtkVideoDisplay::unicapgtk-video-display-predisplay ##### -->
+<para>
+
+</para>
+
+@unicapgtkvideodisplay: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG UnicapgtkVideoDisplay:backend ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG UnicapgtkVideoDisplay:backend-fourcc ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG UnicapgtkVideoDisplay:scale-to-fit ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_type ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_new_by_device ##### -->
+<para>
+
+</para>
+
+@device_spec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_new_by_handle ##### -->
+<para>
+
+</para>
+
+@handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_start ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_stop ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_device ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_handle ##### -->
+<para>
+
+</para>
+
+@ugkt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_format ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@format_spec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_format ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@format: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_pause ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@state: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_pause ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_device ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@device_spec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_handle ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_still_image ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_still_image ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@buffer: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_data_buffer ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@dest_buffer: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_crop ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@crop: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_get_crop ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@crop: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_size ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@width: 
+@height: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_scale_to_fit ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@scale: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_display_set_new_frame_callback ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@flags: 
+@cb: 
+@data: 
+@Returns: 
+
+

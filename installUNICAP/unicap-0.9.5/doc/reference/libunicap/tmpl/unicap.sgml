@@ -1,0 +1,485 @@
+<!-- ##### SECTION Title ##### -->
+unicap
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### ENUM unicap_buffer_type_t ##### -->
+<para>
+
+</para>
+
+@UNICAP_BUFFER_TYPE_USER: 
+@UNICAP_BUFFER_TYPE_SYSTEM: 
+
+<!-- ##### TYPEDEF unicap_device_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF unicap_rect_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF unicap_format_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF unicap_data_buffer_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF unicap_property_range_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF unicap_property_value_list_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF unicap_property_menu_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM unicap_property_type_enum_t ##### -->
+<para>
+
+</para>
+
+@UNICAP_PROPERTY_TYPE_RANGE: 
+@UNICAP_PROPERTY_TYPE_VALUE_LIST: 
+@UNICAP_PROPERTY_TYPE_MENU: 
+@UNICAP_PROPERTY_TYPE_DATA: 
+@UNICAP_PROPERTY_TYPE_FLAGS: 
+@UNICAP_PROPERTY_TYPE_UNKNOWN: 
+
+<!-- ##### TYPEDEF unicap_property_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM unicap_event_t ##### -->
+<para>
+
+</para>
+
+@UNICAP_EVENT_FIRST: 
+@UNICAP_EVENT_DEVICE_REMOVED: 
+@UNICAP_EVENT_NEW_DEVICE: 
+@UNICAP_EVENT_NEW_FRAME: 
+@UNICAP_EVENT_DROP_FRAME: 
+@UNICAP_EVENT_LAST: 
+
+<!-- ##### MACRO UNICAP_FLAGS_MANUAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAP_FLAGS_AUTO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAP_FLAGS_ONE_PUSH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAP_FLAGS_READ_OUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAP_FLAGS_ON_OFF ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAP_FLAGS_READ_ONLY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAP_FLAGS_FORMAT_CHANGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### USER_FUNCTION unicap_callback_t ##### -->
+<para>
+
+</para>
+
+@event: 
+@Varargs: 
+
+
+<!-- ##### USER_FUNCTION unicap_new_frame_callback_t ##### -->
+<para>
+
+</para>
+
+@event: 
+@handle: 
+@buffer: 
+@user_ptr: 
+
+
+<!-- ##### USER_FUNCTION unicap_drop_frame_callback_t ##### -->
+<para>
+
+</para>
+
+@event: 
+@handle: 
+@user_ptr: 
+
+
+<!-- ##### USER_FUNCTION unicap_new_device_callback_t ##### -->
+<para>
+
+</para>
+
+@event: 
+@device: 
+@user_ptr: 
+
+
+<!-- ##### FUNCTION unicap_check_version ##### -->
+<para>
+
+</para>
+
+@major: 
+@minor: 
+@micro: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_reenumerate_devices ##### -->
+<para>
+
+</para>
+
+@count: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_enumerate_devices ##### -->
+<para>
+
+</para>
+
+@specifier: 
+@device: 
+@index: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_open ##### -->
+<para>
+
+</para>
+
+@handle: 
+@device: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_register_callback ##### -->
+<para>
+
+</para>
+
+@handle: 
+@event: 
+@func: 
+@user_ptr: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_close ##### -->
+<para>
+
+</para>
+
+@handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_get_device ##### -->
+<para>
+
+</para>
+
+@handle: 
+@device: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_clone_handle ##### -->
+<para>
+
+</para>
+
+@old_handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_reenumerate_formats ##### -->
+<para>
+
+</para>
+
+@handle: 
+@count: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_enumerate_formats ##### -->
+<para>
+
+</para>
+
+@handle: 
+@specifier: 
+@format: 
+@index: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_set_format ##### -->
+<para>
+
+</para>
+
+@handle: 
+@format: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_get_format ##### -->
+<para>
+
+</para>
+
+@handle: 
+@format: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_reenumerate_properties ##### -->
+<para>
+
+</para>
+
+@handle: 
+@count: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_enumerate_properties ##### -->
+<para>
+
+</para>
+
+@handle: 
+@specifier: 
+@property: 
+@index: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_set_property ##### -->
+<para>
+
+</para>
+
+@handle: 
+@property: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_set_property_value ##### -->
+<para>
+
+</para>
+
+@handle: 
+@identifier: 
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_set_property_manual ##### -->
+<para>
+
+</para>
+
+@handle: 
+@identifier: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_set_property_auto ##### -->
+<para>
+
+</para>
+
+@handle: 
+@identifier: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_set_property_one_push ##### -->
+<para>
+
+</para>
+
+@handle: 
+@identifier: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_get_property ##### -->
+<para>
+
+</para>
+
+@handle: 
+@property: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_get_property_value ##### -->
+<para>
+
+</para>
+
+@handle: 
+@identifier: 
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_get_property_menu ##### -->
+<para>
+
+</para>
+
+@handle: 
+@identifier: 
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_get_property_auto ##### -->
+<para>
+
+</para>
+
+@handle: 
+@identifier: 
+@enabled: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_start_capture ##### -->
+<para>
+
+</para>
+
+@handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_stop_capture ##### -->
+<para>
+
+</para>
+
+@handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_queue_buffer ##### -->
+<para>
+
+</para>
+
+@handle: 
+@data_buffer: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_dequeue_buffer ##### -->
+<para>
+
+</para>
+
+@handle: 
+@data_buffer: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_wait_buffer ##### -->
+<para>
+
+</para>
+
+@handle: 
+@data_buffer: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicap_poll_buffer ##### -->
+<para>
+
+</para>
+
+@handle: 
+@count: 
+@Returns: 
+
+

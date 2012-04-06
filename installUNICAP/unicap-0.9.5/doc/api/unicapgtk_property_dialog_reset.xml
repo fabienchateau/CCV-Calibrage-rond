@@ -1,0 +1,36 @@
+<api-page>
+  <title>reset</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  void
+	</return-value>
+	<function-name>unicapgtk_property_dialog_reset</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Updates all property widgets in the dialog.
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

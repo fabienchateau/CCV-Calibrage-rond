@@ -1,0 +1,39 @@
+<api-page>
+  <title>get_label</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  GtkWidget *
+	</return-value>
+	<function-name>unicapgtk_device_property_get_label</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkDeviceProperty *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Returns a pointer to the widget used to draw the label of this property. Use this for example to align the properties 
+      on a page by setting the labels of all widgets to the same width. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+	The label widget
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

@@ -1,0 +1,63 @@
+<api-page>
+  <type>
+    <type-name>unicap_data_buffer_t</type-name>
+    <type-field>
+      <field-name>format</field-name>
+      <field-type>unicap_format_t</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>frame_number</field-name>
+      <field-type>int</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>fill-time</field-name>
+      <field-type>struct timeval</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>duration</field-name>
+      <field-type>struct timeval</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>capture_start_time</field-name>
+      <field-type>struct timeval</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+
+    <type-field>
+      <field-name>data</field-name>
+      <field-type>unsigned char *</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>buffer_size</field-name>
+      <field-type>size_t</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>type</field-name>
+      <field-type>unicap_buffer_type_t</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>reserved</field-name>
+      <field-type>int</field-type>
+      <field-array-size>8</field-array-size>
+      <field-description></field-description>
+    </type-field>    
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

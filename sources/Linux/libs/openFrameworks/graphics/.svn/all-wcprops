@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics
+END
+ofTrueTypeFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofTrueTypeFont.h
+END
+ofGraphics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofGraphics.cpp
+END
+ofTexture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofTexture.cpp
+END
+ofImage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofImage.cpp
+END
+ofBitmapFont.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofBitmapFont.cpp
+END
+ofGraphics.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofGraphics.h
+END
+ofTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofTexture.h
+END
+ofImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofImage.h
+END
+ofBitmapFont.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofBitmapFont.h
+END
+ofTrueTypeFont.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/graphics/ofTrueTypeFont.cpp
+END

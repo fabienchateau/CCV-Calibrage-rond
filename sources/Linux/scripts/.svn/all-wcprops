@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts
+END
+buildAllExamples.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/buildAllExamples.sh
+END
+enableRunOnBuild.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/enableRunOnBuild.sh
+END
+cleanAllExamples.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/cleanAllExamples.sh
+END
+generateAllAddonMakefiles.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/generateAllAddonMakefiles.sh
+END
+disableOpenTargetDir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/disableOpenTargetDir.sh
+END
+buildAllAddonExamples.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/buildAllAddonExamples.sh
+END
+enableOpenTargetDir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/enableOpenTargetDir.sh
+END
+cleanAllAddonExamples.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/cleanAllAddonExamples.sh
+END
+generateAllMakeFiles.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/generateAllMakeFiles.sh
+END
+disableRunOnBuild.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/disableRunOnBuild.sh
+END

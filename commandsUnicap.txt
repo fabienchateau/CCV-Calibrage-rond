@@ -1,0 +1,25 @@
+Installation UNICAP
+
+- Source : http://kaswy.free.fr/?q=en/node/49
+
+- données nécessaires :
+http://unicap-imaging.org/downloads/unicap-0.9.5.tar.gz
+http://kaswy.free.fr/sites/default/files/download/ps3eye/unicap/unicap-gspca.patch
+
+- Fichiers présents sur la Dropbox (INTACT_Software/TX/installUNICAP) :
+unicap-0.9.5.tar.gz
+unicap-gspca.patch
+
+- Script d'installation :
+ScriptsPerso/installUnicap.sh
+
+- Résumé des commandes exécutée par le script :
+wget http://unicap-imaging.org/downloads/unicap-0.9.5.tar.gz
+tar -xvzf unicap-0.9.5.tar.gz
+wget http://kaswy.free.fr/sites/default/files/download/ps3eye/unicap/unicap-gspca.patch
+patch -p0 < unicap-gspca.patch
+cd unicap-0.9.5
+./configure
+make
+sudo make install
+sudo apt-get install libpoco-dev

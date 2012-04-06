@@ -1,0 +1,51 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>unicap_status_t</return-value>
+	<function-name>unicap_queue_buffer</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    buffer
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_data_buffer_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Queues a buffer to be filled by the capture device. The queued buffer must not be touched ( especially
+      not be freed ) until it is in the ready queue or dequeued.  When <field-name>type</field-name> of the
+      buffer is UNICAP_BUFFER_TYPE_USER, the <field-name>data</field-name> field of the
+      <param-name>buffer</param-name> structure must point to allocated memory. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  buffer
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

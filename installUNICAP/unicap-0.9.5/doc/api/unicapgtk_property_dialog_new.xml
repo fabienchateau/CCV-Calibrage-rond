@@ -1,0 +1,34 @@
+<api-page>
+  <title>new</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  GtkWidget *
+	</return-value>
+	<function-name>unicapgtk_property_dialog_new</function-name>
+	<parameter>
+	  <parameter-name>
+	  </parameter-name>
+	  <parameter-type>
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Creates a new <api-link>UnicapgtkPropertyDialog</api-link>.
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

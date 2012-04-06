@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/utils
+END
+ofMath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/utils/ofMath.cpp
+END
+ofTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/utils/ofTypes.h
+END
+ofMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/utils/ofMath.h
+END
+ofUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/utils/ofUtils.cpp
+END
+ofConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/utils/ofConstants.h
+END
+ofUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/utils/ofUtils.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/fedora
+END
+install_codeblocks_802.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/fedora/install_codeblocks_802.sh
+END
+install_dependencies.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/fedora/install_dependencies.sh
+END
+install_codeblocks_svn.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/fedora/install_codeblocks_svn.sh
+END

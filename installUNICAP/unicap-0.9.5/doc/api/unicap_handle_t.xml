@@ -1,0 +1,11 @@
+<api-page>
+  <type>
+    <type-name>unicap_handle_t</type-name>
+    <type-declaration>
+      <basic-type>struct _unicap_handle *</basic-type>
+    </type-declaration>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

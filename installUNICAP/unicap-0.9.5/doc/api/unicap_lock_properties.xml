@@ -1,0 +1,39 @@
+<api-page>  
+  <api-info module="unicap" class=""/>
+
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_lock_properties</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_handle_t
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Reserves exclusive access to the device properties. When a lock is acquired, only the handle owning the lock 
+      might change the properties using <func-link>unicap_set_property</func-link>. Other clients only have read 
+      access to the device properties. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

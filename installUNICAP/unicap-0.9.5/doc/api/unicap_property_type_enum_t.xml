@@ -1,0 +1,30 @@
+<api-page>
+  <type>
+    <type-name>unicap_property_type_enum_t</type-name>
+    <enum>
+      <enum-element value="0">
+	<enum-element-name>UNICAP_PROPERTY_TYPE_RANGE</enum-element-name>
+	<enum-element-description></enum-element-description>
+      </enum-element>
+      <enum-element>
+	<enum-element-name>UNICAP_PROPERTY_TYPE_VALUE_LIST</enum-element-name>
+	<enum-element-description></enum-element-description>
+      </enum-element>
+      <enum-element>
+	<enum-element-name>UNICAP_PROPERTY_TYPE_MENU</enum-element-name>
+	<enum-element-description></enum-element-description>
+      </enum-element>
+      <enum-element>
+	<enum-element-name>UNICAP_PROPERTY_TYPE_DATA</enum-element-name>
+	<enum-element-description></enum-element-description>
+      </enum-element>
+      <enum-element>
+	<enum-element-name>UNICAP_PROPERTY_TYPE_FLAGS</enum-element-name>
+	<enum-element-description></enum-element-description>
+      </enum-element>
+    </enum>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

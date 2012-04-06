@@ -1,0 +1,27 @@
+<api-page>
+<!--
+struct _unicap_property_range
+{
+	double min;
+	double max;
+};
+-->
+  <type>
+    <type-name>unicap_property_range_t</type-name>
+    <type-field>
+      <field-name>min</field-name>
+      <field-type>double</field-type>
+      <field-array-size></field-array-size>
+      <field-description>Minimum value of property</field-description>
+    </type-field>
+    <type-field>
+      <field-name>max</field-name>
+      <field-type>double</field-type>
+      <field-array-size></field-array-size>
+      <field-description>Maximum value of property</field-description>
+    </type-field>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

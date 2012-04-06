@@ -1,0 +1,34 @@
+<api-page>
+  <title>new_by_device</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	</return-value>
+	<function-name>unicapgtk_video_display_new_by_device</function-name>
+	<parameter>
+	  <parameter-name>
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *device
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  device
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

@@ -1,0 +1,74 @@
+<api-page>
+<!--
+struct _unicap_device
+{
+	char identifier[128]; // unique textual id of this device
+	char model_name[128];
+	char vendor_name[128];
+		
+	unsigned long long model_id; // serial number of device, if any
+	unsigned int vendor_id; // 
+	
+	char cpi_layer[1024]; // name of the plugin interface used for this device
+	char device[1024]; // filename of controlling device, if any // eg. /dev/video/0
+		
+	unsigned int flags;
+};
+-->
+  <type>
+    <type-name>unicap_device_t</type-name>
+    <type-field>
+      <field-name>identifier</field-name>
+      <field-type>char</field-type>
+      <field-array-size>128</field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>model_name</field-name>
+      <field-type>char</field-type>
+      <field-array-size>128</field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>vendor_name</field-name>
+      <field-type>char</field-type>
+      <field-array-size>128</field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>model_id</field-name>
+      <field-type>unsigned long long</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>vendor_id</field-name>
+      <field-type>unsigned int</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+
+    <type-field>
+      <field-name>cpi_layer</field-name>
+      <field-type>char</field-type>
+      <field-array-size>1024</field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>device</field-name>
+      <field-type>char</field-type>
+      <field-array-size>1024</field-array-size>
+      <field-description></field-description>
+    </type-field>
+
+    <type-field>
+      <field-name>flags</field-name>
+      <field-type>unsigned int</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

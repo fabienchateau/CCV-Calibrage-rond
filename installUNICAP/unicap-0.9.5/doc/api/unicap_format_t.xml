@@ -1,0 +1,103 @@
+<api-page>
+  <!--
+struct _unicap_format
+{
+	char identifier[128];
+	
+	// default
+	unicap_rect_t size;
+
+	// min and max extends
+	unicap_rect_t min_size;
+	unicap_rect_t max_size;
+
+	// stepping: 
+	// 0 if no free scaling available
+	int h_stepping;
+	int v_stepping;
+	// array of possible sizes
+	unicap_rect_t *sizes;
+	int size_count;
+		
+	int bpp;
+	unsigned int fourcc;
+	unsigned int flags;
+
+	unicap_buffer_type_t buffer_type;
+
+	size_t buffer_size;
+};
+  -->
+  <type>
+    <type-name>unicap_format_t</type-name>
+    <type-field>
+      <field-name>identifier</field-name>
+      <field-type>char</field-type>
+      <field-array-size>128</field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>size</field-name>
+      <field-type>unicap_rect_t</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>min_size</field-name>
+      <field-type>unicap_rect_t</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>max_size</field-name>
+      <field-type>unicap_rect_t</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>h_stepping</field-name>
+      <field-type>int</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>v_stepping</field-name>
+      <field-type>int</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>sizes</field-name>
+      <field-type>unicap_rect_t *</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>size_count</field-name>
+      <field-type>int</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>bpp</field-name>
+      <field-type>int</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>fourcc</field-name>
+      <field-type>unsigned int</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>flags</field-name>
+      <field-type>unsigned int</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>buffer_type</field-name>
+      <field-type>unicap_buffer_type_t</field-type>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>buffer_size</field-name>
+      <field-type>size_t</field-type>
+      <field-description></field-description>
+    </type-field>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

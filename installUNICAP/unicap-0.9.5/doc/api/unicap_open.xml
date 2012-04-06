@@ -1,0 +1,51 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  int
+	</return-value>
+	<function-name>unicap_open</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_handle_t *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    device
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Aquires a handle to a device.
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	  Location to store the handle for the device
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  device
+	</parameter-name>
+	<parameter-text>
+	  Details of the device to open. Must contain a valid <field-name>id</field-name> field. 
+	</parameter-text>
+      </parameter-description>
+    </function-parameters>
+  </function>
+</api-page>

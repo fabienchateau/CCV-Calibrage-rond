@@ -1,0 +1,58 @@
+<!-- ##### SECTION Title ##### -->
+unicapgtk_version
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO UNICAPGTK_MAJOR_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAPGTK_MINOR_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAPGTK_MICRO_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### VARIABLE unicapgtk_major_version ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE unicapgtk_minor_version ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE unicapgtk_micro_version ##### -->
+<para>
+
+</para>
+
+

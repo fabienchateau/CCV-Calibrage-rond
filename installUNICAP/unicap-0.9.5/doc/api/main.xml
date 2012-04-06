@@ -1,0 +1,87 @@
+<api>
+  <module name="unicap">
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="mod_unicap.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_open.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_close.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_clone_handle.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_reenumerate_devices.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_enumerate_devices.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_get_device.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_reenumerate_formats.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_enumerate_formats.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_set_format.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_get_format.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_reenumerate_properties.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_enumerate_properties.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_get_property.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_set_property.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_start_capture.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_stop_capture.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_queue_buffer.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_dequeue_buffer.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_wait_buffer.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_poll_buffer.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_void_device.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_void_format.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_void_property.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_lock_stream.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_unlock_stream.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_lock_properties.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_unlock_properties.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_device_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_property_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_format_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_data_buffer_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_rect_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_buffer_type_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_property_range_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_property_menu_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_property_value_list_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_property_type_enum_t.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicap_handle_t.xml"/>
+    
+    
+  </module>
+  <module name="unicapgtk">
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="mod_unicapgtk.xml"/>
+    <class name="UnicapgtkVideoDisplay">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="c_UnicapgtkVideoDisplay.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_new.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_new_by_device.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_new_by_handle.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_start.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_stop.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_set_device.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_get_device.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_set_pause.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_get_pause.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_set_still_image.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_get_still_image.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_set_crop.xml"/>      
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_display_get_crop.xml"/>      
+    </class>
+    <class name="UnicapgtkVideoFormatSelection">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="c_UnicapgtkVideoFormatSelection.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_format_selection_new.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_format_selection_new_by_handle.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_format_selection_get_format.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_video_format_selection_set_device.xml"/>
+    </class>
+    <class name="UnicapgtkDeviceProperty">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="c_UnicapgtkDeviceProperty.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_device_property_new.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_device_property_new_by_handle.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_device_property_set.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_device_property_update.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_device_property_set_label.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_device_property_get_label.xml"/>
+    </class>
+    <class name="UnicapgtkPropertyDialog">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="c_UnicapgtkPropertyDialog.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_property_dialog_new.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_property_dialog_new_by_handle.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_property_dialog_reset.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="unicapgtk_property_dialog_set_device.xml"/>
+    </class>
+  </module>
+</api>

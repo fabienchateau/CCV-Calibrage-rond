@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/172/trunk/tbeta/Linux/libs/openFrameworks/video
+END
+ofQtUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/video/ofQtUtils.h
+END
+ofV4LUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/video/ofV4LUtils.h
+END
+ofVideoGrabber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/video/ofVideoGrabber.cpp
+END
+ofUCUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/172/trunk/tbeta/Linux/libs/openFrameworks/video/ofUCUtils.h
+END
+ofVideoGrabber.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/video/ofVideoGrabber.h
+END
+ofVideoPlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/video/ofVideoPlayer.cpp
+END
+ofQtUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/video/ofQtUtils.cpp
+END
+ofUCUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/172/trunk/tbeta/Linux/libs/openFrameworks/video/ofUCUtils.cpp
+END
+ofVideoPlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/openFrameworks/video/ofVideoPlayer.h
+END

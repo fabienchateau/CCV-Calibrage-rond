@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit
+END
+TestSuite.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestSuite.h
+END
+RepeatedTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/RepeatedTest.h
+END
+TestSetup.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestSetup.h
+END
+CppUnitException.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/CppUnitException.h
+END
+TestCaller.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestCaller.h
+END
+Orthodox.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/Orthodox.h
+END
+TestRunner.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestRunner.h
+END
+estring.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/estring.h
+END
+TestCase.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestCase.h
+END
+TestResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestResult.h
+END
+Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/Test.h
+END
+TestDecorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestDecorator.h
+END
+CppUnit.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/CppUnit.h
+END
+TextTestResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TextTestResult.h
+END
+Guards.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/Guards.h
+END
+TestFailure.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/CppUnit/TestFailure.h
+END

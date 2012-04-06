@@ -1,0 +1,36 @@
+<api-page>
+  <title>get_format</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_format_t *
+	</return-value>
+	<function-name>unicapgtk_video_format_selection_get_format</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkVideoFormatSelection *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

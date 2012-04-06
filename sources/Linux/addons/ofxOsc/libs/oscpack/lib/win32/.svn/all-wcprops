@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/lib/win32
+END
+oscpack.a
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/lib/win32/oscpack.a
+END
+oscpack.lib
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/lib/win32/oscpack.lib
+END
+oscpackd.lib
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/lib/win32/oscpackd.lib
+END

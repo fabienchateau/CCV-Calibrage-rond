@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM
+END
+Element.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Element.h
+END
+Notation.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Notation.h
+END
+DOMException.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DOMException.h
+END
+EventException.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/EventException.h
+END
+ElementsByTagNameList.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/ElementsByTagNameList.h
+END
+MutationEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/MutationEvent.h
+END
+DocumentFragment.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DocumentFragment.h
+END
+NodeAppender.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/NodeAppender.h
+END
+Attr.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Attr.h
+END
+Document.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Document.h
+END
+ProcessingInstruction.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/ProcessingInstruction.h
+END
+Event.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Event.h
+END
+NodeList.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/NodeList.h
+END
+DOMImplementation.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DOMImplementation.h
+END
+Node.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Node.h
+END
+CharacterData.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/CharacterData.h
+END
+DOMBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DOMBuilder.h
+END
+NamedNodeMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/NamedNodeMap.h
+END
+EventTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/EventTarget.h
+END
+EventDispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/EventDispatcher.h
+END
+EntityReference.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/EntityReference.h
+END
+NodeFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/NodeFilter.h
+END
+DOMParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DOMParser.h
+END
+AutoPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/AutoPtr.h
+END
+NodeIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/NodeIterator.h
+END
+CDATASection.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/CDATASection.h
+END
+Comment.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Comment.h
+END
+TreeWalker.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/TreeWalker.h
+END
+DOMObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DOMObject.h
+END
+AttrMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/AttrMap.h
+END
+ChildNodesList.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/ChildNodesList.h
+END
+DTDMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DTDMap.h
+END
+AbstractNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/AbstractNode.h
+END
+DOMSerializer.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DOMSerializer.h
+END
+Entity.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Entity.h
+END
+AbstractContainerNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/AbstractContainerNode.h
+END
+DOMWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DOMWriter.h
+END
+DocumentType.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DocumentType.h
+END
+DocumentEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/DocumentEvent.h
+END
+Text.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/Text.h
+END
+EventListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DOM/EventListener.h
+END

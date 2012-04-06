@@ -1,0 +1,20 @@
+<api-page>
+  <type>
+    <type-name>unicap_property_menu_t</type-name>
+    <type-field>
+      <field-name>menu_items</field-name>
+      <field-type>char **</field-type>
+      <field-array-size></field-array-size>
+      <field-description>Array of menu items</field-description>
+    </type-field>
+    <type-field>
+      <field-name>menu_item_count</field-name>
+      <field-type>int</field-type>
+      <field-array-size></field-array-size>
+      <field-description>Number of elements in <field-name>menu_items</field-name></field-description>
+    </type-field>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

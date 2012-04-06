@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc
+END
+fmod_memoryinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmod_memoryinfo.h
+END
+fmod_dsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmod_dsp.h
+END
+fmod_errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmod_errors.h
+END
+fmod_codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmod_codec.h
+END
+fmod.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmod.h
+END
+fmod.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmod.hpp
+END
+fmod_output.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmod_output.h
+END
+fmodlinux.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/inc/fmodlinux.h
+END

@@ -1,0 +1,84 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_enumerate_property</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_handle_t
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    specifier
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_property_t *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    property
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_property_t *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    index
+	  </parameter-name>
+	  <parameter-type>
+	    int
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Enumerates the properties currently available on the device
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  specifier
+	</parameter-name>
+	<parameter-text>
+	  Specifies which properties should be returned by the function. Might be NULL which means that all properties 
+	  are enumerated.
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  format
+	</parameter-name>
+	<parameter-text>
+	  Location to store the property
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  index
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

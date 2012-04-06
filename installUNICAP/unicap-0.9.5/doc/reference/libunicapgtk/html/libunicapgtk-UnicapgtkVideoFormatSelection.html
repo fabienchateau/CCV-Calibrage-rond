@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UnicapgtkVideoFormatSelection</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libunicapgtk Reference Manual">
+<link rel="up" href="ch01.html" title="libunicapgtk Reference">
+<link rel="prev" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">
+<link rel="next" href="libunicapgtk-unicapgtk-version.html" title="unicapgtk_version">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="libunicapgtk Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="UnicapgtkVideoDisplay.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libunicapgtk Reference Manual</th>
+<td><a accesskey="n" href="libunicapgtk-unicapgtk-version.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#libunicapgtk-UnicapgtkVideoFormatSelection.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libunicapgtk-UnicapgtkVideoFormatSelection.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libunicapgtk-UnicapgtkVideoFormatSelection"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libunicapgtk-UnicapgtkVideoFormatSelection.top_of_page"></a>UnicapgtkVideoFormatSelection</span></h2>
+<p>UnicapgtkVideoFormatSelection</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libunicapgtk-UnicapgtkVideoFormatSelection.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UNICAPGTK-VIDEO-FORMAT-SELECTION-TYPE:CAPS" title="UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE">UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE</a>
+#define             <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS" title="UNICAPGTK_VIDEO_FORMAT_SELECTION()">UNICAPGTK_VIDEO_FORMAT_SELECTION</a>    (obj)
+#define             <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS" title="UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()">UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS</a>(klass)
+#define             <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#IS-UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS" title="IS_UNICAPGTK_VIDEO_FORMAT_SELECTION()">IS_UNICAPGTK_VIDEO_FORMAT_SELECTION</a> (obj)
+#define             <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#IS-UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS" title="IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()">IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS</a>(klass)
+                    <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a>;
+<a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a>               <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-get-type" title="unicapgtk_video_format_selection_get_type ()">unicapgtk_video_format_selection_get_type</a>
+                                                        (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-new" title="unicapgtk_video_format_selection_new ()">unicapgtk_video_format_selection_new</a>
+                                                        (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-new-by-handle" title="unicapgtk_video_format_selection_new_by_handle ()">unicapgtk_video_format_selection_new_by_handle</a>
+                                                        (unicap_handle_t handle);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-new-by-device" title="unicapgtk_video_format_selection_new_by_device ()">unicapgtk_video_format_selection_new_by_device</a>
+                                                        (<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);
+<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-format-t"
+>unicap_format_t</a>*    <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-get-format" title="unicapgtk_video_format_selection_get_format ()">unicapgtk_video_format_selection_get_format</a>
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-set-device" title="unicapgtk_video_format_selection_set_device ()">unicapgtk_video_format_selection_set_device</a>
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);
+void                <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-set-handle" title="unicapgtk_video_format_selection_set_handle ()">unicapgtk_video_format_selection_set_handle</a>
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk,
+                                                         unicap_handle_t handle);
+unicap_handle_t     <a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-get-handle" title="unicapgtk_video_format_selection_get_handle ()">unicapgtk_video_format_selection_get_handle</a>
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libunicapgtk-UnicapgtkVideoFormatSelection.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libunicapgtk-UnicapgtkVideoFormatSelection.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="UNICAPGTK-VIDEO-FORMAT-SELECTION-TYPE:CAPS"></a><h3>UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE</h3>
+<pre class="programlisting">#define UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE            (unicapgtk_video_format_selection_get_type ())
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS"></a><h3>UNICAPGTK_VIDEO_FORMAT_SELECTION()</h3>
+<pre class="programlisting">#define             UNICAPGTK_VIDEO_FORMAT_SELECTION(obj)</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>obj</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS"></a><h3>UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()</h3>
+<pre class="programlisting">#define             UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS(klass)</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>klass</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS"></a><h3>IS_UNICAPGTK_VIDEO_FORMAT_SELECTION()</h3>
+<pre class="programlisting">#define IS_UNICAPGTK_VIDEO_FORMAT_SELECTION(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE))
+</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>obj</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="IS-UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS"></a><h3>IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()</h3>
+<pre class="programlisting">#define IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE))
+</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>klass</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkVideoFormatSelection"></a><h3>UnicapgtkVideoFormatSelection</h3>
+<pre class="programlisting">typedef struct {
+		GtkHBox hbox;
+		GtkWidget *fourcc_menu;
+		GtkWidget *size_menu;
+
+		unicap_handle_t unicap_handle;
+		unicap_device_t device;
+		unicap_format_t format;
+} UnicapgtkVideoFormatSelection;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-get-type"></a><h3>unicapgtk_video_format_selection_get_type ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a>               unicapgtk_video_format_selection_get_type
+                                                        (void);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-new"></a><h3>unicapgtk_video_format_selection_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_video_format_selection_new
+                                                        (void);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-new-by-handle"></a><h3>unicapgtk_video_format_selection_new_by_handle ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_video_format_selection_new_by_handle
+                                                        (unicap_handle_t handle);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-new-by-device"></a><h3>unicapgtk_video_format_selection_new_by_device ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_video_format_selection_new_by_device
+                                                        (<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>device_spec</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-get-format"></a><h3>unicapgtk_video_format_selection_get_format ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-format-t"
+>unicap_format_t</a>*    unicapgtk_video_format_selection_get_format
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-set-device"></a><h3>unicapgtk_video_format_selection_set_device ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_video_format_selection_set_device
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>device_spec</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-set-handle"></a><h3>unicapgtk_video_format_selection_set_handle ()</h3>
+<pre class="programlisting">void                unicapgtk_video_format_selection_set_handle
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk,
+                                                         unicap_handle_t handle);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-format-selection-get-handle"></a><h3>unicapgtk_video_format_selection_get_handle ()</h3>
+<pre class="programlisting">unicap_handle_t     unicapgtk_video_format_selection_get_handle
+                                                        (<a class="link" href="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection" title="UnicapgtkVideoFormatSelection">UnicapgtkVideoFormatSelection</a> *ugtk);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

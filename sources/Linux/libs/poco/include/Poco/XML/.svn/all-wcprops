@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML
+END
+NamePool.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/NamePool.h
+END
+XMLStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/XMLStream.h
+END
+XMLWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/XMLWriter.h
+END
+NamespaceStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/NamespaceStrategy.h
+END
+XMLException.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/XMLException.h
+END
+Name.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/Name.h
+END
+XML.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/XML.h
+END
+expat.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/expat.h
+END
+ParserEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/ParserEngine.h
+END
+expat_external.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/expat_external.h
+END
+XMLString.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/XML/XMLString.h
+END

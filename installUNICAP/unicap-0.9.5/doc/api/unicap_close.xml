@@ -1,0 +1,44 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  int
+	</return-value>
+	<function-name>unicap_close</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_handle_t *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    device
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Reduces the reference count to <param-name>handle</param-name> by 1. The resources allocated by that handle 
+      are freed when the reference count reaches 0.
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	  
+	</parameter-text>
+      </parameter-description>
+    </function-parameters>
+  </function>
+</api-page>

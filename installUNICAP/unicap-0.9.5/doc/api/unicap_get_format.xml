@@ -1,0 +1,52 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_get_format</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_handle_t
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    format
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_format_t
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Returns the current video format
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  format
+	</parameter-name>
+	<parameter-text>
+	  Location to store the video format
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

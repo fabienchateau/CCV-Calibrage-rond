@@ -1,0 +1,52 @@
+<api-page>
+  <title>set_device</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  gboolean
+	</return-value>
+	<function-name>unicapgtk_video_display_set_device</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkVideoDisplay
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    device
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  device
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+	Returns TRUE when the device could be changed successfully
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

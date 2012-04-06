@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/other/OF_serialTest/applet
+END
+OF_serialTest.rom
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/other/OF_serialTest/applet/OF_serialTest.rom
+END
+OF_serialTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/other/OF_serialTest/applet/OF_serialTest.cpp
+END
+OF_serialTest.hex
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/other/OF_serialTest/applet/OF_serialTest.hex
+END
+OF_serialTest.elf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/other/OF_serialTest/applet/OF_serialTest.elf
+END
+OF_serialTest.pde
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/other/OF_serialTest/applet/OF_serialTest.pde
+END

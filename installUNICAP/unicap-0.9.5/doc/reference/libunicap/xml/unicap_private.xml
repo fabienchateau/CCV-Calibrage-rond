@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="libunicap-unicap-private">
+<refmeta>
+<refentrytitle role="top_of_page" id="libunicap-unicap-private.top_of_page">unicap_private</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAP Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>unicap_private</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="libunicap-unicap-private.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="SHM-REG-VERSION:CAPS">SHM_REG_VERSION</link>
+struct              <link linkend="unicap-callback-info">unicap_callback_info</link>;
+struct              <link linkend="unicap-shm-reg">unicap_shm_reg</link>;
+struct              <link linkend="unicap-handle">unicap_handle</link>;
+<link linkend="unicap-status-t">unicap_status_t</link>     <link linkend="unicap-real-enumerate-devices">unicap_real_enumerate_devices</link>       (<link linkend="int">int</link> *count);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="libunicap-unicap-private.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="libunicap-unicap-private.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="SHM-REG-VERSION:CAPS" role="macro">
+<title>SHM_REG_VERSION</title>
+<indexterm zone="SHM-REG-VERSION:CAPS"><primary>SHM_REG_VERSION</primary></indexterm><programlisting>#define SHM_REG_VERSION 1
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicap-callback-info" role="struct">
+<title>struct unicap_callback_info</title>
+<indexterm zone="unicap-callback-info"><primary>unicap_callback_info</primary></indexterm><programlisting>struct unicap_callback_info {
+		unicap_callback_t func;
+		void *user_ptr;
+};
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicap-shm-reg" role="struct">
+<title>struct unicap_shm_reg</title>
+<indexterm zone="unicap-shm-reg"><primary>unicap_shm_reg</primary></indexterm><programlisting>struct unicap_shm_reg {
+		int shm_reg_version;
+		char device_identifier[128];
+		int use_count;
+
+		pid_t stream_owner;
+		pid_t properties_owner;
+};
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicap-handle" role="struct">
+<title>struct unicap_handle</title>
+<indexterm zone="unicap-handle"><primary>unicap_handle</primary></indexterm><programlisting>struct unicap_handle {
+      unicap_device_t device;      
+		
+      struct _unicap_cpi cpi;
+
+      void *dlhandle;
+      void *cpi_data;
+      
+      unsigned int cpi_flags;
+      
+      key_t sem_key;
+      int   sem_id;
+      
+      int stream_sem_id;
+      int property_sem_id;
+		
+      int * ref_count;
+		
+/* 		struct _unicap_shm_reg *shm_mmap;		 */
+/* 		int shm_fd; */
+/* 		key_t shm_sem_key; */
+/* 		int shm_sem_id; */
+
+      int have_stream_lock;
+      int temporary_stream_lock;
+      int have_ppty_lock;
+      int stream_lock_fd;
+      int ppty_lock_fd;
+      char device_uid[512];
+
+      struct _unicap_callback_info *cb_info;
+};
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicap-real-enumerate-devices" role="function">
+<title>unicap_real_enumerate_devices ()</title>
+<indexterm zone="unicap-real-enumerate-devices"><primary>unicap_real_enumerate_devices</primary></indexterm><programlisting><link linkend="unicap-status-t">unicap_status_t</link>     unicap_real_enumerate_devices       (<link linkend="int">int</link> *count);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>count</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

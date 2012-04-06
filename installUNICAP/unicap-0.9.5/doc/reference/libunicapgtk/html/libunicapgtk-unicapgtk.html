@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>unicapgtk</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libunicapgtk Reference Manual">
+<link rel="up" href="ch01.html" title="libunicapgtk Reference">
+<link rel="prev" href="ch01.html" title="libunicapgtk Reference">
+<link rel="next" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="libunicapgtk Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ch01.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libunicapgtk Reference Manual</th>
+<td><a accesskey="n" href="UnicapgtkDeviceProperty.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#libunicapgtk-unicapgtk.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libunicapgtk-unicapgtk.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libunicapgtk-unicapgtk"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libunicapgtk-unicapgtk.top_of_page"></a>unicapgtk</span></h2>
+<p>unicapgtk</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libunicapgtk-unicapgtk.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+enum                <a class="link" href="libunicapgtk-unicapgtk.html#UnicapgtkDeviceStateFlags" title="enum UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</a>;
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libunicapgtk-unicapgtk.html#unicapgtk-get-user-config-path" title="unicapgtk_get_user_config_path ()">unicapgtk_get_user_config_path</a>      (void);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Key-value-file-parser.html#GKeyFile"
+>GKeyFile</a>*           <a class="link" href="libunicapgtk-unicapgtk.html#unicapgtk-save-device-state" title="unicapgtk_save_device_state ()">unicapgtk_save_device_state</a>         (unicap_handle_t handle,
+                                                         <a class="link" href="libunicapgtk-unicapgtk.html#UnicapgtkDeviceStateFlags" title="enum UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</a> flags);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="libunicapgtk-unicapgtk.html#unicapgtk-load-device-state" title="unicapgtk_load_device_state ()">unicapgtk_load_device_state</a>         (unicap_handle_t handle,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Key-value-file-parser.html#GKeyFile"
+>GKeyFile</a> *keyfile,
+                                                         <a class="link" href="libunicapgtk-unicapgtk.html#UnicapgtkDeviceStateFlags" title="enum UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</a> flags);
+unicap_status_t     <a class="link" href="libunicapgtk-unicapgtk.html#unicapgtk-check-version" title="unicapgtk_check_version ()">unicapgtk_check_version</a>             (unsigned int major,
+                                                         unsigned int minor,
+                                                         unsigned int micro);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libunicapgtk-unicapgtk.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libunicapgtk-unicapgtk.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkDeviceStateFlags"></a><h3>enum UnicapgtkDeviceStateFlags</h3>
+<pre class="programlisting">typedef enum
+{
+   UNICAPGTK_DEVICE_STATE_VIDEO_FORMAT = 1 &lt;&lt; 0,
+   UNICAPGTK_DEVICE_STATE_PROPERTIES   = 1 &lt;&lt; 1,
+}UnicapgtkDeviceStateFlags;
+</pre>
+<p>
+</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-get-user-config-path"></a><h3>unicapgtk_get_user_config_path ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              unicapgtk_get_user_config_path      (void);</pre>
+<p>
+Get path to the directory containing the configuration files</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> Path to configuration directory
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-save-device-state"></a><h3>unicapgtk_save_device_state ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Key-value-file-parser.html#GKeyFile"
+>GKeyFile</a>*           unicapgtk_save_device_state         (unicap_handle_t handle,
+                                                         <a class="link" href="libunicapgtk-unicapgtk.html#UnicapgtkDeviceStateFlags" title="enum UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</a> flags);</pre>
+<p>
+Saves the current device state. If UNICAPGTK_DEVICE_STATE_VIDEO_FORMAT is set in the <em class="parameter"><code>flags</code></em> field, a section containing information about
+the current video format is added to the configuration file. If UNICAPGTK_DEVICE_STATE_PROPERTIES is set, a section containing the current 
+state of the device properties is added to the configuration file.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td> unicap handle
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>flags</code></em> :</span></p></td>
+<td> flags
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly allocated GKeyfile. Must be freed with <a
+href="/usr/share/gtk-doc/html/glib/glib-Key-value-file-parser.html#g-key-file-free"
+><code class="function">g_key_file_free()</code></a> by the application.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-load-device-state"></a><h3>unicapgtk_load_device_state ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_load_device_state         (unicap_handle_t handle,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Key-value-file-parser.html#GKeyFile"
+>GKeyFile</a> *keyfile,
+                                                         <a class="link" href="libunicapgtk-unicapgtk.html#UnicapgtkDeviceStateFlags" title="enum UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</a> flags);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td> handle of the device
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>keyfile</code></em> :</span></p></td>
+<td> GKeyFile to load the device state information from
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>flags</code></em> :</span></p></td>
+<td> <a class="link" href="libunicapgtk-unicapgtk.html#UnicapgtkDeviceStateFlags" title="enum UnicapgtkDeviceStateFlags"><span class="type">UnicapgtkDeviceStateFlags</span></a> specifying what parts to
+   configure
+   Reads device state information from a key-file and sets the
+   parameters of a device accordingly. 
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-check-version"></a><h3>unicapgtk_check_version ()</h3>
+<pre class="programlisting">unicap_status_t     unicapgtk_check_version             (unsigned int major,
+                                                         unsigned int minor,
+                                                         unsigned int micro);</pre>
+<p>
+Checks whether the installed library version is newer or equal to
+the given version</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>major</code></em> :</span></p></td>
+<td> Major version to check
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>minor</code></em> :</span></p></td>
+<td> Minor version to check
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>micro</code></em> :</span></p></td>
+<td> Micro version to check
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> 
+STATUS_INCOMPATIBLE_MAJOR_VERSION if the given major version is too old
+STATUS_INCOMPATIBLE_MINOR_VERSION if the given minor version is too old
+STATUS_INCOMPATIBLE_MACRO_VERSION if the given macro version is too old
+STATUS_SUCCESS if the version is compatible
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<api-page>
+  <title>new_by_handle</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  GtkWidget *
+	</return-value>
+	<function-name>unicapgtk_device_property_new_by_handle</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	    unciap_handle_t
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    property
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_property_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Creates a new <api-link>UnicapgtkDeviceProperty</api-link> widget. A new reference to 
+      <param-name>handle</param-name> is created using <api-link>unicap_clone_handle</api-link>. 
+      <param-name>property</param-name> should point to a <api-link>unicap_property_t</api-link> structure with 
+      the <field-name>id</field-name> field initialized to the name of the property to control. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  property
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

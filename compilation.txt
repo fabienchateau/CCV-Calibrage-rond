@@ -1,0 +1,18 @@
+
+1) Dans le fichier :
+libs/openFrameworks/video/ofUCUtils.cpp
+
+Commenter ligne 64 :
+//{ PIX_FMT_YUV422,  	FOURCC('Y', 'Y', 'U', 'V') },
+
+
+2) Pour cette erreur de compilation : "UINT64_C was not declared in this scope"
+
+Ajouter dans le fichier "/usr/include/libavutil/common.h" :
+#ifdef __cplusplus
+ #define __STDC_CONSTANT_MACROS
+ #ifdef _STDINT_H
+  #undef _STDINT_H
+ #endif
+ # include <stdint.h>
+#endif

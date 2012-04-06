@@ -1,0 +1,14 @@
+<api-page>
+  <type>
+    <type-name></type-name>
+    <type-field>
+      <field-name></field-name>
+      <field-type></field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

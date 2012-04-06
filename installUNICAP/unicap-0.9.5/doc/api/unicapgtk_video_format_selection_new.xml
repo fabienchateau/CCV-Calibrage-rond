@@ -1,0 +1,36 @@
+<api-page>
+  <title>new</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  GtkWidget *
+	</return-value>
+	<function-name>unicapgtk_video_format_selection_new</function-name>
+	<parameter>
+	  <parameter-name>
+	    device
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  device
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

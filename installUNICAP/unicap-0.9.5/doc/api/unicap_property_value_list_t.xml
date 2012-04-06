@@ -1,0 +1,20 @@
+<api-page>
+  <type>
+    <type-name>unicap_property_value_list_t</type-name>
+    <type-field>
+      <field-name>values *</field-name>
+      <field-type>double</field-type>
+      <field-array-size></field-array-size>
+      <field-description>Array of valid values for a property</field-description>
+    </type-field>
+    <type-field>
+      <field-name>value_count</field-name>
+      <field-type>int</field-type>
+      <field-array-size></field-array-size>
+      <field-description>Number of elements in <field-name>values</field-name> </field-description>
+    </type-field>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>unicap_get_format</title>
+<meta name="description" content="unicap - The uniform API for image acquisition devices">
+<meta name="keywords" content="UniCap, linux, v4l, video4linux, image, capture, acquisition, FireWire, 1394, usb, camera, grabber, converter, video-to-firewire, video-to-usb, dfg1394">
+<meta name="robots" content="index">
+<link href="gen.css" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body><table width="100%" cellpadding="0" cellspacing="2" border="0" bordercolor="#FFFFFF">
+<tr align="left"><td colspan="2"><p class="logo"><a href="http://unicap-imaging.org/" title="unicap - The uniform API for image acquisition devices"><img src="images/logo_unicap.gif" width="135" height="50" border="0" alt="unicap - The uniform API for image acquisition devices"></a></p></td></tr>
+<tr bgcolor="#EEEEEE" height="30">
+<td> </td>
+<td align="right">
+<a href="http://sourceforge.net/export/rss2_project.php?group_id=104946" title="SourceForge RSS feed"><img src="images/icon_xml.gif" width="36" height="14" border="0" alt="SourceForge RSS feed"></a>   
+	  </td>
+</tr>
+<tr valign="top">
+<td width="250" bgcolor="#EEEEEE"><span class="menu"><p><a href="mod_unicap.html" title="mod_unicap.html">unicap</a><br>
+		 <a href="unicap_open.html" title="unicap_open.html">unicap_open</a>  
+		<br>
+		 <a href="unicap_close.html" title="unicap_close.html">unicap_close</a>  
+		<br>
+		 <a href="unicap_clone_handle.html" title="unicap_clone_handle.html">unicap_clone_handle</a>  
+		<br>
+		 <a href="unicap_reenumerate_devices.html" title="unicap_reenumerate_devices.html">unicap_reenumerate_devices</a>  
+		<br>
+		 <a href="unicap_enumerate_devices.html" title="unicap_enumerate_devices.html">unicap_enumerate_devices</a>  
+		<br>
+		 <a href="unicap_get_device.html" title="unicap_get_device.html">unicap_get_device</a>  
+		<br>
+		 <a href="unicap_reenumerate_formats.html" title="unicap_reenumerate_formats.html">unicap_reenumerate_formats</a>  
+		<br>
+		 <a href="unicap_enumerate_formats.html" title="unicap_enumerate_formats.html">unicap_enumerate_formats</a>  
+		<br>
+		 <a href="unicap_set_format.html" title="unicap_set_format.html">unicap_set_format</a>  
+		<br>
+		 <a href="unicap_get_format.html" title="unicap_get_format.html">unicap_get_format</a>  
+		<br>
+		 <a href="unicap_reenumerate_properties.html" title="unicap_reenumerate_properties.html">unicap_reenumerate_properties</a>  
+		<br>
+		 <a href="unicap_enumerate_property.html" title="unicap_enumerate_property.html">unicap_enumerate_property</a>  
+		<br>
+		 <a href="unicap_get_property.html" title="unicap_get_property.html">unicap_get_property</a>  
+		<br>
+		 <a href="unicap_set_property.html" title="unicap_set_property.html">unicap_set_property</a>  
+		<br>
+		 <a href="unicap_start_capture.html" title="unicap_start_capture.html">unicap_start_capture</a>  
+		<br>
+		 <a href="unicap_stop_capture.html" title="unicap_stop_capture.html">unicap_stop_capture</a>  
+		<br>
+		 <a href="unicap_queue_buffer.html" title="unicap_queue_buffer.html">unicap_queue_buffer</a>  
+		<br>
+		 <a href="unicap_dequeue_buffer.html" title="unicap_dequeue_buffer.html">unicap_dequeue_buffer</a>  
+		<br>
+		 <a href="unicap_wait_buffer.html" title="unicap_wait_buffer.html">unicap_wait_buffer</a>  
+		<br>
+		 <a href="unicap_poll_buffer.html" title="unicap_poll_buffer.html">unicap_poll_buffer</a>  
+		<br>
+		 <a href="unicap_void_device.html" title="unicap_void_device.html">unicap_void_device</a>  
+		<br>
+		 <a href="unicap_void_format.html" title="unicap_void_format.html">unicap_void_format</a>  
+		<br>
+		 <a href="unicap_void_property.html" title="unicap_void_property.html">unicap_void_property</a>  
+		<br>
+		 <a href="unicap_lock_stream.html" title="unicap_lock_stream.html">unicap_lock_stream</a>  
+		<br>
+		 <a href="unicap_unlock_stream.html" title="unicap_unlock_stream.html">unicap_unlock_stream</a>  
+		<br>
+		 <a href="unicap_lock_properties.html" title="unicap_lock_properties.html">unicap_lock_properties</a>  
+		<br>
+		 <a href="unicap_unlock_properties.html" title="unicap_unlock_properties.html">unicap_unlock_properties</a>  
+		<br>
+		 <a href="unicap_device_t.html" title="unicap_device_t.html">unicap_device_t</a>  
+		<br>
+		 <a href="unicap_property_t.html" title="unicap_property_t.html">unicap_property_t</a>  
+		<br>
+		 <a href="unicap_format_t.html" title="unicap_format_t.html">unicap_format_t</a>  
+		<br>
+		 <a href="unicap_data_buffer_t.html" title="unicap_data_buffer_t.html">unicap_data_buffer_t</a>  
+		<br>
+		 <a href="unicap_rect_t.html" title="unicap_rect_t.html">unicap_rect_t</a>  
+		<br>
+		 <a href="unicap_buffer_type_t.html" title="unicap_buffer_type_t.html">unicap_buffer_type_t</a>  
+		<br>
+		 <a href="unicap_property_range_t.html" title="unicap_property_range_t.html">unicap_property_range_t</a>  
+		<br>
+		 <a href="unicap_property_menu_t.html" title="unicap_property_menu_t.html">unicap_property_menu_t</a>  
+		<br>
+		 <a href="unicap_property_value_list_t.html" title="unicap_property_value_list_t.html">unicap_property_value_list_t</a>  
+		<br>
+		 <a href="unicap_property_type_enum_t.html" title="unicap_property_type_enum_t.html">unicap_property_type_enum_t</a>  
+		<br>
+		 <a href="unicap_handle_t.html" title="unicap_handle_t.html">unicap_handle_t</a>  
+		<br><a href="mod_unicapgtk.html" title="mod_unicapgtk.html">unicapgtk</a><br></p>
+<p> </p></span></td>
+<td>
+  <p>
+      <span class="funcproto"><table border="0"><tr>
+<td valign="top"><span class="returnval"><a href="">
+	  unicap_status_t
+	</a></span></td>
+<td valign="top">
+<span class="funcname">unicap_get_format</span>
+	    (
+	  </td>
+<td>
+<span class="funcparamtype">
+	    unicap_handle_t
+	  </span><span class="funcparamname">
+	    handle
+	  </span>, <br><span class="funcparamtype">
+	    unicap_format_t
+	  </span><span class="funcparamname">
+	    format
+	  </span>
+	    );
+	  </td>
+</tr></table></span><br>
+    </p>
+<p><span class="funcdesc">
+      Returns the current video format
+    </span></p>
+<p><table border="0">
+<tr>
+<td align="right" valign="top" width="150px"><div class="paramname">
+	  handle
+	:
+	    </div></td>
+<td align="left"><span class="paramdesc">
+	</span></td>
+</tr>
+<tr>
+<td align="right" valign="top" width="150px"><div class="paramname">
+	  format
+	:
+	    </div></td>
+<td align="left"><span class="paramdesc">
+	  Location to store the video format
+	</span></td>
+</tr>
+</table></p>
+</td>
+</tr>
+<tr bgcolor="#EEEEEE" height="30">
+<td valign="middle" height="40">  </td>
+<td><p class="copyright">© 2006 Arne Caspari. All rights reserved.</p></td>
+</tr>
+</table></body>
+</html>

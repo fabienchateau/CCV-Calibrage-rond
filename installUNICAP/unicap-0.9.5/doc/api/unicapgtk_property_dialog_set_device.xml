@@ -1,0 +1,51 @@
+<api-page>
+  <title>set_device</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  void
+	</return-value>
+	<function-name>unicapgtk_property_dialog_set_device</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkPropertyDialog *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    device
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  device
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

@@ -1,0 +1,123 @@
+<!-- ##### SECTION Title ##### -->
+cs_xfm
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO YUY2 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UYVY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO Y411 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO RGB4 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO RGB3 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO GREY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO Y800 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO Y420 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION cs_xfm_get_image_data_size ##### -->
+<para>
+
+</para>
+
+@format: 
+@Returns: 
+
+
+<!-- ##### FUNCTION cs_xfm_new_pixbuf ##### -->
+<para>
+
+</para>
+
+@image_buffer: 
+@image_data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION cs_xfm_new_allocated_pixbuf ##### -->
+<para>
+
+</para>
+
+@image_buffer: 
+@Returns: 
+
+
+<!-- ##### FUNCTION cs_xfm_to_RGB24 ##### -->
+<para>
+
+</para>
+
+@data_buffer: 
+@dest: 
+
+
+<!-- ##### FUNCTION cs_xfm_to_RGB32 ##### -->
+<para>
+
+</para>
+
+@data_buffer: 
+@dest: 
+
+

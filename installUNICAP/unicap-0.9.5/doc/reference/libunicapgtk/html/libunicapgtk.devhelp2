@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="libunicapgtk Reference Manual" link="index.html" author="" name="libunicapgtk" version="2">
+  <chapters>
+    <sub name="libunicapgtk Reference" link="ch01.html">
+      <sub name="unicapgtk" link="libunicapgtk-unicapgtk.html"/>
+      <sub name="UnicapgtkDeviceProperty" link="UnicapgtkDeviceProperty.html"/>
+      <sub name="UnicapgtkDeviceSelection" link="UnicapgtkDeviceSelection.html"/>
+      <sub name="UnicapgtkPropertyDialog" link="UnicapgtkPropertyDialog.html"/>
+      <sub name="UnicapgtkVideoDisplay" link="UnicapgtkVideoDisplay.html"/>
+      <sub name="UnicapgtkVideoFormatSelection" link="libunicapgtk-UnicapgtkVideoFormatSelection.html"/>
+      <sub name="unicapgtk_version" link="libunicapgtk-unicapgtk-version.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="enum" name="enum UnicapgtkDeviceStateFlags" link="libunicapgtk-unicapgtk.html#UnicapgtkDeviceStateFlags"/>
+    <keyword type="function" name="unicapgtk_get_user_config_path ()" link="libunicapgtk-unicapgtk.html#unicapgtk-get-user-config-path"/>
+    <keyword type="function" name="unicapgtk_save_device_state ()" link="libunicapgtk-unicapgtk.html#unicapgtk-save-device-state"/>
+    <keyword type="function" name="unicapgtk_load_device_state ()" link="libunicapgtk-unicapgtk.html#unicapgtk-load-device-state"/>
+    <keyword type="function" name="unicapgtk_check_version ()" link="libunicapgtk-unicapgtk.html#unicapgtk-check-version"/>
+    <keyword type="struct" name="UnicapgtkDeviceProperty" link="UnicapgtkDeviceProperty.html#UnicapgtkDeviceProperty-struct"/>
+    <keyword type="function" name="unicapgtk_device_property_get_type ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-get-type"/>
+    <keyword type="function" name="unicapgtk_device_property_new ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-new"/>
+    <keyword type="function" name="unicapgtk_device_property_new_by_handle ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-new-by-handle"/>
+    <keyword type="function" name="unicapgtk_device_property_set ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-set"/>
+    <keyword type="function" name="unicapgtk_device_property_get_label ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-get-label"/>
+    <keyword type="function" name="unicapgtk_device_property_set_label ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-set-label"/>
+    <keyword type="function" name="unicapgtk_device_property_redraw ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-redraw"/>
+    <keyword type="function" name="unicapgtk_device_property_update ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-update"/>
+    <keyword type="function" name="unicapgtk_device_property_redraw_sensitivity ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-redraw-sensitivity"/>
+    <keyword type="function" name="unicapgtk_device_property_update_sensitivity ()" link="UnicapgtkDeviceProperty.html#unicapgtk-device-property-update-sensitivity"/>
+    <keyword type="" name="The &quot;unicapgtk-device-property-changed&quot; signal" link="UnicapgtkDeviceProperty.html#UnicapgtkDeviceProperty-unicapgtk-device-property-changed"/>
+    <keyword type="struct" name="UnicapgtkDeviceSelection" link="UnicapgtkDeviceSelection.html#UnicapgtkDeviceSelection-struct"/>
+    <keyword type="function" name="unicapgtk_device_selection_new ()" link="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-new"/>
+    <keyword type="function" name="unicapgtk_device_selection_rescan ()" link="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-rescan"/>
+    <keyword type="function" name="unicapgtk_device_selection_set_device ()" link="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-set-device"/>
+    <keyword type="function" name="unicapgtk_device_selection_set_label_fmt ()" link="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-set-label-fmt"/>
+    <keyword type="" name="The &quot;include-rescan-entry&quot; property" link="UnicapgtkDeviceSelection.html#UnicapgtkDeviceSelection--include-rescan-entry"/>
+    <keyword type="" name="The &quot;unicapgtk-device-selection-changed&quot; signal" link="UnicapgtkDeviceSelection.html#UnicapgtkDeviceSelection-unicapgtk-device-selection-changed"/>
+    <keyword type="struct" name="UnicapgtkPropertyDialog" link="UnicapgtkPropertyDialog.html#UnicapgtkPropertyDialog-struct"/>
+    <keyword type="function" name="unicapgtk_property_dialog_new ()" link="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-new"/>
+    <keyword type="function" name="unicapgtk_property_dialog_new_by_handle ()" link="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-new-by-handle"/>
+    <keyword type="function" name="unicapgtk_property_dialog_reset ()" link="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-reset"/>
+    <keyword type="function" name="unicapgtk_property_dialog_set_device ()" link="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-set-device"/>
+    <keyword type="function" name="unicapgtk_property_dialog_set_handle ()" link="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-set-handle"/>
+    <keyword type="" name="The &quot;update-interval&quot; property" link="UnicapgtkPropertyDialog.html#UnicapgtkPropertyDialog--update-interval"/>
+    <keyword type="struct" name="UnicapgtkVideoDisplayCropping" link="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplayCropping"/>
+    <keyword type="struct" name="UnicapgtkVideoDisplay" link="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay-struct"/>
+    <keyword type="function" name="unicapgtk_video_display_get_type ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-type"/>
+    <keyword type="function" name="unicapgtk_video_display_new ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-new"/>
+    <keyword type="function" name="unicapgtk_video_display_new_by_device ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-new-by-device"/>
+    <keyword type="function" name="unicapgtk_video_display_new_by_handle ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-new-by-handle"/>
+    <keyword type="function" name="unicapgtk_video_display_start ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-start"/>
+    <keyword type="function" name="unicapgtk_video_display_stop ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-stop"/>
+    <keyword type="function" name="unicapgtk_video_display_get_device ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-device"/>
+    <keyword type="function" name="unicapgtk_video_display_get_handle ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-handle"/>
+    <keyword type="function" name="unicapgtk_video_display_set_format ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-format"/>
+    <keyword type="function" name="unicapgtk_video_display_get_format ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-format"/>
+    <keyword type="function" name="unicapgtk_video_display_set_pause ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-pause"/>
+    <keyword type="function" name="unicapgtk_video_display_get_pause ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-pause"/>
+    <keyword type="function" name="unicapgtk_video_display_set_device ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-device"/>
+    <keyword type="function" name="unicapgtk_video_display_set_handle ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-handle"/>
+    <keyword type="function" name="unicapgtk_video_display_get_still_image ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-still-image"/>
+    <keyword type="function" name="unicapgtk_video_display_set_still_image ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-still-image"/>
+    <keyword type="function" name="unicapgtk_video_display_get_data_buffer ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-data-buffer"/>
+    <keyword type="function" name="unicapgtk_video_display_set_crop ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-crop"/>
+    <keyword type="function" name="unicapgtk_video_display_get_crop ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-crop"/>
+    <keyword type="function" name="unicapgtk_video_display_set_size ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-size"/>
+    <keyword type="function" name="unicapgtk_video_display_set_scale_to_fit ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-scale-to-fit"/>
+    <keyword type="function" name="unicapgtk_video_display_set_new_frame_callback ()" link="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-new-frame-callback"/>
+    <keyword type="" name="The &quot;backend&quot; property" link="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay--backend"/>
+    <keyword type="" name="The &quot;backend-fourcc&quot; property" link="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay--backend-fourcc"/>
+    <keyword type="" name="The &quot;scale-to-fit&quot; property" link="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay--scale-to-fit"/>
+    <keyword type="" name="The &quot;unicapgtk-video-display-predisplay&quot; signal" link="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay-unicapgtk-video-display-predisplay"/>
+    <keyword type="macro" name="UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#UNICAPGTK-VIDEO-FORMAT-SELECTION-TYPE:CAPS"/>
+    <keyword type="macro" name="UNICAPGTK_VIDEO_FORMAT_SELECTION()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS"/>
+    <keyword type="macro" name="UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS"/>
+    <keyword type="macro" name="IS_UNICAPGTK_VIDEO_FORMAT_SELECTION()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#IS-UNICAPGTK-VIDEO-FORMAT-SELECTION:CAPS"/>
+    <keyword type="macro" name="IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#IS-UNICAPGTK-VIDEO-FORMAT-SELECTION-CLASS:CAPS"/>
+    <keyword type="struct" name="UnicapgtkVideoFormatSelection" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#UnicapgtkVideoFormatSelection"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_get_type ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-get-type"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_new ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-new"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_new_by_handle ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-new-by-handle"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_new_by_device ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-new-by-device"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_get_format ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-get-format"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_set_device ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-set-device"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_set_handle ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-set-handle"/>
+    <keyword type="function" name="unicapgtk_video_format_selection_get_handle ()" link="libunicapgtk-UnicapgtkVideoFormatSelection.html#unicapgtk-video-format-selection-get-handle"/>
+    <keyword type="macro" name="UNICAPGTK_MAJOR_VERSION" link="libunicapgtk-unicapgtk-version.html#UNICAPGTK-MAJOR-VERSION:CAPS"/>
+    <keyword type="macro" name="UNICAPGTK_MINOR_VERSION" link="libunicapgtk-unicapgtk-version.html#UNICAPGTK-MINOR-VERSION:CAPS"/>
+    <keyword type="macro" name="UNICAPGTK_MICRO_VERSION" link="libunicapgtk-unicapgtk-version.html#UNICAPGTK-MICRO-VERSION:CAPS"/>
+    <keyword type="variable" name="unicapgtk_major_version" link="libunicapgtk-unicapgtk-version.html#unicapgtk-major-version"/>
+    <keyword type="variable" name="unicapgtk_minor_version" link="libunicapgtk-unicapgtk-version.html#unicapgtk-minor-version"/>
+    <keyword type="variable" name="unicapgtk_micro_version" link="libunicapgtk-unicapgtk-version.html#unicapgtk-micro-version"/>
+  </functions>
+</book>

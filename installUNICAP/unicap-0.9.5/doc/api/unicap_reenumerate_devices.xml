@@ -1,0 +1,35 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_reenumerate_devices</function-name>
+	<parameter>
+	  <parameter-name>
+	    count
+	  </parameter-name>
+	  <parameter-type>
+	   int *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Asks all plugins to scan for supported devices. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  count
+	</parameter-name>
+	<parameter-text>
+	  Location to store the number of detected devices
+	</parameter-text>
+      </parameter-description>
+    </function-parameters>
+  </function>
+</api-page>

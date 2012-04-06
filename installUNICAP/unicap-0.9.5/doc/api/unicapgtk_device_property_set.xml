@@ -1,0 +1,57 @@
+<api-page>
+  <title>set</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  gboolean
+	</return-value>
+	<function-name>unicapgtk_device_property_set</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkDeviceProperty *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    property
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_property_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Sets a property. If the widget also has a <param-name>handle</param-name> associated with it, the new
+      property value is also written to the device.
+      <p>
+	The <field-name>id</field-name> field of <param-name>property</param-name> has to be set to the the
+	same value as the one used to create the widget.
+      </p>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  property
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

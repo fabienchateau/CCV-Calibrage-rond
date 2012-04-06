@@ -1,0 +1,32 @@
+<api-page>
+  <type>
+    <type-name>unicap_rect_t</type-name>
+    <type-field>
+      <field-name>x</field-name>
+      <field-type>int</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>y</field-name>
+      <field-type>int</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>width</field-name>
+      <field-type>int</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+    <type-field>
+      <field-name>height</field-name>
+      <field-type>int</field-type>
+      <field-array-size></field-array-size>
+      <field-description></field-description>
+    </type-field>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

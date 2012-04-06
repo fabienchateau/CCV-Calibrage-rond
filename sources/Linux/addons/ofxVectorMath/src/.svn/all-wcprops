@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src
+END
+ofxVectorMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxVectorMath.h
+END
+ofxPoint2f.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxPoint2f.cpp
+END
+ofxPoint3f.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxPoint3f.cpp
+END
+ofxPoint4f.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxPoint4f.cpp
+END
+ofxPoint2f.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxPoint2f.h
+END
+ofxPoint3f.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxPoint3f.h
+END
+ofxPoint4f.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxPoint4f.h
+END
+ofxMatrix3x3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxMatrix3x3.cpp
+END
+ofxVec2f.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxVec2f.cpp
+END
+ofxVec3f.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxVec3f.cpp
+END
+ofxVec4f.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxVec4f.cpp
+END
+ofxMatrix3x3.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxMatrix3x3.h
+END
+ofxVec2f.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxVec2f.h
+END
+ofxVec3f.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxVec3f.h
+END
+ofxVec4f.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxVectorMath/src/ofxVec4f.h
+END

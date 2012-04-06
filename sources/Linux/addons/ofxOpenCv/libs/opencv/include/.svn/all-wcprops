@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include
+END
+cvvidsurv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvvidsurv.hpp
+END
+cvtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvtypes.h
+END
+cxtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cxtypes.h
+END
+cvwimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvwimage.h
+END
+cvstreams.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvstreams.h
+END
+cv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cv.hpp
+END
+cv.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cv.h
+END
+cvmat.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvmat.hpp
+END
+cvcompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvcompat.h
+END
+cxcore.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cxcore.hpp
+END
+cxcore.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cxcore.h
+END
+cxerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cxerror.h
+END
+cvver.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvver.h
+END
+cxmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cxmisc.h
+END
+cvaux.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvaux.hpp
+END
+cvaux.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOpenCv/libs/opencv/include/cvaux.h
+END

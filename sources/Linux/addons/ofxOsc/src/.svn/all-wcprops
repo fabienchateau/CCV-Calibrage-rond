@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src
+END
+ofxOscArg.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscArg.h
+END
+ofxOscBundle.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscBundle.h
+END
+ofxOscSender.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscSender.cpp
+END
+ofxOsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOsc.h
+END
+ofxOscMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscMessage.cpp
+END
+ofxOscReceiver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscReceiver.cpp
+END
+ofxOscSender.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscSender.h
+END
+ofxOscBundle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscBundle.cpp
+END
+ofxOscMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscMessage.h
+END
+ofxOscReceiver.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/src/ofxOscReceiver.h
+END

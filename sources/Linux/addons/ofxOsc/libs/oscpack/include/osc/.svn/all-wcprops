@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc
+END
+OscTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/OscTypes.h
+END
+OscHostEndianness.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/OscHostEndianness.h
+END
+OscPacketListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/OscPacketListener.h
+END
+MessageMappingOscPacketListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/MessageMappingOscPacketListener.h
+END
+OscException.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/OscException.h
+END
+OscPrintReceivedElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/OscPrintReceivedElements.h
+END
+OscOutboundPacketStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/OscOutboundPacketStream.h
+END
+OscReceivedElements.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxOsc/libs/oscpack/include/osc/OscReceivedElements.h
+END

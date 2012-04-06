@@ -1,0 +1,91 @@
+  +++ Unicap troubleshooting +++
+
+This file contains some hints you can try if you run into trouble using the unicap library.
+If you run into any issue not covered here, please send a short note to 
+
+	arne@unicap-imaging.org
+
+even if you were able to solve the issue for yourself. Thanks!
+
+
+-------------------------------------------------------------------------------
+
+ -- TOC -- 
+
+
+1.) Compile issues
+ 1.1) The build fails while compiling the plugins in the 'vid21394' or 'dcam' subdirectories
+ 1.2) I have compiled unicap and installed it using 'make install' but I can not compile any example. 
+
+2.) Runtime issues
+ 2.1) I compiled and installed 'libunicap' and also compiled an example but I can not run it.
+ 2.2) I can not get any examples to work!
+ 2.3) I have an IIDC1394 camera but I do not get any image
+
+
+-------------------------------------------------------------------------------
+
+1.) Compile issues
+
+1.1) The build fails while compiling the plugins in the 'vid21394' or 'dcam' subdirectories
+
+  Check if you have the correct version of "libraw1394" installed. Unicap requires at least version 0.10.0. 
+  If you do not have a IEEE 1394 ( aka firewire ) device which you want to use with unicap, you can also 
+  disable the compilation of the mentioned plugins by running the 'configure' script the following way: 
+
+	configure --disable-vid21394 --disable-dcam
+
+
+1.2) I have compiled unicap and installed it using 'make install' but I can not compile any example. 
+
+  The example Makefiles are using 'pkg-config' to locate the installation directory of 'libunicap' and 
+  'libunicapgtk'. If this fails, it is most probably because the package descriptions are not in the 
+  search path of 'pkg-config'. 
+
+  If you called 'configure' without any '--prefix' option, then the package descriptions are located in 
+  "/usr/local/lib/pkgconfig". To include this directory to the pkg-config path, try the following before 
+  calling 'make': 
+
+	export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
+
+  If you called 'configure' with a '--prefix' option, you might have to replace "/usr/local/" with the 
+  prefix you gave to 'configure'.
+
+
+2.) Runtime issues
+
+2.1) I compiled and installed 'libunicap' and also compiled an example but I can not run it.
+
+  At first, run 'ldconfig' to update the library cache ( you might need to be "root" to do that ). 
+  If the example still does not run, check that 'libunicap' is in your library search path. 
+  Per default ( ie. if you have not passed any "--prefix" option to 'configure' ), the library is 
+  installed in "/usr/local/lib". Try the following before executing your example: 
+
+	export LD_LIBRARY_PATH:$LD_LIBRARY_PATH:/usr/local/lib
+
+  Note that this might only work if you are NOT the 'root' user. If the example works now, you should 
+  check if "/usr/local/lib" is listed in the file "/etc/ld.so.conf" ( and run 'ldconfig' after adding 
+  it ). 
+
+
+2.2) I can not get any examples to work!
+  
+  Most examples expect the device to output an 'UYVY' color format. You can see if your device provides 
+  such a color format with the "device_info" example. If your device does not output "UYVY" but another 
+  YUV format, you should be able to quickly change the "sdl_display" example by replacing the occurances 
+  of "UYVY" by eg. "YUYV".
+
+  If you still can not get any example to work, you should send me a bug report. I need at least the output
+  of the "device_info" example. 
+
+2.3) I have an IIDC1394 camera but I do not get any image
+
+  To get a video image from an IIDC1394 camera, make sure the video1394 driver is loaded ( modprobe video1394 ) 
+  and the files in /dev/video1394/* are accessible.
+
+  Sometimes the camera gets enumerated as the 'root' node on the IEEE1394 bus and the linux 1394 driver fails 
+  to detect this. In this case, most cameras are not able to provide any image ( in fact no device on the bus 
+  is able to send streaming data over the bus in this case ). 
+
+  You can see how the bus configuration is with the program 'gscanbus'. If it displays the camera as the root 
+  node, you should try to disconnect and reconnect the camera. 

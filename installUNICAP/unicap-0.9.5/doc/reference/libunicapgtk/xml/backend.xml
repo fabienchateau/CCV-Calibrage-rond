@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="libunicapgtk-backend">
+<refmeta>
+<refentrytitle role="top_of_page" id="libunicapgtk-backend.top_of_page">backend</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>backend</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="libunicapgtk-backend.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="BACKEND-MERIT-XV:CAPS">BACKEND_MERIT_XV</link>
+#define             <link linkend="BACKEND-MERIT-GTK:CAPS">BACKEND_MERIT_GTK</link>
+#define             <link linkend="BE-INVALID-FORMAT:CAPS">BE_INVALID_FORMAT</link>
+#define             <link linkend="BACKEND-FLAGS-SCALING-SUPPORTED:CAPS">BACKEND_FLAGS_SCALING_SUPPORTED</link>
+<link linkend="gboolean">gboolean</link>            <link linkend="backend-init">backend_init</link>                        (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format,
+                                                         <link linkend="gpointer">gpointer</link> *_data,
+                                                         <link linkend="GError">GError</link> **err);
+<link linkend="void">void</link>                <link linkend="backend-update-image">backend_update_image</link>                (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="GError">GError</link> **err);
+<link linkend="void">void</link>                <link linkend="backend-display-image">backend_display_image</link>               (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="void">void</link>                <link linkend="backend-redraw">backend_redraw</link>                      (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="void">void</link>                <link linkend="backend-destroy">backend_destroy</link>                     (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="gint">gint</link>                <link linkend="backend-get-merit">backend_get_merit</link>                   ();
+<link linkend="void">void</link>                <link linkend="backend-expose-event">backend_expose_event</link>                (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *da,
+                                                         <link linkend="GdkEventExpose">GdkEventExpose</link> *event);
+<link linkend="void">void</link>                <link linkend="backend-get-image-data">backend_get_image_data</link>              (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="int">int</link> b);
+<link linkend="void">void</link>                <link linkend="backend-lock">backend_lock</link>                        (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="void">void</link>                <link linkend="backend-unlock">backend_unlock</link>                      (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="void">void</link>                <link linkend="backend-size-allocate">backend_size_allocate</link>               (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GtkAllocation">GtkAllocation</link> *allocation);
+<link linkend="void">void</link>                <link linkend="backend-set-scale-to-fit">backend_set_scale_to_fit</link>            (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> scale);
+<link linkend="void">void</link>                <link linkend="backend-set-pause-state">backend_set_pause_state</link>             (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> state);
+<link linkend="guint">guint</link>               <link linkend="backend-get-flags">backend_get_flags</link>                   (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="gboolean">gboolean</link>            (<link linkend="backend-init-func-t">*backend_init_func_t</link>)              (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format,
+                                                         <link linkend="gpointer">gpointer</link> *_data,
+                                                         <link linkend="GError">GError</link> **err);
+<link linkend="void">void</link>                (<link linkend="backend-destroy-func-t">*backend_destroy_func_t</link>)           (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="gint">gint</link>                (<link linkend="backend-get-merit-func-t">*backend_get_merit_func_t</link>)         ();
+<link linkend="void">void</link>                (<link linkend="backend-set-output-size-func-t">*backend_set_output_size_func_t</link>)   (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gint">gint</link> width,
+                                                         <link linkend="gint">gint</link> height);
+<link linkend="void">void</link>                (<link linkend="backend-expose-event-t">*backend_expose_event_t</link>)           (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *da,
+                                                         <link linkend="GdkEventExpose">GdkEventExpose</link> *event);
+<link linkend="void">void</link>                (<link linkend="backend-get-image-data-t">*backend_get_image_data_t</link>)         (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="int">int</link> b);
+<link linkend="void">void</link>                (<link linkend="backend-lock-t">*backend_lock_t</link>)                   (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="void">void</link>                (<link linkend="backend-unlock-t">*backend_unlock_t</link>)                 (<link linkend="gpointer">gpointer</link> _data);
+<link linkend="void">void</link>                (<link linkend="backend-size-allocate-t">*backend_size_allocate_t</link>)          (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GtkAllocation">GtkAllocation</link> *allocation);
+<link linkend="void">void</link>                (<link linkend="backend-set-scale-to-fit-t">*backend_set_scale_to_fit_t</link>)       (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> scale);
+<link linkend="void">void</link>                (<link linkend="backend-set-pause-state-t">*backend_set_pause_state_t</link>)        (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> state);
+<link linkend="guint">guint</link>               (<link linkend="backend-get-flags-t">*backend_get_flags_t</link>)              (<link linkend="gpointer">gpointer</link> _data);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="libunicapgtk-backend.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="libunicapgtk-backend.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="BACKEND-MERIT-XV:CAPS" role="macro">
+<title>BACKEND_MERIT_XV</title>
+<indexterm zone="BACKEND-MERIT-XV:CAPS"><primary>BACKEND_MERIT_XV</primary></indexterm><programlisting>#define             BACKEND_MERIT_XV</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="BACKEND-MERIT-GTK:CAPS" role="macro">
+<title>BACKEND_MERIT_GTK</title>
+<indexterm zone="BACKEND-MERIT-GTK:CAPS"><primary>BACKEND_MERIT_GTK</primary></indexterm><programlisting>#define             BACKEND_MERIT_GTK</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="BE-INVALID-FORMAT:CAPS" role="macro">
+<title>BE_INVALID_FORMAT</title>
+<indexterm zone="BE-INVALID-FORMAT:CAPS"><primary>BE_INVALID_FORMAT</primary></indexterm><programlisting>#define             BE_INVALID_FORMAT</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="BACKEND-FLAGS-SCALING-SUPPORTED:CAPS" role="macro">
+<title>BACKEND_FLAGS_SCALING_SUPPORTED</title>
+<indexterm zone="BACKEND-FLAGS-SCALING-SUPPORTED:CAPS"><primary>BACKEND_FLAGS_SCALING_SUPPORTED</primary></indexterm><programlisting>#define             BACKEND_FLAGS_SCALING_SUPPORTED</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="backend-init" role="function">
+<title>backend_init ()</title>
+<indexterm zone="backend-init"><primary>backend_init</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            backend_init                        (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format,
+                                                         <link linkend="gpointer">gpointer</link> *_data,
+                                                         <link linkend="GError">GError</link> **err);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>widget</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>format</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>err</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-update-image" role="function">
+<title>backend_update_image ()</title>
+<indexterm zone="backend-update-image"><primary>backend_update_image</primary></indexterm><programlisting><link linkend="void">void</link>                backend_update_image                (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="GError">GError</link> **err);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>data_buffer</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>err</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-display-image" role="function">
+<title>backend_display_image ()</title>
+<indexterm zone="backend-display-image"><primary>backend_display_image</primary></indexterm><programlisting><link linkend="void">void</link>                backend_display_image               (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-redraw" role="function">
+<title>backend_redraw ()</title>
+<indexterm zone="backend-redraw"><primary>backend_redraw</primary></indexterm><programlisting><link linkend="void">void</link>                backend_redraw                      (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-destroy" role="function">
+<title>backend_destroy ()</title>
+<indexterm zone="backend-destroy"><primary>backend_destroy</primary></indexterm><programlisting><link linkend="void">void</link>                backend_destroy                     (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-get-merit" role="function">
+<title>backend_get_merit ()</title>
+<indexterm zone="backend-get-merit"><primary>backend_get_merit</primary></indexterm><programlisting><link linkend="gint">gint</link>                backend_get_merit                   ();</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-expose-event" role="function">
+<title>backend_expose_event ()</title>
+<indexterm zone="backend-expose-event"><primary>backend_expose_event</primary></indexterm><programlisting><link linkend="void">void</link>                backend_expose_event                (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *da,
+                                                         <link linkend="GdkEventExpose">GdkEventExpose</link> *event);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>da</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>event</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-get-image-data" role="function">
+<title>backend_get_image_data ()</title>
+<indexterm zone="backend-get-image-data"><primary>backend_get_image_data</primary></indexterm><programlisting><link linkend="void">void</link>                backend_get_image_data              (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="int">int</link> b);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>data_buffer</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>b</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-lock" role="function">
+<title>backend_lock ()</title>
+<indexterm zone="backend-lock"><primary>backend_lock</primary></indexterm><programlisting><link linkend="void">void</link>                backend_lock                        (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-unlock" role="function">
+<title>backend_unlock ()</title>
+<indexterm zone="backend-unlock"><primary>backend_unlock</primary></indexterm><programlisting><link linkend="void">void</link>                backend_unlock                      (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-size-allocate" role="function">
+<title>backend_size_allocate ()</title>
+<indexterm zone="backend-size-allocate"><primary>backend_size_allocate</primary></indexterm><programlisting><link linkend="void">void</link>                backend_size_allocate               (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GtkAllocation">GtkAllocation</link> *allocation);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>widget</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>allocation</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-set-scale-to-fit" role="function">
+<title>backend_set_scale_to_fit ()</title>
+<indexterm zone="backend-set-scale-to-fit"><primary>backend_set_scale_to_fit</primary></indexterm><programlisting><link linkend="void">void</link>                backend_set_scale_to_fit            (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> scale);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>scale</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-set-pause-state" role="function">
+<title>backend_set_pause_state ()</title>
+<indexterm zone="backend-set-pause-state"><primary>backend_set_pause_state</primary></indexterm><programlisting><link linkend="void">void</link>                backend_set_pause_state             (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> state);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>state</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-get-flags" role="function">
+<title>backend_get_flags ()</title>
+<indexterm zone="backend-get-flags"><primary>backend_get_flags</primary></indexterm><programlisting><link linkend="guint">guint</link>               backend_get_flags                   (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-init-func-t" role="function">
+<title>backend_init_func_t ()</title>
+<indexterm zone="backend-init-func-t"><primary>backend_init_func_t</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            (*backend_init_func_t)              (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="unicap-format-t">unicap_format_t</link> *format,
+                                                         <link linkend="gpointer">gpointer</link> *_data,
+                                                         <link linkend="GError">GError</link> **err);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>widget</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>format</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>err</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-destroy-func-t" role="function">
+<title>backend_destroy_func_t ()</title>
+<indexterm zone="backend-destroy-func-t"><primary>backend_destroy_func_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_destroy_func_t)           (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-get-merit-func-t" role="function">
+<title>backend_get_merit_func_t ()</title>
+<indexterm zone="backend-get-merit-func-t"><primary>backend_get_merit_func_t</primary></indexterm><programlisting><link linkend="gint">gint</link>                (*backend_get_merit_func_t)         ();</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-set-output-size-func-t" role="function">
+<title>backend_set_output_size_func_t ()</title>
+<indexterm zone="backend-set-output-size-func-t"><primary>backend_set_output_size_func_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_set_output_size_func_t)   (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gint">gint</link> width,
+                                                         <link linkend="gint">gint</link> height);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>width</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>height</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-expose-event-t" role="function">
+<title>backend_expose_event_t ()</title>
+<indexterm zone="backend-expose-event-t"><primary>backend_expose_event_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_expose_event_t)           (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *da,
+                                                         <link linkend="GdkEventExpose">GdkEventExpose</link> *event);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>da</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>event</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-get-image-data-t" role="function">
+<title>backend_get_image_data_t ()</title>
+<indexterm zone="backend-get-image-data-t"><primary>backend_get_image_data_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_get_image_data_t)         (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="int">int</link> b);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>data_buffer</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>b</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-lock-t" role="function">
+<title>backend_lock_t ()</title>
+<indexterm zone="backend-lock-t"><primary>backend_lock_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_lock_t)                   (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-unlock-t" role="function">
+<title>backend_unlock_t ()</title>
+<indexterm zone="backend-unlock-t"><primary>backend_unlock_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_unlock_t)                 (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-size-allocate-t" role="function">
+<title>backend_size_allocate_t ()</title>
+<indexterm zone="backend-size-allocate-t"><primary>backend_size_allocate_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_size_allocate_t)          (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GtkAllocation">GtkAllocation</link> *allocation);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>widget</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>allocation</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-set-scale-to-fit-t" role="function">
+<title>backend_set_scale_to_fit_t ()</title>
+<indexterm zone="backend-set-scale-to-fit-t"><primary>backend_set_scale_to_fit_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_set_scale_to_fit_t)       (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> scale);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>scale</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-set-pause-state-t" role="function">
+<title>backend_set_pause_state_t ()</title>
+<indexterm zone="backend-set-pause-state-t"><primary>backend_set_pause_state_t</primary></indexterm><programlisting><link linkend="void">void</link>                (*backend_set_pause_state_t)        (<link linkend="gpointer">gpointer</link> _data,
+                                                         <link linkend="gboolean">gboolean</link> state);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>state</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="backend-get-flags-t" role="function">
+<title>backend_get_flags_t ()</title>
+<indexterm zone="backend-get-flags-t"><primary>backend_get_flags_t</primary></indexterm><programlisting><link linkend="guint">guint</link>               (*backend_get_flags_t)              (<link linkend="gpointer">gpointer</link> _data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

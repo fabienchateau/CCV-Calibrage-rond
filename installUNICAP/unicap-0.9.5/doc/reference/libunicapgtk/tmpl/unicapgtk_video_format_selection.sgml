@@ -1,0 +1,141 @@
+<!-- ##### SECTION Title ##### -->
+UnicapgtkVideoFormatSelection
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO UNICAPGTK_VIDEO_FORMAT_SELECTION_TYPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UNICAPGTK_VIDEO_FORMAT_SELECTION ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+
+<!-- ##### MACRO IS_UNICAPGTK_VIDEO_FORMAT_SELECTION ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+
+<!-- ##### MACRO IS_UNICAPGTK_VIDEO_FORMAT_SELECTION_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+
+<!-- ##### STRUCT UnicapgtkVideoFormatSelection ##### -->
+<para>
+
+</para>
+
+@hbox: 
+@fourcc_menu: 
+@size_menu: 
+@unicap_handle: 
+@device: 
+@format: 
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_get_type ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_new_by_handle ##### -->
+<para>
+
+</para>
+
+@handle: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_new_by_device ##### -->
+<para>
+
+</para>
+
+@device_spec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_get_format ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_set_device ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@device_spec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_set_handle ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@handle: 
+
+
+<!-- ##### FUNCTION unicapgtk_video_format_selection_get_handle ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@Returns: 
+
+

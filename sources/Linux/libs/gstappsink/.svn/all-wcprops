@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/gstappsink
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/gstappsink/.project
+END
+gstappsink.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/gstappsink/gstappsink.c
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/gstappsink/.cproject
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/gstappsink/makefile
+END

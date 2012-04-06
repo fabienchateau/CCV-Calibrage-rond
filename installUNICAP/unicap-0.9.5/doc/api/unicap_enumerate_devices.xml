@@ -1,0 +1,73 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_enumerate_devices</function-name>
+	<parameter>
+	  <parameter-name>
+	    specifier
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    device
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_device_t *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    index
+	  </parameter-name>
+	  <parameter-type>
+	    int
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Returns details of a device. 
+      <p>
+	If <param-name>specifier</param-name> is not NULL, it should point to an allocated 
+	and initialized <parameter-type>unicap_device_t</parameter-type> structure. If a <param-name>specifier</param-name>
+	is used, only devices matching the filled fields of the <param-name>specifier</param-name> are returned.
+      </p>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  specifier
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  device
+	</parameter-name>
+	<parameter-text>
+	  Location to store the enumerated device
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  index
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>      
+      <return-value>
+	STATUS_NO_MATCH : No devices matching the search criteria found for that index
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

@@ -1,0 +1,52 @@
+<api-page>
+  <title>set_label</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  void
+	</return-value>
+	<function-name>unicapgtk_device_property_set_label</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkDeviceProperty
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    label
+	  </parameter-name>
+	  <parameter-type>
+	    GtkWidget *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Sets a new widget to be displayed instead of the default label. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  label
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

@@ -1,0 +1,51 @@
+<api-page>
+  <title>set_format</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  gboolean
+	</return-value>
+	<function-name>unicapgtk_video_display_set_format</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkVideoDisplay *
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    format
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_format_t *
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  format
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

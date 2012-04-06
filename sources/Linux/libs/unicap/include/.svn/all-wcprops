@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/include
+END
+unicap.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/include/unicap.h
+END
+unicap_status.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/include/unicap_status.h
+END
+unicap_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/include/unicap_version.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/include/debug.h
+END

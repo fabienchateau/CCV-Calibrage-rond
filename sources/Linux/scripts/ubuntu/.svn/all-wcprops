@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ubuntu
+END
+wget-log.1
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ubuntu/wget-log.1
+END
+install_dependencies.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ubuntu/install_dependencies.sh
+END
+wget-log
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ubuntu/wget-log
+END
+install_codeblocks.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ubuntu/install_codeblocks.sh
+END

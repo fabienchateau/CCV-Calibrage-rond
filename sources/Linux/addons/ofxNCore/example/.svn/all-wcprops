@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/example
+END
+testApp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/example/testApp.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/example/main.cpp
+END
+testApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/example/testApp.h
+END

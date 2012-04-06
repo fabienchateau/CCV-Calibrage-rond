@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="libunicapgtk-unicapgtk">
+<refmeta>
+<refentrytitle role="top_of_page" id="libunicapgtk-unicapgtk.top_of_page">unicapgtk</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>unicapgtk</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="libunicapgtk-unicapgtk.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+enum                <link linkend="UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</link>;
+<link linkend="gchar">gchar</link>*              <link linkend="unicapgtk-get-user-config-path">unicapgtk_get_user_config_path</link>      (void);
+<link linkend="GKeyFile">GKeyFile</link>*           <link linkend="unicapgtk-save-device-state">unicapgtk_save_device_state</link>         (<link linkend="unicap-handle-t">unicap_handle_t</link> handle,
+                                                         <link linkend="UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</link> flags);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-load-device-state">unicapgtk_load_device_state</link>         (<link linkend="unicap-handle-t">unicap_handle_t</link> handle,
+                                                         <link linkend="GKeyFile">GKeyFile</link> *keyfile,
+                                                         <link linkend="UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</link> flags);
+<link linkend="unicap-status-t">unicap_status_t</link>     <link linkend="unicapgtk-check-version">unicapgtk_check_version</link>             (unsigned <link linkend="int">int</link> major,
+                                                         unsigned <link linkend="int">int</link> minor,
+                                                         unsigned <link linkend="int">int</link> micro);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="libunicapgtk-unicapgtk.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="libunicapgtk-unicapgtk.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="UnicapgtkDeviceStateFlags" role="enum">
+<title>enum UnicapgtkDeviceStateFlags</title>
+<indexterm zone="UnicapgtkDeviceStateFlags"><primary>UnicapgtkDeviceStateFlags</primary></indexterm><programlisting>typedef enum
+{
+   UNICAPGTK_DEVICE_STATE_VIDEO_FORMAT = 1 &lt;&lt; 0,
+   UNICAPGTK_DEVICE_STATE_PROPERTIES   = 1 &lt;&lt; 1,
+}UnicapgtkDeviceStateFlags;
+</programlisting>
+<para>
+</para>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-get-user-config-path" role="function">
+<title>unicapgtk_get_user_config_path ()</title>
+<indexterm zone="unicapgtk-get-user-config-path"><primary>unicapgtk_get_user_config_path</primary></indexterm><programlisting><link linkend="gchar">gchar</link>*              unicapgtk_get_user_config_path      (void);</programlisting>
+<para>
+Get path to the directory containing the configuration files</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> Path to configuration directory
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-save-device-state" role="function">
+<title>unicapgtk_save_device_state ()</title>
+<indexterm zone="unicapgtk-save-device-state"><primary>unicapgtk_save_device_state</primary></indexterm><programlisting><link linkend="GKeyFile">GKeyFile</link>*           unicapgtk_save_device_state         (<link linkend="unicap-handle-t">unicap_handle_t</link> handle,
+                                                         <link linkend="UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</link> flags);</programlisting>
+<para>
+Saves the current device state. If UNICAPGTK_DEVICE_STATE_VIDEO_FORMAT is set in the <parameter>flags</parameter> field, a section containing information about
+the current video format is added to the configuration file. If UNICAPGTK_DEVICE_STATE_PROPERTIES is set, a section containing the current 
+state of the device properties is added to the configuration file.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara> unicap handle
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>flags</parameter>&nbsp;:</term>
+<listitem><simpara> flags
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> A newly allocated GKeyfile. Must be freed with <link linkend="g-key-file-free"><function>g_key_file_free()</function></link> by the application.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-load-device-state" role="function">
+<title>unicapgtk_load_device_state ()</title>
+<indexterm zone="unicapgtk-load-device-state"><primary>unicapgtk_load_device_state</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_load_device_state         (<link linkend="unicap-handle-t">unicap_handle_t</link> handle,
+                                                         <link linkend="GKeyFile">GKeyFile</link> *keyfile,
+                                                         <link linkend="UnicapgtkDeviceStateFlags">UnicapgtkDeviceStateFlags</link> flags);</programlisting>
+<para>
+</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara> handle of the device
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>keyfile</parameter>&nbsp;:</term>
+<listitem><simpara> GKeyFile to load the device state information from
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>flags</parameter>&nbsp;:</term>
+<listitem><simpara> <link linkend="UnicapgtkDeviceStateFlags"><type>UnicapgtkDeviceStateFlags</type></link> specifying what parts to
+   configure
+   Reads device state information from a key-file and sets the
+   parameters of a device accordingly. 
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-check-version" role="function">
+<title>unicapgtk_check_version ()</title>
+<indexterm zone="unicapgtk-check-version"><primary>unicapgtk_check_version</primary></indexterm><programlisting><link linkend="unicap-status-t">unicap_status_t</link>     unicapgtk_check_version             (unsigned <link linkend="int">int</link> major,
+                                                         unsigned <link linkend="int">int</link> minor,
+                                                         unsigned <link linkend="int">int</link> micro);</programlisting>
+<para>
+Checks whether the installed library version is newer or equal to
+the given version</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>major</parameter>&nbsp;:</term>
+<listitem><simpara> Major version to check
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>minor</parameter>&nbsp;:</term>
+<listitem><simpara> Minor version to check
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>micro</parameter>&nbsp;:</term>
+<listitem><simpara> Micro version to check
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> 
+STATUS_INCOMPATIBLE_MAJOR_VERSION if the given major version is too old
+STATUS_INCOMPATIBLE_MINOR_VERSION if the given minor version is too old
+STATUS_INCOMPATIBLE_MACRO_VERSION if the given macro version is too old
+STATUS_SUCCESS if the version is compatible
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src
+END
+ofxTCPManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxTCPManager.cpp
+END
+ofxTCPServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxTCPServer.h
+END
+ofxUDPManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxUDPManager.cpp
+END
+ofxTCPClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxTCPClient.cpp
+END
+ofxTCPManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxTCPManager.h
+END
+ofxUDPManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxUDPManager.h
+END
+ofxTCPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxTCPClient.h
+END
+ofxTCPServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxTCPServer.cpp
+END
+ofxNetwork.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNetwork/src/ofxNetwork.h
+END

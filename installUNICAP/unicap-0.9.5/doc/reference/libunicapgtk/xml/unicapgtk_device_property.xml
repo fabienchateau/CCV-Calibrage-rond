@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="UnicapgtkDeviceProperty">
+<refmeta>
+<refentrytitle role="top_of_page" id="UnicapgtkDeviceProperty.top_of_page">UnicapgtkDeviceProperty</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>UnicapgtkDeviceProperty</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="UnicapgtkDeviceProperty.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="UnicapgtkDeviceProperty-struct">UnicapgtkDeviceProperty</link>;
+<link linkend="GType">GType</link>               <link linkend="unicapgtk-device-property-get-type">unicapgtk_device_property_get_type</link>  (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-device-property-new">unicapgtk_device_property_new</link>       (<link linkend="unicap-property-t">unicap_property_t</link> *property_spec);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-device-property-new-by-handle">unicapgtk_device_property_new_by_handle</link>
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle,
+                                                         <link linkend="unicap-property-t">unicap_property_t</link> *property_spec);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-device-property-set">unicapgtk_device_property_set</link>       (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk,
+                                                         <link linkend="unicap-property-t">unicap_property_t</link> *property);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-device-property-get-label">unicapgtk_device_property_get_label</link> (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);
+<link linkend="void">void</link>                <link linkend="unicapgtk-device-property-set-label">unicapgtk_device_property_set_label</link> (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *label);
+<link linkend="void">void</link>                <link linkend="unicapgtk-device-property-redraw">unicapgtk_device_property_redraw</link>    (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);
+<link linkend="void">void</link>                <link linkend="unicapgtk-device-property-update">unicapgtk_device_property_update</link>    (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);
+<link linkend="void">void</link>                <link linkend="unicapgtk-device-property-redraw-sensitivity">unicapgtk_device_property_redraw_sensitivity</link>
+                                                        (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);
+<link linkend="void">void</link>                <link linkend="unicapgtk-device-property-update-sensitivity">unicapgtk_device_property_update_sensitivity</link>
+                                                        (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="UnicapgtkDeviceProperty.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBox">GtkBox</link>
+                                 +----<link linkend="GtkHBox">GtkHBox</link>
+                                       +----UnicapgtkDeviceProperty
+</synopsis>
+
+</refsect1>
+
+
+
+<refsect1 id="UnicapgtkDeviceProperty.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+UnicapgtkDeviceProperty implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link> and  <link linkend="GtkBuildable">GtkBuildable</link>.</para>
+
+</refsect1>
+
+
+
+<refsect1 id="UnicapgtkDeviceProperty.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="UnicapgtkDeviceProperty-unicapgtk-device-property-changed">unicapgtk-device-property-changed</link>&quot;              : Run First / Action
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="UnicapgtkDeviceProperty.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="UnicapgtkDeviceProperty.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="UnicapgtkDeviceProperty-struct" role="struct">
+<title>UnicapgtkDeviceProperty</title>
+<indexterm zone="UnicapgtkDeviceProperty-struct"><primary>UnicapgtkDeviceProperty</primary></indexterm><programlisting>typedef struct _UnicapgtkDeviceProperty UnicapgtkDeviceProperty;</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-device-property-get-type" role="function">
+<title>unicapgtk_device_property_get_type ()</title>
+<indexterm zone="unicapgtk-device-property-get-type"><primary>unicapgtk_device_property_get_type</primary></indexterm><programlisting><link linkend="GType">GType</link>               unicapgtk_device_property_get_type  (void);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-new" role="function">
+<title>unicapgtk_device_property_new ()</title>
+<indexterm zone="unicapgtk-device-property-new"><primary>unicapgtk_device_property_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_device_property_new       (<link linkend="unicap-property-t">unicap_property_t</link> *property_spec);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link> widget.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>property_spec</parameter>&nbsp;:</term>
+<listitem><simpara> specification of the property which should be
+controlled by this widget. This could be acquired by unicap_enumerate_properties.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-new-by-handle" role="function">
+<title>unicapgtk_device_property_new_by_handle ()</title>
+<indexterm zone="unicapgtk-device-property-new-by-handle"><primary>unicapgtk_device_property_new_by_handle</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_device_property_new_by_handle
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle,
+                                                         <link linkend="unicap-property-t">unicap_property_t</link> *property_spec);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link> widget and sets the handle. 
+</para>
+<para>
+If a handle is set on the widget, the widget will control the
+device directly, ie. if the user changes a value, the widget will
+call unicap_set_property(...) to change the value on the device.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara> unicap handle of the device
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>property_spec</parameter>&nbsp;:</term>
+<listitem><simpara> specification of the property which should be
+controlled by this widget. This could be acquired by unicap_enumerate_properties.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-set" role="function">
+<title>unicapgtk_device_property_set ()</title>
+<indexterm zone="unicapgtk-device-property-set"><primary>unicapgtk_device_property_set</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_device_property_set       (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk,
+                                                         <link linkend="unicap-property-t">unicap_property_t</link> *property);</programlisting>
+<para>
+</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>property</parameter>&nbsp;:</term>
+<listitem><simpara> the property to set. Must have the same identifier as
+used on creation of the widget.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> TRUE if the change was successful
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-get-label" role="function">
+<title>unicapgtk_device_property_get_label ()</title>
+<indexterm zone="unicapgtk-device-property-get-label"><primary>unicapgtk_device_property_get_label</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_device_property_get_label (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);</programlisting>
+<para>
+</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> the label widget
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-set-label" role="function">
+<title>unicapgtk_device_property_set_label ()</title>
+<indexterm zone="unicapgtk-device-property-set-label"><primary>unicapgtk_device_property_set_label</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_device_property_set_label (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk,
+                                                         <link linkend="GtkWidget">GtkWidget</link> *label);</programlisting>
+<para>
+</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>label</parameter>&nbsp;:</term>
+<listitem><simpara> the new label widget
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-redraw" role="function">
+<title>unicapgtk_device_property_redraw ()</title>
+<indexterm zone="unicapgtk-device-property-redraw"><primary>unicapgtk_device_property_redraw</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_device_property_redraw    (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);</programlisting>
+<para>
+Updates the widgets to reflect the current property state</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-update" role="function">
+<title>unicapgtk_device_property_update ()</title>
+<indexterm zone="unicapgtk-device-property-update"><primary>unicapgtk_device_property_update</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_device_property_update    (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);</programlisting>
+<para>
+Reads the current property state from the device and updates the widget</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-redraw-sensitivity" role="function">
+<title>unicapgtk_device_property_redraw_sensitivity ()</title>
+<indexterm zone="unicapgtk-device-property-redraw-sensitivity"><primary>unicapgtk_device_property_redraw_sensitivity</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_device_property_redraw_sensitivity
+                                                        (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);</programlisting>
+<para>
+Updates the widgets sensitivity state according to the auto/manual flags</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-property-update-sensitivity" role="function">
+<title>unicapgtk_device_property_update_sensitivity ()</title>
+<indexterm zone="unicapgtk-device-property-update-sensitivity"><primary>unicapgtk_device_property_update_sensitivity</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_device_property_update_sensitivity
+                                                        (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *ugtk);</programlisting>
+<para>
+Reads the current property state from the device and updates the widgets sensitivity</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceProperty"><type>UnicapgtkDeviceProperty</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+<refsect1 id="UnicapgtkDeviceProperty.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="UnicapgtkDeviceProperty-unicapgtk-device-property-changed"><title>The <literal>&quot;unicapgtk-device-property-changed&quot;</literal> signal</title>
+<indexterm zone="UnicapgtkDeviceProperty-unicapgtk-device-property-changed"><primary>UnicapgtkDeviceProperty::unicapgtk-device-property-changed</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</link> *unicapgtkdeviceproperty,
+                                                        <link linkend="gpointer">gpointer</link>                 arg1,
+                                                        <link linkend="gpointer">gpointer</link>                 user_data)                    : Run First / Action</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>unicapgtkdeviceproperty</parameter>&nbsp;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>arg1</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&nbsp;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+</refsect1>
+
+
+
+</refentry>

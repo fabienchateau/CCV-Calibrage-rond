@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="UnicapgtkDeviceSelection">
+<refmeta>
+<refentrytitle role="top_of_page" id="UnicapgtkDeviceSelection.top_of_page">UnicapgtkDeviceSelection</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>UnicapgtkDeviceSelection</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="UnicapgtkDeviceSelection.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="UnicapgtkDeviceSelection-struct">UnicapgtkDeviceSelection</link>;
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-device-selection-new">unicapgtk_device_selection_new</link>      (<link linkend="gboolean">gboolean</link> include_rescan_entry);
+<link linkend="gint">gint</link>                <link linkend="unicapgtk-device-selection-rescan">unicapgtk_device_selection_rescan</link>   (<link linkend="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</link> *combo);
+<link linkend="gboolean">gboolean</link>            <link linkend="unicapgtk-device-selection-set-device">unicapgtk_device_selection_set_device</link>
+                                                        (<link linkend="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</link> *combo,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device);
+<link linkend="void">void</link>                <link linkend="unicapgtk-device-selection-set-label-fmt">unicapgtk_device_selection_set_label_fmt</link>
+                                                        (<link linkend="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</link> *combo,
+                                                         const <link linkend="gchar">gchar</link> *fmt);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="UnicapgtkDeviceSelection.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBin">GtkBin</link>
+                                 +----<link linkend="GtkComboBox">GtkComboBox</link>
+                                       +----UnicapgtkDeviceSelection
+</synopsis>
+
+</refsect1>
+
+
+
+<refsect1 id="UnicapgtkDeviceSelection.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+UnicapgtkDeviceSelection implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link>,  <link linkend="GtkBuildable">GtkBuildable</link>,  <link linkend="GtkCellLayout">GtkCellLayout</link> and  <link linkend="GtkCellEditable">GtkCellEditable</link>.</para>
+
+</refsect1>
+
+
+<refsect1 id="UnicapgtkDeviceSelection.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="UnicapgtkDeviceSelection--include-rescan-entry">include-rescan-entry</link>&quot;     <link linkend="gboolean">gboolean</link>              : Read / Write / Construct Only
+</synopsis>
+</refsect1>
+
+<refsect1 id="UnicapgtkDeviceSelection.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="UnicapgtkDeviceSelection-unicapgtk-device-selection-changed">unicapgtk-device-selection-changed</link>&quot;             : Run First / Action
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="UnicapgtkDeviceSelection.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="UnicapgtkDeviceSelection.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="UnicapgtkDeviceSelection-struct" role="struct">
+<title>UnicapgtkDeviceSelection</title>
+<indexterm zone="UnicapgtkDeviceSelection-struct"><primary>UnicapgtkDeviceSelection</primary></indexterm><programlisting>typedef struct _UnicapgtkDeviceSelection UnicapgtkDeviceSelection;</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-device-selection-new" role="function">
+<title>unicapgtk_device_selection_new ()</title>
+<indexterm zone="unicapgtk-device-selection-new"><primary>unicapgtk_device_selection_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_device_selection_new      (<link linkend="gboolean">gboolean</link> include_rescan_entry);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkDeviceSelection"><type>UnicapgtkDeviceSelection</type></link></para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>include_rescan_entry</parameter>&nbsp;:</term>
+<listitem><simpara> if TRUE, the an entry will get added to the
+combo box allowing the user to manually trigger a device rescan
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new <link linkend="UnicapgtkDeviceSelection"><type>UnicapgtkDeviceSelection</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-selection-rescan" role="function">
+<title>unicapgtk_device_selection_rescan ()</title>
+<indexterm zone="unicapgtk-device-selection-rescan"><primary>unicapgtk_device_selection_rescan</primary></indexterm><programlisting><link linkend="gint">gint</link>                unicapgtk_device_selection_rescan   (<link linkend="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</link> *combo);</programlisting>
+<para>
+Tiggers rescan of available video capture devices and updates the
+combo box.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>combo</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkDeviceSelection"><type>UnicapgtkDeviceSelection</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> number of available devices
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-selection-set-device" role="function">
+<title>unicapgtk_device_selection_set_device ()</title>
+<indexterm zone="unicapgtk-device-selection-set-device"><primary>unicapgtk_device_selection_set_device</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            unicapgtk_device_selection_set_device
+                                                        (<link linkend="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</link> *combo,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device);</programlisting>
+<para>
+Sets the combo box to the given device.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>combo</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceSelection"><type>UnicapgtkDeviceSelection</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>device</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="unicap-device-t"><type>unicap_device_t</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> TRUE on success
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-device-selection-set-label-fmt" role="function">
+<title>unicapgtk_device_selection_set_label_fmt ()</title>
+<indexterm zone="unicapgtk-device-selection-set-label-fmt"><primary>unicapgtk_device_selection_set_label_fmt</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_device_selection_set_label_fmt
+                                                        (<link linkend="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</link> *combo,
+                                                         const <link linkend="gchar">gchar</link> *fmt);</programlisting>
+<para>
+Sets the format string for the device labels. The following special
+sequences are currently supported: 
+</para>
+<para>
+%<link linkend="i"><literal>i</literal></link>: Identifier
+</para>
+<para>
+%<link linkend="v"><literal>v</literal></link>: Vendor Name
+</para>
+<para>
+%<link linkend="m"><literal>m</literal></link>: Model Name
+</para>
+<para>
+%<link linkend="s"><literal>s</literal></link>: Model Id, hexadecimal with lowercase letters
+</para>
+<para>
+%<link linkend="S:CAPS"><literal>S</literal></link>: Model Id, hexadecimal with uppercase letters
+</para>
+<para>
+%<link linkend="p"><literal>p</literal></link>: Vendor Id, hexadecimal with lowercase letters
+</para>
+<para>
+%<link linkend="P:CAPS"><literal>P</literal></link>: Vendor Id, hexadecimal with uppercase letters</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>combo</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkDeviceSelection"><type>UnicapgtkDeviceSelection</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>fmt</parameter>&nbsp;:</term>
+<listitem><simpara> a format string
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+<refsect1 id="UnicapgtkDeviceSelection.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="UnicapgtkDeviceSelection--include-rescan-entry"><title>The <literal>&quot;include-rescan-entry&quot;</literal> property</title>
+<indexterm zone="UnicapgtkDeviceSelection--include-rescan-entry"><primary>UnicapgtkDeviceSelection:include-rescan-entry</primary></indexterm><programlisting>  &quot;include-rescan-entry&quot;     <link linkend="gboolean">gboolean</link>              : Read / Write / Construct Only</programlisting>
+<para></para><para>Default value: FALSE</para>
+</refsect2>
+
+</refsect1>
+
+<refsect1 id="UnicapgtkDeviceSelection.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="UnicapgtkDeviceSelection-unicapgtk-device-selection-changed"><title>The <literal>&quot;unicapgtk-device-selection-changed&quot;</literal> signal</title>
+<indexterm zone="UnicapgtkDeviceSelection-unicapgtk-device-selection-changed"><primary>UnicapgtkDeviceSelection::unicapgtk-device-selection-changed</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</link> *unicapgtkdeviceselection,
+                                                        <link linkend="gpointer">gpointer</link>                  arg1,
+                                                        <link linkend="gpointer">gpointer</link>                  user_data)                     : Run First / Action</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>unicapgtkdeviceselection</parameter>&nbsp;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>arg1</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&nbsp;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+</refsect1>
+
+
+
+</refentry>

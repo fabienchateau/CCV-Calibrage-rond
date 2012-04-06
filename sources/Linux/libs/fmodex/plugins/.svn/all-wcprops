@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins
+END
+dsp_compressor.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_compressor.so
+END
+dsp_normalize.so
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_normalize.so
+END
+codec_fsb.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_fsb.so
+END
+dsp_chorus.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_chorus.so
+END
+codec_it.so
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_it.so
+END
+dsp_pitchshift.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_pitchshift.so
+END
+dsp_highpass.so
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_highpass.so
+END
+dsp_sfxreverb.so
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_sfxreverb.so
+END
+codec_midi.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_midi.so
+END
+dsp_lowpass2.so
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_lowpass2.so
+END
+dsp_oscillator.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_oscillator.so
+END
+dsp_itecho.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_itecho.so
+END
+codec_cdda.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_cdda.so
+END
+dsp_reverb.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_reverb.so
+END
+codec_oggvorbis.so
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_oggvorbis.so
+END
+codec_playlist.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_playlist.so
+END
+codec_s3m.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_s3m.so
+END
+output_alsa.so
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/output_alsa.so
+END
+dsp_flange.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_flange.so
+END
+codec_aiff.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_aiff.so
+END
+codec_flac.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_flac.so
+END
+dsp_distortion.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_distortion.so
+END
+output_nosound.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/output_nosound.so
+END
+dsp_lowpass_simple.so
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_lowpass_simple.so
+END
+codec_tag.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_tag.so
+END
+codec_vag.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_vag.so
+END
+output_wavwriter.so
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/output_wavwriter.so
+END
+codec_mod.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_mod.so
+END
+codec_dls.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_dls.so
+END
+codec_xm.so
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_xm.so
+END
+dsp_echo.so
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_echo.so
+END
+output_oss.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/output_oss.so
+END
+codec_mpeg.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_mpeg.so
+END
+codec_raw.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_raw.so
+END
+codec_sf2.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_sf2.so
+END
+codec_wav.so
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/codec_wav.so
+END
+output_esd.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/output_esd.so
+END
+dsp_parameq.so
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_parameq.so
+END
+dsp_lowpass.so
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/plugins/dsp_lowpass.so
+END

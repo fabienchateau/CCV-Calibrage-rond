@@ -1,0 +1,52 @@
+<api-page>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  unicap_status_t
+	</return-value>
+	<function-name>unicap_dequeue_buffer</function-name>
+	<parameter>
+	  <parameter-name>
+	    handle
+	  </parameter-name>
+	  <parameter-type>
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    buffer
+	  </parameter-name>
+	  <parameter-type>
+	    unicap_data_buffer_t **
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+      Remove a buffer from the capture queue. This function can only be called when the capture process is <em>not</em>
+      running. 
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  handle
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  buffer
+	</parameter-name>
+	<parameter-text>
+	  Location to where a pointer to the returned data buffer gets stored. 
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

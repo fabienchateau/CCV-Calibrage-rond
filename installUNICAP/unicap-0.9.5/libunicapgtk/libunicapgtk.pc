@@ -1,0 +1,9 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+
+Name: libunicapgtk
+Description: GTK2 widget for the unicap video capture library
+Version: 0.9.5
+Libs: -L${exec_prefix}/lib -lunicapgtk  -L/usr/X11R6/lib 
+Cflags: -I${prefix}/include/unicap
+Requires: libunicap gtk+-2.0

@@ -1,0 +1,51 @@
+<api-page>
+  <title>set_pause</title>
+  <function>
+    <function-synopsis>
+      <prototype>
+	<return-value>
+	  void
+	</return-value>
+	<function-name>unicapgtk_video_display_set_pause</function-name>
+	<parameter>
+	  <parameter-name>
+	    ugtk
+	  </parameter-name>
+	  <parameter-type>
+	    UnicapgtkVideoDisplay
+	  </parameter-type>
+	</parameter>
+	<parameter>
+	  <parameter-name>
+	    enable
+	  </parameter-name>
+	  <parameter-type>
+	    gboolean
+	  </parameter-type>
+	</parameter>
+      </prototype>
+    </function-synopsis>
+    
+    <function-description>
+    </function-description>
+    
+    <function-parameters>
+      <parameter-description>
+	<parameter-name>
+	  ugtk
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <parameter-description>
+	<parameter-name>
+	  enable
+	</parameter-name>
+	<parameter-text>
+	</parameter-text>
+      </parameter-description>
+      <return-value>
+      </return-value>
+    </function-parameters>
+  </function>
+</api-page>

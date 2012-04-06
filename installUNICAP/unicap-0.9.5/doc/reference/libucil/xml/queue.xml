@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="libucil-queue">
+<refmeta>
+<refentrytitle role="top_of_page" id="libucil-queue.top_of_page">queue</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUCIL Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>queue</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="libucil-queue.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+struct              <link linkend="unicap-queue">unicap_queue</link>;
+typedef             <link linkend="unicap-queue-t">unicap_queue_t</link>;
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="libucil-queue.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="libucil-queue.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="unicap-queue" role="struct">
+<title>struct unicap_queue</title>
+<indexterm zone="unicap-queue"><primary>unicap_queue</primary></indexterm><programlisting>struct unicap_queue {
+      sem_t sema;
+      sem_t *psema;
+
+      void * data;
+      struct _unicap_queue *next;
+};
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicap-queue-t" role="typedef">
+<title>unicap_queue_t</title>
+<indexterm zone="unicap-queue-t"><primary>unicap_queue_t</primary></indexterm><programlisting>typedef struct _unicap_queue unicap_queue_t;
+</programlisting>
+<para>
+
+</para></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

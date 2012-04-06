@@ -1,0 +1,22 @@
+<api-page>
+  <type>
+    <type-name>unicap_buffer_type_t</type-name>
+    <enum>
+      <enum-element value="0">
+	<enum-element-name>UNICAP_BUFFER_TYPE_USER</enum-element-name>
+	<enum-element-description>
+	  The <field-name>data</field-name> field points to user allocated memory
+	</enum-element-description>
+      </enum-element>
+      <enum-element>
+	<enum-element-name>UNICAP_BUFFER_TYPE_SYSTEM</enum-element-name>
+	<enum-element-description>
+	  The <field-name>data</field-name> field points to memory allocated by the capture plugin. 
+	</enum-element-description>
+      </enum-element>
+    </enum>
+  </type>
+  
+  <type-description>
+  </type-description>
+</api-page>

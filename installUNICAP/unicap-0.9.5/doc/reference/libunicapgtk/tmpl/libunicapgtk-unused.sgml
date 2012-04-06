@@ -1,0 +1,292 @@
+<!-- ##### MACRO FOURCC ##### -->
+<para>
+
+</para>
+
+@a: 
+@b: 
+@c: 
+@d: 
+
+<!-- ##### MACRO IS_UNICAPGTK_DEVICE_PROPERTY ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO IS_UNICAPGTK_DEVICE_PROPERTY_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+<!-- ##### MACRO IS_UNICAPGTK_PROPERTY_DIALOG ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO IS_UNICAPGTK_PROPERTY_DIALOG_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+<!-- ##### MACRO IS_UNICAPGTK_VIDEO_DISPLAY ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO IS_UNICAPGTK_VIDEO_DISPLAY_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+<!-- ##### MACRO MAX_IMAGE_BUFFERS ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO UNICAPGTK_DEVICE_PROPERTY ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO UNICAPGTK_DEVICE_PROPERTY_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+<!-- ##### MACRO UNICAPGTK_DEVICE_PROPERTY_TYPE ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO UNICAPGTK_DEVICE_STATE_PROPERTIES ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO UNICAPGTK_DEVICE_STATE_VIDEO_FORMAT ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO UNICAPGTK_PROPERTY_DIALOG ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO UNICAPGTK_PROPERTY_DIALOG_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+<!-- ##### MACRO UNICAPGTK_PROPERTY_DIALOG_TYPE ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO UNICAPGTK_VIDEO_DISPLAY ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO UNICAPGTK_VIDEO_DISPLAY_CLASS ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+<!-- ##### MACRO UNICAPGTK_VIDEO_DISPLAY_TYPE ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL UnicapgtkPropertyDialog::unicapgtk-property-dialog-changed ##### -->
+<para>
+
+</para>
+
+@unicapgtkpropertydialog: the object which received the signal.
+@arg1: 
+
+<!-- ##### MACRO XFM_IN_PLACE ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO XFM_NO_CONVERSION ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO XFM_PASSTHROUGH ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT mapping ##### -->
+<para>
+
+</para>
+
+@val: 
+@repr: 
+
+<!-- ##### FUNCTION unicapgtk_cs_get_xfminfo_from_fourcc ##### -->
+<para>
+
+</para>
+
+@src_fourcc: 
+@dest_fourcc: 
+@info: 
+
+<!-- ##### FUNCTION unicapgtk_property_dialog_get_type ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+<!-- ##### USER_FUNCTION xfm_func_t ##### -->
+<para>
+
+</para>
+
+@dest_buffer: 
+@src_buffer: 
+@width: 
+@height: 
+
+<!-- ##### FUNCTION xv_free ##### -->
+<para>
+
+</para>
+
+@handle: 
+@Returns: 
+
+<!-- ##### FUNCTION xv_get_colorkey ##### -->
+<para>
+
+</para>
+
+@handle: 
+@r: 
+@g: 
+@b: 
+
+<!-- ##### FUNCTION xv_get_fourcc_list ##### -->
+<para>
+
+</para>
+
+@dpy: 
+@Returns: 
+
+<!-- ##### STRUCT xv_handle ##### -->
+<para>
+
+</para>
+
+@p_adaptor_info: 
+@num_adaptors: 
+@adaptor: 
+@xv_mode_id: 
+@image: 
+@use_shm: 
+@shminfo: 
+@width: 
+@height: 
+@window_width: 
+@window_height: 
+@atom_colorkey: 
+@atom_brightness: 
+@atom_hue: 
+@atom_contrast: 
+@brightness_min: 
+@brightness_max: 
+@hue_min: 
+@hue_max: 
+@contrast_max: 
+@contrast_min: 
+@colorkey: 
+@unicap_handle: 
+@data_buffers: 
+@display: 
+@drawable: 
+@gc: 
+
+<!-- ##### TYPEDEF xv_handle_t ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION xv_init ##### -->
+<para>
+
+</para>
+
+@handle: 
+@dpy: 
+@fourcc: 
+@width: 
+@height: 
+@bpp: 
+@Returns: 
+
+<!-- ##### FUNCTION xv_set_colorkey ##### -->
+<para>
+
+</para>
+
+@handle: 
+@r: 
+@g: 
+@b: 
+
+<!-- ##### FUNCTION xv_update_image ##### -->
+<para>
+
+</para>
+
+@handle: 
+@crop_x: 
+@crop_y: 
+@crop_w: 
+@crop_h: 
+@width: 
+@height: 
+@buffer: 
+

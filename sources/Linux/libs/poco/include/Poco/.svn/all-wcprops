@@ -1,0 +1,1697 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco
+END
+MetaProgramming.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/MetaProgramming.h
+END
+DynamicAnyHolder.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DynamicAnyHolder.h
+END
+NamedMutex_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedMutex_VMS.h
+END
+ClassLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ClassLoader.h
+END
+Activity.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Activity.h
+END
+TextIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TextIterator.h
+END
+SingletonHolder.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SingletonHolder.h
+END
+Process_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Process_WIN32.h
+END
+Semaphore_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Semaphore_POSIX.h
+END
+BinaryReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/BinaryReader.h
+END
+SharedMemory_DUMMY.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedMemory_DUMMY.h
+END
+NamedMutex_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedMutex_UNIX.h
+END
+SignalHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SignalHandler.h
+END
+DynamicFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DynamicFactory.h
+END
+UUIDGenerator.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UUIDGenerator.h
+END
+UnicodeConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UnicodeConverter.h
+END
+HexBinaryDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HexBinaryDecoder.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/zconf.h
+END
+BufferedBidirectionalStreamBuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/BufferedBidirectionalStreamBuf.h
+END
+NamedEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedEvent.h
+END
+HashFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HashFunction.h
+END
+UniqueAccessExpireCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UniqueAccessExpireCache.h
+END
+PipeImpl_DUMMY.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PipeImpl_DUMMY.h
+END
+EventArgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/EventArgs.h
+END
+SharedLibrary_HPUX.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedLibrary_HPUX.h
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/zlib.h
+END
+File_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/File_WIN32.h
+END
+ArchiveStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ArchiveStrategy.h
+END
+SimpleHashTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SimpleHashTable.h
+END
+HashStatistic.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HashStatistic.h
+END
+SharedLibrary_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedLibrary_WIN32.h
+END
+Instantiator.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Instantiator.h
+END
+SharedLibrary_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedLibrary_VMS.h
+END
+ExpireCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ExpireCache.h
+END
+Process_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Process_UNIX.h
+END
+SHA1Engine.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SHA1Engine.h
+END
+File_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/File_UNIX.h
+END
+StreamConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/StreamConverter.h
+END
+RWLock_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RWLock_WIN32.h
+END
+ErrorHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ErrorHandler.h
+END
+Tuple.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Tuple.h
+END
+BufferedStreamBuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/BufferedStreamBuf.h
+END
+Poco.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Poco.h
+END
+FormattingChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FormattingChannel.h
+END
+OpcomChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/OpcomChannel.h
+END
+Environment_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Environment_WIN32U.h
+END
+Stopwatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Stopwatch.h
+END
+ValidArgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ValidArgs.h
+END
+StrategyCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/StrategyCollection.h
+END
+Glob.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Glob.h
+END
+StreamChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/StreamChannel.h
+END
+NullStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NullStream.h
+END
+Format.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Format.h
+END
+NotificationQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NotificationQueue.h
+END
+NamedEvent_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedEvent_WIN32U.h
+END
+Path_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Path_UNIX.h
+END
+RWLock.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RWLock.h
+END
+NullChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NullChannel.h
+END
+Event_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Event_WIN32.h
+END
+PurgeStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PurgeStrategy.h
+END
+UniqueExpireCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UniqueExpireCache.h
+END
+MD2Engine.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/MD2Engine.h
+END
+Channel.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Channel.h
+END
+SyslogChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SyslogChannel.h
+END
+MD4Engine.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/MD4Engine.h
+END
+Bugcheck.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Bugcheck.h
+END
+Process.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Process.h
+END
+LoggingFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LoggingFactory.h
+END
+FunctionDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FunctionDelegate.h
+END
+RegularExpression.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RegularExpression.h
+END
+FunctionPriorityDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FunctionPriorityDelegate.h
+END
+Hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Hash.h
+END
+FIFOEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FIFOEvent.h
+END
+Notification.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Notification.h
+END
+TeeStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TeeStream.h
+END
+ScopedUnlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ScopedUnlock.h
+END
+DynamicStruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DynamicStruct.h
+END
+Timezone.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Timezone.h
+END
+UTF8Encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UTF8Encoding.h
+END
+KeyValueArgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/KeyValueArgs.h
+END
+DigestEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DigestEngine.h
+END
+Manifest.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Manifest.h
+END
+UniqueExpireStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UniqueExpireStrategy.h
+END
+WindowsConsoleChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/WindowsConsoleChannel.h
+END
+Platform_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Platform_VMS.h
+END
+NotificationStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NotificationStrategy.h
+END
+FileStream_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FileStream_WIN32.h
+END
+ActiveStarter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ActiveStarter.h
+END
+SharedMemory_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedMemory_POSIX.h
+END
+Event.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Event.h
+END
+RefCountedObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RefCountedObject.h
+END
+InflatingStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/InflatingStream.h
+END
+Thread_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Thread_POSIX.h
+END
+ClassLibrary.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ClassLibrary.h
+END
+TextEncoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TextEncoding.h
+END
+AbstractDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AbstractDelegate.h
+END
+AbstractPriorityDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AbstractPriorityDelegate.h
+END
+PipeImpl_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PipeImpl_POSIX.h
+END
+AccessExpireCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AccessExpireCache.h
+END
+DirectoryIterator_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DirectoryIterator_VMS.h
+END
+Timestamp.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Timestamp.h
+END
+SynchronizedObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SynchronizedObject.h
+END
+NamedMutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedMutex.h
+END
+DefaultStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DefaultStrategy.h
+END
+LoggingRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LoggingRegistry.h
+END
+Logger.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Logger.h
+END
+TemporaryFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TemporaryFile.h
+END
+FileStreamFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FileStreamFactory.h
+END
+Platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Platform.h
+END
+Mutex_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Mutex_POSIX.h
+END
+Debugger.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Debugger.h
+END
+Base64Encoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Base64Encoder.h
+END
+UniqueExpireLRUCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UniqueExpireLRUCache.h
+END
+UnWindows.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UnWindows.h
+END
+SharedLibrary_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedLibrary_UNIX.h
+END
+Exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Exception.h
+END
+URI.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/URI.h
+END
+Task.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Task.h
+END
+MemoryPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/MemoryPool.h
+END
+Platform_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Platform_WIN32.h
+END
+FIFOStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FIFOStrategy.h
+END
+Delegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Delegate.h
+END
+PriorityDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PriorityDelegate.h
+END
+Random.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Random.h
+END
+StreamUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/StreamUtil.h
+END
+NamedEvent_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedEvent_UNIX.h
+END
+FPEnvironment.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FPEnvironment.h
+END
+SharedLibrary.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedLibrary.h
+END
+AutoPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AutoPtr.h
+END
+UnbufferedStreamBuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UnbufferedStreamBuf.h
+END
+AccessExpireStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AccessExpireStrategy.h
+END
+ActiveRunnable.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ActiveRunnable.h
+END
+AbstractEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AbstractEvent.h
+END
+Runnable.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Runnable.h
+END
+NamedEvent_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedEvent_VMS.h
+END
+TypeList.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TypeList.h
+END
+UTF8String.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UTF8String.h
+END
+CompareFunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/CompareFunctions.h
+END
+DateTimeFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DateTimeFormatter.h
+END
+Message.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Message.h
+END
+ExpirationDecorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ExpirationDecorator.h
+END
+Condition.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Condition.h
+END
+UniqueAccessExpireStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UniqueAccessExpireStrategy.h
+END
+NamedMutex_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedMutex_WIN32.h
+END
+HexBinaryEncoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HexBinaryEncoder.h
+END
+LogFile_STD.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LogFile_STD.h
+END
+RandomStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RandomStream.h
+END
+TaskManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TaskManager.h
+END
+ThreadPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ThreadPool.h
+END
+Checksum.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Checksum.h
+END
+AutoReleasePool.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AutoReleasePool.h
+END
+Semaphore_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Semaphore_WIN32.h
+END
+DateTimeFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DateTimeFormat.h
+END
+BufferAllocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/BufferAllocator.h
+END
+DirectoryIterator_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DirectoryIterator_WIN32U.h
+END
+AccessExpireLRUCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AccessExpireLRUCache.h
+END
+AbstractCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AbstractCache.h
+END
+NestedDiagnosticContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NestedDiagnosticContext.h
+END
+PriorityExpire.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PriorityExpire.h
+END
+ASCIIEncoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ASCIIEncoding.h
+END
+PatternFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PatternFormatter.h
+END
+Mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Mutex.h
+END
+LogFile_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LogFile_WIN32.h
+END
+File_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/File_VMS.h
+END
+LineEndingConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LineEndingConverter.h
+END
+String.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/String.h
+END
+ActiveResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ActiveResult.h
+END
+UniqueAccessExpireLRUCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UniqueAccessExpireLRUCache.h
+END
+RWLock_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RWLock_POSIX.h
+END
+URIStreamOpener.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/URIStreamOpener.h
+END
+ScopedLock.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ScopedLock.h
+END
+AbstractStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AbstractStrategy.h
+END
+Unicode.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Unicode.h
+END
+LogFile_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LogFile_WIN32U.h
+END
+FileStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FileStream.h
+END
+HashTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HashTable.h
+END
+DateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DateTime.h
+END
+SharedMemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedMemory.h
+END
+Process_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Process_VMS.h
+END
+NumberParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NumberParser.h
+END
+NObserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NObserver.h
+END
+Thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Thread.h
+END
+Environment_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Environment_UNIX.h
+END
+DateTimeParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DateTimeParser.h
+END
+Buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Buffer.h
+END
+AbstractObserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AbstractObserver.h
+END
+MetaObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/MetaObject.h
+END
+PipeImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PipeImpl.h
+END
+BinaryWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/BinaryWriter.h
+END
+LogFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LogFile.h
+END
+SimpleFileChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SimpleFileChannel.h
+END
+LRUStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LRUStrategy.h
+END
+LinearHashTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LinearHashTable.h
+END
+DigestStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DigestStream.h
+END
+HMACEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HMACEngine.h
+END
+SplitterChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SplitterChannel.h
+END
+DirectoryIterator_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DirectoryIterator_WIN32.h
+END
+Path_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Path_WIN32U.h
+END
+Event_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Event_POSIX.h
+END
+Formatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Formatter.h
+END
+Config.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Config.h
+END
+Foundation.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Foundation.h
+END
+RunnableAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RunnableAdapter.h
+END
+AccessExpirationDecorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AccessExpirationDecorator.h
+END
+LocalDateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LocalDateTime.h
+END
+TaskNotification.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TaskNotification.h
+END
+MD5Engine.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/MD5Engine.h
+END
+NumberFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NumberFormatter.h
+END
+EventLogChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/EventLogChannel.h
+END
+FPEnvironment_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FPEnvironment_WIN32.h
+END
+UTF16Encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UTF16Encoding.h
+END
+ThreadLocal.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ThreadLocal.h
+END
+BasicEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/BasicEvent.h
+END
+Observer.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Observer.h
+END
+Any.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Any.h
+END
+HashSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HashSet.h
+END
+StringTokenizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/StringTokenizer.h
+END
+Void.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Void.h
+END
+SharedLibrary_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedLibrary_WIN32U.h
+END
+CountingStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/CountingStream.h
+END
+FPEnvironment_DEC.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FPEnvironment_DEC.h
+END
+UUID.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/UUID.h
+END
+PipeStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PipeStream.h
+END
+TextConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/TextConverter.h
+END
+FileStream_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FileStream_POSIX.h
+END
+ThreadTarget.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ThreadTarget.h
+END
+Token.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Token.h
+END
+SharedMemory_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedMemory_WIN32.h
+END
+RotateStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/RotateStrategy.h
+END
+DirectoryIterator_UNIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DirectoryIterator_UNIX.h
+END
+ActiveDispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ActiveDispatcher.h
+END
+LRUCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LRUCache.h
+END
+NotificationCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NotificationCenter.h
+END
+Thread_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Thread_WIN32.h
+END
+Environment_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Environment_VMS.h
+END
+ConsoleChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ConsoleChannel.h
+END
+SharedPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/SharedPtr.h
+END
+Expire.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Expire.h
+END
+Pipe.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Pipe.h
+END
+Configurable.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Configurable.h
+END
+PipeImpl_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PipeImpl_WIN32.h
+END
+URIStreamFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/URIStreamFactory.h
+END
+Types.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Types.h
+END
+LogFile_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LogFile_VMS.h
+END
+NamedEvent_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedEvent_WIN32.h
+END
+DeflatingStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DeflatingStream.h
+END
+ExpireStrategy.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ExpireStrategy.h
+END
+Path_VMS.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Path_VMS.h
+END
+Semaphore.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Semaphore.h
+END
+Mutex_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Mutex_WIN32.h
+END
+Process_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Process_WIN32U.h
+END
+StreamTokenizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/StreamTokenizer.h
+END
+DynamicAny.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DynamicAny.h
+END
+LogStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/LogStream.h
+END
+NamedTuple.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedTuple.h
+END
+ByteOrder.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ByteOrder.h
+END
+Environment.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Environment.h
+END
+Platform_POSIX.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Platform_POSIX.h
+END
+AsyncChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/AsyncChannel.h
+END
+Base64Decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Base64Decoder.h
+END
+NamedMutex_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/NamedMutex_WIN32U.h
+END
+DirectoryIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/DirectoryIterator.h
+END
+File.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/File.h
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Timer.h
+END
+PriorityEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/PriorityEvent.h
+END
+Environment_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Environment_WIN32.h
+END
+Path.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Path.h
+END
+StreamCopier.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/StreamCopier.h
+END
+Latin1Encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Latin1Encoding.h
+END
+ExpireLRUCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ExpireLRUCache.h
+END
+FPEnvironment_DUMMY.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FPEnvironment_DUMMY.h
+END
+Latin9Encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Latin9Encoding.h
+END
+FileChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FileChannel.h
+END
+Windows1252Encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Windows1252Encoding.h
+END
+ActiveMethod.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/ActiveMethod.h
+END
+Path_WIN32.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Path_WIN32.h
+END
+Array.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Array.h
+END
+FPEnvironment_C99.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FPEnvironment_C99.h
+END
+FPEnvironment_SUN.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/FPEnvironment_SUN.h
+END
+Timespan.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Timespan.h
+END
+HashMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/HashMap.h
+END
+File_WIN32U.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/File_WIN32U.h
+END

@@ -1,0 +1,26 @@
+diff -ur unicap-0.9.5-ori/cpi/v4l2cpi/v4l2.c unicap-0.9.5/cpi/v4l2cpi/v4l2.c
+--- unicap-0.9.5-ori/cpi/v4l2cpi/v4l2.c	2009-02-28 16:20:25.000000000 +0100
++++ unicap-0.9.5/cpi/v4l2cpi/v4l2.c	2009-04-19 13:44:49.000000000 +0200
+@@ -2011,6 +2011,22 @@
+ 	 handle->free_buffers[i] = 1;
+ 
+       }
++      
++
++      
++      struct v4l2_buffer v4l2_buffer;
++      memset( &v4l2_buffer, 0x0, sizeof( v4l2_buffer ) );
++      v4l2_buffer.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
++      v4l2_buffer.memory = V4L2_MEMORY_MMAP;
++      for( i = 0; i < handle->buffer_count; i++ )
++      {
++	v4l2_buffer.index = i;
++	IOCTL( handle->fd, VIDIOC_QBUF, &v4l2_buffer );
++      }
++
++
++      
++      
+       if( IOCTL( handle->fd, VIDIOC_STREAMON, &type ) < 0 )
+       {
+ 	 int j;

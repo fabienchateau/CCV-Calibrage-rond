@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/lib
+END
+libunicap.a
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/lib/libunicap.a
+END
+libv4l2cpi.a
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/lib/libv4l2cpi.a
+END
+libdcam.a
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/lib/libdcam.a
+END
+libv4l.a
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/lib/libv4l.a
+END
+libvid21394.a
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/unicap/lib/libvid21394.a
+END

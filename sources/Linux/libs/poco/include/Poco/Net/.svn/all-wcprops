@@ -1,0 +1,539 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net
+END
+DatagramSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/DatagramSocket.h
+END
+HTTPStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPStream.h
+END
+FTPClientSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/FTPClientSession.h
+END
+TCPServerConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/TCPServerConnection.h
+END
+MailStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MailStream.h
+END
+HTTPResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPResponse.h
+END
+HTTPBasicCredentials.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPBasicCredentials.h
+END
+SocketNotification.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketNotification.h
+END
+QuotedPrintableEncoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/QuotedPrintableEncoder.h
+END
+SocketStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketStream.h
+END
+HTTPServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServer.h
+END
+AbstractHTTPRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/AbstractHTTPRequestHandler.h
+END
+SocketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketImpl.h
+END
+HTTPSessionFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPSessionFactory.h
+END
+TCPServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/TCPServer.h
+END
+MultipartWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MultipartWriter.h
+END
+IPAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/IPAddress.h
+END
+ServerSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ServerSocket.h
+END
+ICMPPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ICMPPacket.h
+END
+MediaType.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MediaType.h
+END
+TCPServerParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/TCPServerParams.h
+END
+HTTPClientSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPClientSession.h
+END
+HTTPSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPSession.h
+END
+MailMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MailMessage.h
+END
+ICMPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ICMPClient.h
+END
+QuotedPrintableDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/QuotedPrintableDecoder.h
+END
+HTTPChunkedStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPChunkedStream.h
+END
+SocketAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketAddress.h
+END
+HTTPServerRequestImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerRequestImpl.h
+END
+RawSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/RawSocket.h
+END
+RemoteSyslogListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/RemoteSyslogListener.h
+END
+NetException.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/NetException.h
+END
+HTTPServerResponseImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerResponseImpl.h
+END
+SocketReactor.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketReactor.h
+END
+SocketAcceptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketAcceptor.h
+END
+HTTPServerSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerSession.h
+END
+DatagramSocketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/DatagramSocketImpl.h
+END
+MulticastSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MulticastSocket.h
+END
+HTTPIOStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPIOStream.h
+END
+DNS.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/DNS.h
+END
+HTTPMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPMessage.h
+END
+MailRecipient.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MailRecipient.h
+END
+RemoteSyslogChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/RemoteSyslogChannel.h
+END
+TCPServerConnectionFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/TCPServerConnectionFactory.h
+END
+HTTPRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPRequestHandler.h
+END
+HTTPServerConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerConnection.h
+END
+PartSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/PartSource.h
+END
+FilePartSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/FilePartSource.h
+END
+HTMLForm.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTMLForm.h
+END
+SocketNotifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketNotifier.h
+END
+NameValueCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/NameValueCollection.h
+END
+MessageHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MessageHeader.h
+END
+NullPartHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/NullPartHandler.h
+END
+ICMPSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ICMPSocket.h
+END
+ServerSocketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ServerSocketImpl.h
+END
+ICMPPacketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ICMPPacketImpl.h
+END
+SocketConnector.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketConnector.h
+END
+PartHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/PartHandler.h
+END
+MultipartReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/MultipartReader.h
+END
+HTTPHeaderStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPHeaderStream.h
+END
+StreamSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/StreamSocket.h
+END
+HTTPCookie.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPCookie.h
+END
+NetworkInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/NetworkInterface.h
+END
+HTTPBufferAllocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPBufferAllocator.h
+END
+HTTPServerParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerParams.h
+END
+HTTPFixedLengthStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPFixedLengthStream.h
+END
+HTTPRequestHandlerFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPRequestHandlerFactory.h
+END
+HTTPServerConnectionFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerConnectionFactory.h
+END
+StringPartSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/StringPartSource.h
+END
+RawSocketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/RawSocketImpl.h
+END
+TCPServerDispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/TCPServerDispatcher.h
+END
+Net.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/Net.h
+END
+HTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPRequest.h
+END
+Socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/Socket.h
+END
+HTTPBasicStreamBuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPBasicStreamBuf.h
+END
+SocketDefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SocketDefs.h
+END
+FTPStreamFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/FTPStreamFactory.h
+END
+HostEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HostEntry.h
+END
+ICMPEventArgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ICMPEventArgs.h
+END
+DialogSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/DialogSocket.h
+END
+ICMPv4PacketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ICMPv4PacketImpl.h
+END
+HTTPServerRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerRequest.h
+END
+ICMPSocketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/ICMPSocketImpl.h
+END
+HTTPStreamFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPStreamFactory.h
+END
+HTTPSessionInstantiator.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPSessionInstantiator.h
+END
+POP3ClientSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/POP3ClientSession.h
+END
+HTTPServerResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/HTTPServerResponse.h
+END
+SMTPClientSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/SMTPClientSession.h
+END
+StreamSocketImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Net/StreamSocketImpl.h
+END

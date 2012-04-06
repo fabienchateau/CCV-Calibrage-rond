@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tbeta/!svn/ver/197/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration
+END
+boxAlign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/boxAlign.cpp
+END
+Calibration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/Calibration.cpp
+END
+CalibrationUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tbeta/!svn/ver/197/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/CalibrationUtils.cpp
+END
+boxAlign.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/boxAlign.h
+END
+rect2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/rect2d.h
+END
+Calibration.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/Calibration.h
+END
+CalibrationUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/CalibrationUtils.h
+END
+vector2d.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/addons/ofxNCore/src/Calibration/vector2d.h
+END

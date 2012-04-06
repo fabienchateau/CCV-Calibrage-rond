@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ofProjectManager
+END
+install_project_manager.sh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ofProjectManager/install_project_manager.sh
+END
+ofEnvironment.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ofProjectManager/ofEnvironment.py
+END
+ofProject.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ofProjectManager/ofProject.py
+END
+ofxDescriptor.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ofProjectManager/ofxDescriptor.py
+END
+ofAddons.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ofProjectManager/ofAddons.py
+END
+ofProjectManager.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/scripts/ofProjectManager/ofProjectManager.py
+END

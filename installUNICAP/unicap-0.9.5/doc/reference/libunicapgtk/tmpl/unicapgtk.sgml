@@ -1,0 +1,67 @@
+<!-- ##### SECTION Title ##### -->
+unicapgtk
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### ENUM UnicapgtkDeviceStateFlags ##### -->
+<para>
+
+</para>
+
+@UNICAPGTK_DEVICE_STATE_VIDEO_FORMAT: 
+@UNICAPGTK_DEVICE_STATE_PROPERTIES: 
+
+<!-- ##### FUNCTION unicapgtk_get_user_config_path ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_save_device_state ##### -->
+<para>
+
+</para>
+
+@handle: 
+@flags: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_load_device_state ##### -->
+<para>
+
+</para>
+
+@handle: 
+@keyfile: 
+@flags: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_check_version ##### -->
+<para>
+
+</para>
+
+@major: 
+@minor: 
+@micro: 
+@Returns: 
+
+

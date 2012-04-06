@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UnicapgtkDeviceProperty</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libunicapgtk Reference Manual">
+<link rel="up" href="ch01.html" title="libunicapgtk Reference">
+<link rel="prev" href="libunicapgtk-unicapgtk.html" title="unicapgtk">
+<link rel="next" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="libunicapgtk Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libunicapgtk-unicapgtk.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libunicapgtk Reference Manual</th>
+<td><a accesskey="n" href="UnicapgtkDeviceSelection.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#UnicapgtkDeviceProperty.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#UnicapgtkDeviceProperty.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#UnicapgtkDeviceProperty.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#UnicapgtkDeviceProperty.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#UnicapgtkDeviceProperty.signals" class="shortcut">Signals</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="UnicapgtkDeviceProperty"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="UnicapgtkDeviceProperty.top_of_page"></a>UnicapgtkDeviceProperty</span></h2>
+<p>UnicapgtkDeviceProperty</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="UnicapgtkDeviceProperty.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+                    <a class="link" href="UnicapgtkDeviceProperty.html#UnicapgtkDeviceProperty-struct" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a>;
+<a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a>               <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-get-type" title="unicapgtk_device_property_get_type ()">unicapgtk_device_property_get_type</a>  (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-new" title="unicapgtk_device_property_new ()">unicapgtk_device_property_new</a>       (<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-property-t"
+>unicap_property_t</a> *property_spec);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-new-by-handle" title="unicapgtk_device_property_new_by_handle ()">unicapgtk_device_property_new_by_handle</a>
+                                                        (unicap_handle_t handle,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-property-t"
+>unicap_property_t</a> *property_spec);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-set" title="unicapgtk_device_property_set ()">unicapgtk_device_property_set</a>       (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-property-t"
+>unicap_property_t</a> *property);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-get-label" title="unicapgtk_device_property_get_label ()">unicapgtk_device_property_get_label</a> (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);
+void                <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-set-label" title="unicapgtk_device_property_set_label ()">unicapgtk_device_property_set_label</a> (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a> *label);
+void                <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-redraw" title="unicapgtk_device_property_redraw ()">unicapgtk_device_property_redraw</a>    (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);
+void                <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-update" title="unicapgtk_device_property_update ()">unicapgtk_device_property_update</a>    (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);
+void                <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-redraw-sensitivity" title="unicapgtk_device_property_redraw_sensitivity ()">unicapgtk_device_property_redraw_sensitivity</a>
+                                                        (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);
+void                <a class="link" href="UnicapgtkDeviceProperty.html#unicapgtk-device-property-update-sensitivity" title="unicapgtk_device_property_update_sensitivity ()">unicapgtk_device_property_update_sensitivity</a>
+                                                        (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceProperty.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkBox.html"
+>GtkBox</a>
+                                 +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkHBox.html"
+>GtkHBox</a>
+                                       +----UnicapgtkDeviceProperty
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceProperty.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+UnicapgtkDeviceProperty implements
+ AtkImplementorIface and  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceProperty.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="UnicapgtkDeviceProperty.html#UnicapgtkDeviceProperty-unicapgtk-device-property-changed" title='The "unicapgtk-device-property-changed" signal'>unicapgtk-device-property-changed</a>"              : Run First / Action
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceProperty.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceProperty.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkDeviceProperty-struct"></a><h3>UnicapgtkDeviceProperty</h3>
+<pre class="programlisting">typedef struct _UnicapgtkDeviceProperty UnicapgtkDeviceProperty;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-get-type"></a><h3>unicapgtk_device_property_get_type ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a>               unicapgtk_device_property_get_type  (void);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-new"></a><h3>unicapgtk_device_property_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_device_property_new       (<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-property-t"
+>unicap_property_t</a> *property_spec);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a> widget.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property_spec</code></em> :</span></p></td>
+<td> specification of the property which should be
+controlled by this widget. This could be acquired by unicap_enumerate_properties.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-new-by-handle"></a><h3>unicapgtk_device_property_new_by_handle ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_device_property_new_by_handle
+                                                        (unicap_handle_t handle,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-property-t"
+>unicap_property_t</a> *property_spec);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a> widget and sets the handle. 
+</p>
+<p>
+If a handle is set on the widget, the widget will control the
+device directly, ie. if the user changes a value, the widget will
+call unicap_set_property(...) to change the value on the device.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td> unicap handle of the device
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property_spec</code></em> :</span></p></td>
+<td> specification of the property which should be
+controlled by this widget. This could be acquired by unicap_enumerate_properties.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-set"></a><h3>unicapgtk_device_property_set ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_device_property_set       (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-property-t"
+>unicap_property_t</a> *property);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> the property to set. Must have the same identifier as
+used on creation of the widget.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the change was successful
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-get-label"></a><h3>unicapgtk_device_property_get_label ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_device_property_get_label (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the label widget
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-set-label"></a><h3>unicapgtk_device_property_set_label ()</h3>
+<pre class="programlisting">void                unicapgtk_device_property_set_label (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a> *label);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>label</code></em> :</span></p></td>
+<td> the new label widget
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-redraw"></a><h3>unicapgtk_device_property_redraw ()</h3>
+<pre class="programlisting">void                unicapgtk_device_property_redraw    (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);</pre>
+<p>
+Updates the widgets to reflect the current property state</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-update"></a><h3>unicapgtk_device_property_update ()</h3>
+<pre class="programlisting">void                unicapgtk_device_property_update    (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);</pre>
+<p>
+Reads the current property state from the device and updates the widget</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-redraw-sensitivity"></a><h3>unicapgtk_device_property_redraw_sensitivity ()</h3>
+<pre class="programlisting">void                unicapgtk_device_property_redraw_sensitivity
+                                                        (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);</pre>
+<p>
+Updates the widgets sensitivity state according to the auto/manual flags</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-property-update-sensitivity"></a><h3>unicapgtk_device_property_update_sensitivity ()</h3>
+<pre class="programlisting">void                unicapgtk_device_property_update_sensitivity
+                                                        (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *ugtk);</pre>
+<p>
+Reads the current property state from the device and updates the widgets sensitivity</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty"><span class="type">UnicapgtkDeviceProperty</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceProperty.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkDeviceProperty-unicapgtk-device-property-changed"></a><h3>The <code class="literal">"unicapgtk-device-property-changed"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">UnicapgtkDeviceProperty</a> *unicapgtkdeviceproperty,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>                 arg1,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>                 user_data)                    : Run First / Action</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>unicapgtkdeviceproperty</code></em> :</span></p></td>
+<td>the object which received the signal.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>arg1</code></em> :</span></p></td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

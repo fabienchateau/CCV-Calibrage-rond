@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="UnicapgtkPropertyDialog">
+<refmeta>
+<refentrytitle role="top_of_page" id="UnicapgtkPropertyDialog.top_of_page">UnicapgtkPropertyDialog</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>UnicapgtkPropertyDialog</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="UnicapgtkPropertyDialog.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="UnicapgtkPropertyDialog-struct">UnicapgtkPropertyDialog</link>;
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-property-dialog-new">unicapgtk_property_dialog_new</link>       (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="unicapgtk-property-dialog-new-by-handle">unicapgtk_property_dialog_new_by_handle</link>
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle);
+<link linkend="void">void</link>                <link linkend="unicapgtk-property-dialog-reset">unicapgtk_property_dialog_reset</link>     (<link linkend="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</link> *ugtk);
+<link linkend="void">void</link>                <link linkend="unicapgtk-property-dialog-set-device">unicapgtk_property_dialog_set_device</link>
+                                                        (<link linkend="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</link> *ugtk,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device_spec);
+<link linkend="void">void</link>                <link linkend="unicapgtk-property-dialog-set-handle">unicapgtk_property_dialog_set_handle</link>
+                                                        (<link linkend="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</link> *ugtk,
+                                                         <link linkend="unicap-handle-t">unicap_handle_t</link> handle);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="UnicapgtkPropertyDialog.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBin">GtkBin</link>
+                                 +----<link linkend="GtkWindow">GtkWindow</link>
+                                       +----<link linkend="GtkDialog">GtkDialog</link>
+                                             +----UnicapgtkPropertyDialog
+</synopsis>
+
+</refsect1>
+
+
+
+<refsect1 id="UnicapgtkPropertyDialog.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+UnicapgtkPropertyDialog implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link> and  <link linkend="GtkBuildable">GtkBuildable</link>.</para>
+
+</refsect1>
+
+
+<refsect1 id="UnicapgtkPropertyDialog.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="UnicapgtkPropertyDialog--update-interval">update-interval</link>&quot;          <link linkend="gint">gint</link>                  : Read / Write
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="UnicapgtkPropertyDialog.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="UnicapgtkPropertyDialog.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="UnicapgtkPropertyDialog-struct" role="struct">
+<title>UnicapgtkPropertyDialog</title>
+<indexterm zone="UnicapgtkPropertyDialog-struct"><primary>UnicapgtkPropertyDialog</primary></indexterm><programlisting>typedef struct _UnicapgtkPropertyDialog UnicapgtkPropertyDialog;</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-property-dialog-new" role="function">
+<title>unicapgtk_property_dialog_new ()</title>
+<indexterm zone="unicapgtk-property-dialog-new"><primary>unicapgtk_property_dialog_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_property_dialog_new       (void);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkPropertyDialog"><type>UnicapgtkPropertyDialog</type></link></para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new <link linkend="UnicapgtkPropertyDialog"><type>UnicapgtkPropertyDialog</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-property-dialog-new-by-handle" role="function">
+<title>unicapgtk_property_dialog_new_by_handle ()</title>
+<indexterm zone="unicapgtk-property-dialog-new-by-handle"><primary>unicapgtk_property_dialog_new_by_handle</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          unicapgtk_property_dialog_new_by_handle
+                                                        (<link linkend="unicap-handle-t">unicap_handle_t</link> handle);</programlisting>
+<para>
+Creates a new <link linkend="UnicapgtkPropertyDialog"><type>UnicapgtkPropertyDialog</type></link> with a given
+<link linkend="unicap-handle-t"><type>unicap_handle_t</type></link></para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="unicap-handle-t"><type>unicap_handle_t</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara> a new <link linkend="UnicapgtkPropertyDialog"><type>UnicapgtkPropertyDialog</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-property-dialog-reset" role="function">
+<title>unicapgtk_property_dialog_reset ()</title>
+<indexterm zone="unicapgtk-property-dialog-reset"><primary>unicapgtk_property_dialog_reset</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_property_dialog_reset     (<link linkend="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</link> *ugtk);</programlisting>
+<para>
+</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> an <link linkend="UnicapgtkPropertyDialog"><type>UnicapgtkPropertyDialog</type></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-property-dialog-set-device" role="function">
+<title>unicapgtk_property_dialog_set_device ()</title>
+<indexterm zone="unicapgtk-property-dialog-set-device"><primary>unicapgtk_property_dialog_set_device</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_property_dialog_set_device
+                                                        (<link linkend="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</link> *ugtk,
+                                                         <link linkend="unicap-device-t">unicap_device_t</link> *device_spec);</programlisting>
+<para>
+Sets the device which should be controlled by this dialog</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkPropertyDialog"><type>UnicapgtkPropertyDialog</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>device_spec</parameter>&nbsp;:</term>
+<listitem><simpara> the device to be controlled by this dialog
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="unicapgtk-property-dialog-set-handle" role="function">
+<title>unicapgtk_property_dialog_set_handle ()</title>
+<indexterm zone="unicapgtk-property-dialog-set-handle"><primary>unicapgtk_property_dialog_set_handle</primary></indexterm><programlisting><link linkend="void">void</link>                unicapgtk_property_dialog_set_handle
+                                                        (<link linkend="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</link> *ugtk,
+                                                         <link linkend="unicap-handle-t">unicap_handle_t</link> handle);</programlisting>
+<para>
+Sets the handle to the device to be controlled by this dialog. The
+handle will be cloned by this call.</para>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>ugtk</parameter>&nbsp;:</term>
+<listitem><simpara> a <link linkend="UnicapgtkPropertyDialog"><type>UnicapgtkPropertyDialog</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>handle</parameter>&nbsp;:</term>
+<listitem><simpara> a handle of the device to be controlled by this dialog
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+<refsect1 id="UnicapgtkPropertyDialog.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="UnicapgtkPropertyDialog--update-interval"><title>The <literal>&quot;update-interval&quot;</literal> property</title>
+<indexterm zone="UnicapgtkPropertyDialog--update-interval"><primary>UnicapgtkPropertyDialog:update-interval</primary></indexterm><programlisting>  &quot;update-interval&quot;          <link linkend="gint">gint</link>                  : Read / Write</programlisting>
+<para></para><para>Allowed values: [0,99999]</para>
+<para>Default value: 100</para>
+</refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

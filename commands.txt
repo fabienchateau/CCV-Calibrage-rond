@@ -1,0 +1,32 @@
+# TUTORIAL
+# -----------------------------------------------------
+#      http://nuigroup.com/forums/viewthread/8691/
+# -----------------------------------------------------
+
+
+# TX directory
+cd ~/Dropbox/INTACT_Software/TX/
+# mkdir sources
+cd sources
+
+# Linux source code (SVN Checkout)
+svn checkout http://nuicode.svnrepository.com/svn/tbeta/trunk/tbeta/Linux
+
+# Code Blocks and dependencies
+cd Linux/scripts/ubuntu
+chmod 755 ./install_codeblocks.sh
+sudo ./install_codeblocks.sh
+chmod 755 ./install_dependencies.sh
+sudo ./install_dependencies.sh
+
+# Now we can launch the CB project file : ~/Dropbox/INTACT_Software/TX/sources/Linux/apps/addonsexamples/Codeblocks_8_linux/Community Core Vision.cbp
+
+# Bug correction before compiling
+# ----------------------------------------------
+# http://nuigroup.com/forums/viewthread/8251/
+# http://www.openframeworks.cc/forum/viewtopic.php?f=5&t=1929
+
+# Launch the program
+chmod 755 /home/exlame/Dropbox/INTACT_Software/TX/sources/Linux/apps/addonsexamples/Codeblocks_8_linux/bin/clickToLaunchApp.sh
+cd ~/Dropbox/INTACT_Software/TX/sources/Linux/apps/addonsexamples/Codeblocks_8_linux/bin/
+sudo ./clickToLaunchApp.sh

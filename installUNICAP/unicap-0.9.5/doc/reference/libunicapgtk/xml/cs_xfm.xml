@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="libunicapgtk-cs-xfm">
+<refmeta>
+<refentrytitle role="top_of_page" id="libunicapgtk-cs-xfm.top_of_page">cs_xfm</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>cs_xfm</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="libunicapgtk-cs-xfm.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="YUY2:CAPS">YUY2</link>
+#define             <link linkend="UYVY:CAPS">UYVY</link>
+#define             <link linkend="Y411:CAPS">Y411</link>
+#define             <link linkend="RGB4:CAPS">RGB4</link>
+#define             <link linkend="RGB3:CAPS">RGB3</link>
+#define             <link linkend="GREY:CAPS">GREY</link>
+#define             <link linkend="Y800:CAPS">Y800</link>
+#define             <link linkend="Y420:CAPS">Y420</link>
+<link linkend="size-t">size_t</link>              <link linkend="cs-xfm-get-image-data-size">cs_xfm_get_image_data_size</link>          (<link linkend="unicap-format-t">unicap_format_t</link> *format);
+<link linkend="GdkPixbuf">GdkPixbuf</link>*          <link linkend="cs-xfm-new-pixbuf">cs_xfm_new_pixbuf</link>                   (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *image_buffer,
+                                                         <link linkend="guchar">guchar</link> *image_data);
+<link linkend="GdkPixbuf">GdkPixbuf</link>*          <link linkend="cs-xfm-new-allocated-pixbuf">cs_xfm_new_allocated_pixbuf</link>         (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *image_buffer);
+<link linkend="void">void</link>                <link linkend="cs-xfm-to-RGB24">cs_xfm_to_RGB24</link>                     (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="guchar">guchar</link> *dest);
+<link linkend="void">void</link>                <link linkend="cs-xfm-to-RGB32">cs_xfm_to_RGB32</link>                     (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="guchar">guchar</link> *dest);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="libunicapgtk-cs-xfm.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="libunicapgtk-cs-xfm.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="YUY2:CAPS" role="macro">
+<title>YUY2</title>
+<indexterm zone="YUY2:CAPS"><primary>YUY2</primary></indexterm><programlisting>#define             YUY2</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="UYVY:CAPS" role="macro">
+<title>UYVY</title>
+<indexterm zone="UYVY:CAPS"><primary>UYVY</primary></indexterm><programlisting>#define             UYVY</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="Y411:CAPS" role="macro">
+<title>Y411</title>
+<indexterm zone="Y411:CAPS"><primary>Y411</primary></indexterm><programlisting>#define             Y411</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="RGB4:CAPS" role="macro">
+<title>RGB4</title>
+<indexterm zone="RGB4:CAPS"><primary>RGB4</primary></indexterm><programlisting>#define             RGB4</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="RGB3:CAPS" role="macro">
+<title>RGB3</title>
+<indexterm zone="RGB3:CAPS"><primary>RGB3</primary></indexterm><programlisting>#define             RGB3</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="GREY:CAPS" role="macro">
+<title>GREY</title>
+<indexterm zone="GREY:CAPS"><primary>GREY</primary></indexterm><programlisting>#define             GREY</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="Y800:CAPS" role="macro">
+<title>Y800</title>
+<indexterm zone="Y800:CAPS"><primary>Y800</primary></indexterm><programlisting>#define             Y800</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="Y420:CAPS" role="macro">
+<title>Y420</title>
+<indexterm zone="Y420:CAPS"><primary>Y420</primary></indexterm><programlisting>#define             Y420</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="cs-xfm-get-image-data-size" role="function">
+<title>cs_xfm_get_image_data_size ()</title>
+<indexterm zone="cs-xfm-get-image-data-size"><primary>cs_xfm_get_image_data_size</primary></indexterm><programlisting><link linkend="size-t">size_t</link>              cs_xfm_get_image_data_size          (<link linkend="unicap-format-t">unicap_format_t</link> *format);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>format</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="cs-xfm-new-pixbuf" role="function">
+<title>cs_xfm_new_pixbuf ()</title>
+<indexterm zone="cs-xfm-new-pixbuf"><primary>cs_xfm_new_pixbuf</primary></indexterm><programlisting><link linkend="GdkPixbuf">GdkPixbuf</link>*          cs_xfm_new_pixbuf                   (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *image_buffer,
+                                                         <link linkend="guchar">guchar</link> *image_data);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>image_buffer</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>image_data</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="cs-xfm-new-allocated-pixbuf" role="function">
+<title>cs_xfm_new_allocated_pixbuf ()</title>
+<indexterm zone="cs-xfm-new-allocated-pixbuf"><primary>cs_xfm_new_allocated_pixbuf</primary></indexterm><programlisting><link linkend="GdkPixbuf">GdkPixbuf</link>*          cs_xfm_new_allocated_pixbuf         (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *image_buffer);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>image_buffer</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&nbsp;:</term><listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="cs-xfm-to-RGB24" role="function">
+<title>cs_xfm_to_RGB24 ()</title>
+<indexterm zone="cs-xfm-to-RGB24"><primary>cs_xfm_to_RGB24</primary></indexterm><programlisting><link linkend="void">void</link>                cs_xfm_to_RGB24                     (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="guchar">guchar</link> *dest);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>data_buffer</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>dest</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="cs-xfm-to-RGB32" role="function">
+<title>cs_xfm_to_RGB32 ()</title>
+<indexterm zone="cs-xfm-to-RGB32"><primary>cs_xfm_to_RGB32</primary></indexterm><programlisting><link linkend="void">void</link>                cs_xfm_to_RGB32                     (<link linkend="unicap-data-buffer-t">unicap_data_buffer_t</link> *data_buffer,
+                                                         <link linkend="guchar">guchar</link> *dest);</programlisting>
+<para>
+
+</para><variablelist role="params">
+<varlistentry><term><parameter>data_buffer</parameter>&nbsp;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>dest</parameter>&nbsp;:</term>
+<listitem><simpara>
+
+
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

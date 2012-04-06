@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UnicapgtkPropertyDialog</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libunicapgtk Reference Manual">
+<link rel="up" href="ch01.html" title="libunicapgtk Reference">
+<link rel="prev" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">
+<link rel="next" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="libunicapgtk Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="UnicapgtkDeviceSelection.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libunicapgtk Reference Manual</th>
+<td><a accesskey="n" href="UnicapgtkVideoDisplay.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#UnicapgtkPropertyDialog.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#UnicapgtkPropertyDialog.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#UnicapgtkPropertyDialog.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#UnicapgtkPropertyDialog.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#UnicapgtkPropertyDialog.properties" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="UnicapgtkPropertyDialog"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="UnicapgtkPropertyDialog.top_of_page"></a>UnicapgtkPropertyDialog</span></h2>
+<p>UnicapgtkPropertyDialog</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="UnicapgtkPropertyDialog.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+                    <a class="link" href="UnicapgtkPropertyDialog.html#UnicapgtkPropertyDialog-struct" title="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</a>;
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-new" title="unicapgtk_property_dialog_new ()">unicapgtk_property_dialog_new</a>       (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-new-by-handle" title="unicapgtk_property_dialog_new_by_handle ()">unicapgtk_property_dialog_new_by_handle</a>
+                                                        (unicap_handle_t handle);
+void                <a class="link" href="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-reset" title="unicapgtk_property_dialog_reset ()">unicapgtk_property_dialog_reset</a>     (<a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</a> *ugtk);
+void                <a class="link" href="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-set-device" title="unicapgtk_property_dialog_set_device ()">unicapgtk_property_dialog_set_device</a>
+                                                        (<a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);
+void                <a class="link" href="UnicapgtkPropertyDialog.html#unicapgtk-property-dialog-set-handle" title="unicapgtk_property_dialog_set_handle ()">unicapgtk_property_dialog_set_handle</a>
+                                                        (<a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</a> *ugtk,
+                                                         unicap_handle_t handle);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkPropertyDialog.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkBin.html"
+>GtkBin</a>
+                                 +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWindow.html"
+>GtkWindow</a>
+                                       +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html"
+>GtkDialog</a>
+                                             +----UnicapgtkPropertyDialog
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkPropertyDialog.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+UnicapgtkPropertyDialog implements
+ AtkImplementorIface and  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkPropertyDialog.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="UnicapgtkPropertyDialog.html#UnicapgtkPropertyDialog--update-interval" title='The "update-interval" property'>update-interval</a>"          <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkPropertyDialog.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkPropertyDialog.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkPropertyDialog-struct"></a><h3>UnicapgtkPropertyDialog</h3>
+<pre class="programlisting">typedef struct _UnicapgtkPropertyDialog UnicapgtkPropertyDialog;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-property-dialog-new"></a><h3>unicapgtk_property_dialog_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_property_dialog_new       (void);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog"><span class="type">UnicapgtkPropertyDialog</span></a></p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog"><span class="type">UnicapgtkPropertyDialog</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-property-dialog-new-by-handle"></a><h3>unicapgtk_property_dialog_new_by_handle ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_property_dialog_new_by_handle
+                                                        (unicap_handle_t handle);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog"><span class="type">UnicapgtkPropertyDialog</span></a> with a given
+<span class="type">unicap_handle_t</span></p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td> a <span class="type">unicap_handle_t</span>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog"><span class="type">UnicapgtkPropertyDialog</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-property-dialog-reset"></a><h3>unicapgtk_property_dialog_reset ()</h3>
+<pre class="programlisting">void                unicapgtk_property_dialog_reset     (<a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</a> *ugtk);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog"><span class="type">UnicapgtkPropertyDialog</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-property-dialog-set-device"></a><h3>unicapgtk_property_dialog_set_device ()</h3>
+<pre class="programlisting">void                unicapgtk_property_dialog_set_device
+                                                        (<a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);</pre>
+<p>
+Sets the device which should be controlled by this dialog</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog"><span class="type">UnicapgtkPropertyDialog</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>device_spec</code></em> :</span></p></td>
+<td> the device to be controlled by this dialog
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-property-dialog-set-handle"></a><h3>unicapgtk_property_dialog_set_handle ()</h3>
+<pre class="programlisting">void                unicapgtk_property_dialog_set_handle
+                                                        (<a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">UnicapgtkPropertyDialog</a> *ugtk,
+                                                         unicap_handle_t handle);</pre>
+<p>
+Sets the handle to the device to be controlled by this dialog. The
+handle will be cloned by this call.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog"><span class="type">UnicapgtkPropertyDialog</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td> a handle of the device to be controlled by this dialog
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkPropertyDialog.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkPropertyDialog--update-interval"></a><h3>The <code class="literal">"update-interval"</code> property</h3>
+<pre class="programlisting">  "update-interval"          <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p></p>
+<p>Allowed values: [0,99999]</p>
+<p>Default value: 100</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

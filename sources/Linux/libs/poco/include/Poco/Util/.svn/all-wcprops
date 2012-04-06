@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util
+END
+ServerApplication.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/ServerApplication.h
+END
+AbstractConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/AbstractConfiguration.h
+END
+Subsystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/Subsystem.h
+END
+WinRegistryKey.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/WinRegistryKey.h
+END
+IntValidator.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/IntValidator.h
+END
+RegExpValidator.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/RegExpValidator.h
+END
+ConfigurationView.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/ConfigurationView.h
+END
+Application.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/Application.h
+END
+MapConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/MapConfiguration.h
+END
+LoggingSubsystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/LoggingSubsystem.h
+END
+IniFileConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/IniFileConfiguration.h
+END
+OptionProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/OptionProcessor.h
+END
+Option.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/Option.h
+END
+LoggingConfigurator.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/LoggingConfigurator.h
+END
+HelpFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/HelpFormatter.h
+END
+FilesystemConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/FilesystemConfiguration.h
+END
+ConfigurationMapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/ConfigurationMapper.h
+END
+PropertyFileConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/PropertyFileConfiguration.h
+END
+SystemConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/SystemConfiguration.h
+END
+LayeredConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/LayeredConfiguration.h
+END
+Util.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/Util.h
+END
+WinRegistryConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/WinRegistryConfiguration.h
+END
+WinService.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/WinService.h
+END
+OptionSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/OptionSet.h
+END
+OptionCallback.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/OptionCallback.h
+END
+Validator.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/Validator.h
+END
+OptionException.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/OptionException.h
+END
+XMLConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/poco/include/Poco/Util/XMLConfiguration.h
+END

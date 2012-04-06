@@ -1,0 +1,120 @@
+<!-- ##### SECTION Title ##### -->
+UnicapgtkDeviceProperty
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT UnicapgtkDeviceProperty ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL UnicapgtkDeviceProperty::unicapgtk-device-property-changed ##### -->
+<para>
+
+</para>
+
+@unicapgtkdeviceproperty: the object which received the signal.
+@arg1: 
+
+<!-- ##### FUNCTION unicapgtk_device_property_get_type ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_new ##### -->
+<para>
+
+</para>
+
+@property_spec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_new_by_handle ##### -->
+<para>
+
+</para>
+
+@handle: 
+@property_spec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_set ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@property: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_get_label ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_set_label ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+@label: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_redraw ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_update ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_redraw_sensitivity ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_property_update_sensitivity ##### -->
+<para>
+
+</para>
+
+@ugtk: 
+
+

@@ -1,0 +1,75 @@
+<!-- ##### SECTION Title ##### -->
+UnicapgtkDeviceSelection
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT UnicapgtkDeviceSelection ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL UnicapgtkDeviceSelection::unicapgtk-device-selection-changed ##### -->
+<para>
+
+</para>
+
+@unicapgtkdeviceselection: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG UnicapgtkDeviceSelection:include-rescan-entry ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION unicapgtk_device_selection_new ##### -->
+<para>
+
+</para>
+
+@include_rescan_entry: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_selection_rescan ##### -->
+<para>
+
+</para>
+
+@combo: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_selection_set_device ##### -->
+<para>
+
+</para>
+
+@combo: 
+@device: 
+@Returns: 
+
+
+<!-- ##### FUNCTION unicapgtk_device_selection_set_label_fmt ##### -->
+<para>
+
+</para>
+
+@combo: 
+@fmt: 
+
+

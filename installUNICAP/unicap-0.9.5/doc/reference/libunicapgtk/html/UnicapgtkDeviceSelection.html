@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UnicapgtkDeviceSelection</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libunicapgtk Reference Manual">
+<link rel="up" href="ch01.html" title="libunicapgtk Reference">
+<link rel="prev" href="UnicapgtkDeviceProperty.html" title="UnicapgtkDeviceProperty">
+<link rel="next" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="libunicapgtk Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="UnicapgtkDeviceProperty.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libunicapgtk Reference Manual</th>
+<td><a accesskey="n" href="UnicapgtkPropertyDialog.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#UnicapgtkDeviceSelection.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#UnicapgtkDeviceSelection.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#UnicapgtkDeviceSelection.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#UnicapgtkDeviceSelection.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#UnicapgtkDeviceSelection.properties" class="shortcut">Properties</a>
+                   | 
+                  <a href="#UnicapgtkDeviceSelection.signals" class="shortcut">Signals</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="UnicapgtkDeviceSelection"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="UnicapgtkDeviceSelection.top_of_page"></a>UnicapgtkDeviceSelection</span></h2>
+<p>UnicapgtkDeviceSelection</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="UnicapgtkDeviceSelection.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+                    <a class="link" href="UnicapgtkDeviceSelection.html#UnicapgtkDeviceSelection-struct" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a>;
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-new" title="unicapgtk_device_selection_new ()">unicapgtk_device_selection_new</a>      (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> include_rescan_entry);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-rescan" title="unicapgtk_device_selection_rescan ()">unicapgtk_device_selection_rescan</a>   (<a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a> *combo);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-set-device" title="unicapgtk_device_selection_set_device ()">unicapgtk_device_selection_set_device</a>
+                                                        (<a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a> *combo,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device);
+void                <a class="link" href="UnicapgtkDeviceSelection.html#unicapgtk-device-selection-set-label-fmt" title="unicapgtk_device_selection_set_label_fmt ()">unicapgtk_device_selection_set_label_fmt</a>
+                                                        (<a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a> *combo,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *fmt);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkBin.html"
+>GtkBin</a>
+                                 +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkComboBox.html"
+>GtkComboBox</a>
+                                       +----UnicapgtkDeviceSelection
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+UnicapgtkDeviceSelection implements
+ AtkImplementorIface,  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>,  <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+>GtkCellLayout</a> and  <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellEditable.html"
+>GtkCellEditable</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="UnicapgtkDeviceSelection.html#UnicapgtkDeviceSelection--include-rescan-entry" title='The "include-rescan-entry" property'>include-rescan-entry</a>"     <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write / Construct Only
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="UnicapgtkDeviceSelection.html#UnicapgtkDeviceSelection-unicapgtk-device-selection-changed" title='The "unicapgtk-device-selection-changed" signal'>unicapgtk-device-selection-changed</a>"             : Run First / Action
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkDeviceSelection-struct"></a><h3>UnicapgtkDeviceSelection</h3>
+<pre class="programlisting">typedef struct _UnicapgtkDeviceSelection UnicapgtkDeviceSelection;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-selection-new"></a><h3>unicapgtk_device_selection_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_device_selection_new      (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> include_rescan_entry);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection"><span class="type">UnicapgtkDeviceSelection</span></a></p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>include_rescan_entry</code></em> :</span></p></td>
+<td> if TRUE, the an entry will get added to the
+combo box allowing the user to manually trigger a device rescan
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection"><span class="type">UnicapgtkDeviceSelection</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-selection-rescan"></a><h3>unicapgtk_device_selection_rescan ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                unicapgtk_device_selection_rescan   (<a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a> *combo);</pre>
+<p>
+Tiggers rescan of available video capture devices and updates the
+combo box.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>combo</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection"><span class="type">UnicapgtkDeviceSelection</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> number of available devices
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-selection-set-device"></a><h3>unicapgtk_device_selection_set_device ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_device_selection_set_device
+                                                        (<a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a> *combo,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device);</pre>
+<p>
+Sets the combo box to the given device.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>combo</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection"><span class="type">UnicapgtkDeviceSelection</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>device</code></em> :</span></p></td>
+<td> a <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+><span class="type">unicap_device_t</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE on success
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-device-selection-set-label-fmt"></a><h3>unicapgtk_device_selection_set_label_fmt ()</h3>
+<pre class="programlisting">void                unicapgtk_device_selection_set_label_fmt
+                                                        (<a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a> *combo,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *fmt);</pre>
+<p>
+Sets the format string for the device labels. The following special
+sequences are currently supported: 
+</p>
+<p>
+%<code class="literal">i</code>: Identifier
+</p>
+<p>
+%<code class="literal">v</code>: Vendor Name
+</p>
+<p>
+%<code class="literal">m</code>: Model Name
+</p>
+<p>
+%<code class="literal">s</code>: Model Id, hexadecimal with lowercase letters
+</p>
+<p>
+%<code class="literal">S</code>: Model Id, hexadecimal with uppercase letters
+</p>
+<p>
+%<code class="literal">p</code>: Vendor Id, hexadecimal with lowercase letters
+</p>
+<p>
+%<code class="literal">P</code>: Vendor Id, hexadecimal with uppercase letters</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>combo</code></em> :</span></p></td>
+<td> a <a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection"><span class="type">UnicapgtkDeviceSelection</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>fmt</code></em> :</span></p></td>
+<td> a format string
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkDeviceSelection--include-rescan-entry"></a><h3>The <code class="literal">"include-rescan-entry"</code> property</h3>
+<pre class="programlisting">  "include-rescan-entry"     <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write / Construct Only</pre>
+<p></p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkDeviceSelection.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkDeviceSelection-unicapgtk-device-selection-changed"></a><h3>The <code class="literal">"unicapgtk-device-selection-changed"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="UnicapgtkDeviceSelection.html" title="UnicapgtkDeviceSelection">UnicapgtkDeviceSelection</a> *unicapgtkdeviceselection,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>                  arg1,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>                  user_data)                     : Run First / Action</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>unicapgtkdeviceselection</code></em> :</span></p></td>
+<td>the object which received the signal.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>arg1</code></em> :</span></p></td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

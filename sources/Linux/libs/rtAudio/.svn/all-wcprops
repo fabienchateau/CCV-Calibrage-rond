@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/rtAudio
+END
+RtError.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/rtAudio/RtError.h
+END
+RtAudio.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/rtAudio/RtAudio.h
+END
+libRtAudio.a
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/rtAudio/libRtAudio.a
+END

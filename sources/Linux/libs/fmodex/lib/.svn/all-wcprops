@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/lib
+END
+libfmodex.so
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/lib/libfmodex.so
+END
+libfmodexp.so
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/lib/libfmodexp.so
+END
+libfmodex-4.22.00.so
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/lib/libfmodex-4.22.00.so
+END
+libfmodexp-4.22.00.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/libs/fmodex/lib/libfmodexp-4.22.00.so
+END

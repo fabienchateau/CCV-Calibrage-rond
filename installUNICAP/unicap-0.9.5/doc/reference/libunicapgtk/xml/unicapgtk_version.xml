@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<refentry id="libunicapgtk-unicapgtk-version">
+<refmeta>
+<refentrytitle role="top_of_page" id="libunicapgtk-unicapgtk-version.top_of_page">unicapgtk_version</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>LIBUNICAPGTK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>unicapgtk_version</refname>
+<refpurpose></refpurpose>
+<!--[<xref linkend="desc" endterm="desc.title"/>]-->
+</refnamediv>
+
+<refsynopsisdiv id="libunicapgtk-unicapgtk-version.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="UNICAPGTK-MAJOR-VERSION:CAPS">UNICAPGTK_MAJOR_VERSION</link>
+#define             <link linkend="UNICAPGTK-MINOR-VERSION:CAPS">UNICAPGTK_MINOR_VERSION</link>
+#define             <link linkend="UNICAPGTK-MICRO-VERSION:CAPS">UNICAPGTK_MICRO_VERSION</link>
+extern              const unsigned int <link linkend="unicapgtk-major-version">unicapgtk_major_version</link>;
+extern              const unsigned int <link linkend="unicapgtk-minor-version">unicapgtk_minor_version</link>;
+extern              const unsigned int <link linkend="unicapgtk-micro-version">unicapgtk_micro_version</link>;
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="libunicapgtk-unicapgtk-version.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+
+</para>
+</refsect1>
+
+<refsect1 id="libunicapgtk-unicapgtk-version.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="UNICAPGTK-MAJOR-VERSION:CAPS" role="macro">
+<title>UNICAPGTK_MAJOR_VERSION</title>
+<indexterm zone="UNICAPGTK-MAJOR-VERSION:CAPS"><primary>UNICAPGTK_MAJOR_VERSION</primary></indexterm><programlisting>#define UNICAPGTK_MAJOR_VERSION 0
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="UNICAPGTK-MINOR-VERSION:CAPS" role="macro">
+<title>UNICAPGTK_MINOR_VERSION</title>
+<indexterm zone="UNICAPGTK-MINOR-VERSION:CAPS"><primary>UNICAPGTK_MINOR_VERSION</primary></indexterm><programlisting>#define UNICAPGTK_MINOR_VERSION 9
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="UNICAPGTK-MICRO-VERSION:CAPS" role="macro">
+<title>UNICAPGTK_MICRO_VERSION</title>
+<indexterm zone="UNICAPGTK-MICRO-VERSION:CAPS"><primary>UNICAPGTK_MICRO_VERSION</primary></indexterm><programlisting>#define UNICAPGTK_MICRO_VERSION 5
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-major-version" role="variable">
+<title>unicapgtk_major_version</title>
+<indexterm zone="unicapgtk-major-version"><primary>unicapgtk_major_version</primary></indexterm><programlisting>extern const unsigned int unicapgtk_major_version;
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-minor-version" role="variable">
+<title>unicapgtk_minor_version</title>
+<indexterm zone="unicapgtk-minor-version"><primary>unicapgtk_minor_version</primary></indexterm><programlisting>extern const unsigned int unicapgtk_minor_version;
+</programlisting>
+<para>
+
+</para></refsect2>
+<refsect2 id="unicapgtk-micro-version" role="variable">
+<title>unicapgtk_micro_version</title>
+<indexterm zone="unicapgtk-micro-version"><primary>unicapgtk_micro_version</primary></indexterm><programlisting>extern const unsigned int unicapgtk_micro_version;
+</programlisting>
+<para>
+
+</para></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

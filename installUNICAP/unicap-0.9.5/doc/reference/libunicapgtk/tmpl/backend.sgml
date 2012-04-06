@@ -1,0 +1,285 @@
+<!-- ##### SECTION Title ##### -->
+backend
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO BACKEND_MERIT_XV ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO BACKEND_MERIT_GTK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO BE_INVALID_FORMAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO BACKEND_FLAGS_SCALING_SUPPORTED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION backend_init ##### -->
+<para>
+
+</para>
+
+@widget: 
+@format: 
+@_data: 
+@err: 
+@Returns: 
+
+
+<!-- ##### FUNCTION backend_update_image ##### -->
+<para>
+
+</para>
+
+@_data: 
+@data_buffer: 
+@err: 
+
+
+<!-- ##### FUNCTION backend_display_image ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### FUNCTION backend_redraw ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### FUNCTION backend_destroy ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### FUNCTION backend_get_merit ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION backend_expose_event ##### -->
+<para>
+
+</para>
+
+@_data: 
+@da: 
+@event: 
+
+
+<!-- ##### FUNCTION backend_get_image_data ##### -->
+<para>
+
+</para>
+
+@_data: 
+@data_buffer: 
+@b: 
+
+
+<!-- ##### FUNCTION backend_lock ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### FUNCTION backend_unlock ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### FUNCTION backend_size_allocate ##### -->
+<para>
+
+</para>
+
+@_data: 
+@widget: 
+@allocation: 
+
+
+<!-- ##### FUNCTION backend_set_scale_to_fit ##### -->
+<para>
+
+</para>
+
+@_data: 
+@scale: 
+
+
+<!-- ##### FUNCTION backend_set_pause_state ##### -->
+<para>
+
+</para>
+
+@_data: 
+@state: 
+
+
+<!-- ##### FUNCTION backend_get_flags ##### -->
+<para>
+
+</para>
+
+@_data: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION backend_init_func_t ##### -->
+<para>
+
+</para>
+
+@widget: 
+@format: 
+@_data: 
+@err: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION backend_destroy_func_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### USER_FUNCTION backend_get_merit_func_t ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION backend_set_output_size_func_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+@width: 
+@height: 
+
+
+<!-- ##### USER_FUNCTION backend_expose_event_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+@da: 
+@event: 
+
+
+<!-- ##### USER_FUNCTION backend_get_image_data_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+@data_buffer: 
+@b: 
+
+
+<!-- ##### USER_FUNCTION backend_lock_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### USER_FUNCTION backend_unlock_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+
+
+<!-- ##### USER_FUNCTION backend_size_allocate_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+@widget: 
+@allocation: 
+
+
+<!-- ##### USER_FUNCTION backend_set_scale_to_fit_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+@scale: 
+
+
+<!-- ##### USER_FUNCTION backend_set_pause_state_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+@state: 
+
+
+<!-- ##### USER_FUNCTION backend_get_flags_t ##### -->
+<para>
+
+</para>
+
+@_data: 
+@Returns: 
+
+

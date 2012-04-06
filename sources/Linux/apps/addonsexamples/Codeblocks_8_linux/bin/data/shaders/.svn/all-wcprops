@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders
+END
+blobDetector.fs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/blobDetector.fs
+END
+gaussV.fs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/gaussV.fs
+END
+copy.fs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/copy.fs
+END
+gaussH.fs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/gaussH.fs
+END
+grayScale.fs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/grayScale.fs
+END
+blobExtractor.gs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/blobExtractor.gs
+END
+inverse.fs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/inverse.fs
+END
+threshold.fs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/threshold.fs
+END
+absSubtract.fs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/absSubtract.fs
+END
+contrast.fs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/contrast.fs
+END
+minimal.vs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/minimal.vs
+END
+subtract.fs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tbeta/!svn/ver/164/trunk/tbeta/Linux/apps/addonsExamples/Codeblocks_8_linux/bin/data/shaders/subtract.fs
+END

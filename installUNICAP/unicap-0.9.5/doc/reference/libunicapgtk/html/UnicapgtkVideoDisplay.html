@@ -1,0 +1,975 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UnicapgtkVideoDisplay</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libunicapgtk Reference Manual">
+<link rel="up" href="ch01.html" title="libunicapgtk Reference">
+<link rel="prev" href="UnicapgtkPropertyDialog.html" title="UnicapgtkPropertyDialog">
+<link rel="next" href="libunicapgtk-UnicapgtkVideoFormatSelection.html" title="UnicapgtkVideoFormatSelection">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="libunicapgtk Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="UnicapgtkPropertyDialog.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libunicapgtk Reference Manual</th>
+<td><a accesskey="n" href="libunicapgtk-UnicapgtkVideoFormatSelection.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#UnicapgtkVideoDisplay.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#UnicapgtkVideoDisplay.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#UnicapgtkVideoDisplay.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#UnicapgtkVideoDisplay.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#UnicapgtkVideoDisplay.properties" class="shortcut">Properties</a>
+                   | 
+                  <a href="#UnicapgtkVideoDisplay.signals" class="shortcut">Signals</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="UnicapgtkVideoDisplay"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="UnicapgtkVideoDisplay.top_of_page"></a>UnicapgtkVideoDisplay</span></h2>
+<p>UnicapgtkVideoDisplay</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="UnicapgtkVideoDisplay.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+                    <a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplayCropping" title="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</a>;
+                    <a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay-struct" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a>;
+<a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a>               <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-type" title="unicapgtk_video_display_get_type ()">unicapgtk_video_display_get_type</a>    (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-new" title="unicapgtk_video_display_new ()">unicapgtk_video_display_new</a>         (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-new-by-device" title="unicapgtk_video_display_new_by_device ()">unicapgtk_video_display_new_by_device</a>
+                                                        (<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-new-by-handle" title="unicapgtk_video_display_new_by_handle ()">unicapgtk_video_display_new_by_handle</a>
+                                                        (unicap_handle_t handle);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-start" title="unicapgtk_video_display_start ()">unicapgtk_video_display_start</a>       (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-stop" title="unicapgtk_video_display_stop ()">unicapgtk_video_display_stop</a>        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);
+<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a>*    <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-device" title="unicapgtk_video_display_get_device ()">unicapgtk_video_display_get_device</a>  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);
+unicap_handle_t     <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-handle" title="unicapgtk_video_display_get_handle ()">unicapgtk_video_display_get_handle</a>  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugkt);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-format" title="unicapgtk_video_display_set_format ()">unicapgtk_video_display_set_format</a>  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-format-t"
+>unicap_format_t</a> *format_spec);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-format" title="unicapgtk_video_display_get_format ()">unicapgtk_video_display_get_format</a>  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-format-t"
+>unicap_format_t</a> *format);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-pause" title="unicapgtk_video_display_set_pause ()">unicapgtk_video_display_set_pause</a>   (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> state);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-pause" title="unicapgtk_video_display_get_pause ()">unicapgtk_video_display_get_pause</a>   (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-device" title="unicapgtk_video_display_set_device ()">unicapgtk_video_display_set_device</a>  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-handle" title="unicapgtk_video_display_set_handle ()">unicapgtk_video_display_set_handle</a>  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         unicap_handle_t handle);
+<a
+href="/usr/share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf.html#GdkPixbuf"
+>GdkPixbuf</a>*          <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-still-image" title="unicapgtk_video_display_get_still_image ()">unicapgtk_video_display_get_still_image</a>
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-still-image" title="unicapgtk_video_display_set_still_image ()">unicapgtk_video_display_set_still_image</a>
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-data-buffer-t"
+>unicap_data_buffer_t</a> *buffer);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-data-buffer" title="unicapgtk_video_display_get_data_buffer ()">unicapgtk_video_display_get_data_buffer</a>
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-data-buffer-t"
+>unicap_data_buffer_t</a> **dest_buffer);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-crop" title="unicapgtk_video_display_set_crop ()">unicapgtk_video_display_set_crop</a>    (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplayCropping" title="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</a> *crop);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-get-crop" title="unicapgtk_video_display_get_crop ()">unicapgtk_video_display_get_crop</a>    (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplayCropping" title="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</a> *crop);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-size" title="unicapgtk_video_display_set_size ()">unicapgtk_video_display_set_size</a>    (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> width,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> height);
+void                <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-scale-to-fit" title="unicapgtk_video_display_set_scale_to_fit ()">unicapgtk_video_display_set_scale_to_fit</a>
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> scale);
+<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-new-frame-callback-t"
+>unicap_new_frame_callback_t</a> <a class="link" href="UnicapgtkVideoDisplay.html#unicapgtk-video-display-set-new-frame-callback" title="unicapgtk_video_display_set_new_frame_callback ()">unicapgtk_video_display_set_new_frame_callback</a>
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         UnicapgtkCallbackFlags flags,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-new-frame-callback-t"
+>unicap_new_frame_callback_t</a> cb,
+                                                         void *data);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkBin.html"
+>GtkBin</a>
+                                 +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkFrame.html"
+>GtkFrame</a>
+                                       +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkAspectFrame.html"
+>GtkAspectFrame</a>
+                                             +----UnicapgtkVideoDisplay
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+UnicapgtkVideoDisplay implements
+ AtkImplementorIface and  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay--backend" title='The "backend" property'>backend</a>"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write
+  "<a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay--backend-fourcc" title='The "backend-fourcc" property'>backend-fourcc</a>"           <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write
+  "<a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay--scale-to-fit" title='The "scale-to-fit" property'>scale-to-fit</a>"             <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplay-unicapgtk-video-display-predisplay" title='The "unicapgtk-video-display-predisplay" signal'>unicapgtk-video-display-predisplay</a>"             : Run First / Action
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkVideoDisplayCropping"></a><h3>UnicapgtkVideoDisplayCropping</h3>
+<pre class="programlisting">typedef struct {
+  int crop_x;
+  int crop_y;
+  int crop_width;
+  int crop_height;
+} UnicapgtkVideoDisplayCropping;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkVideoDisplay-struct"></a><h3>UnicapgtkVideoDisplay</h3>
+<pre class="programlisting">typedef struct _UnicapgtkVideoDisplay UnicapgtkVideoDisplay;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-type"></a><h3>unicapgtk_video_display_get_type ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a>               unicapgtk_video_display_get_type    (void);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-new"></a><h3>unicapgtk_video_display_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_video_display_new         (void);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a></p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-new-by-device"></a><h3>unicapgtk_video_display_new_by_device ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_video_display_new_by_device
+                                                        (<a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a> and opens the given device to
+operate with.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>device_spec</code></em> :</span></p></td>
+<td> the device to be used by this video display widget
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-new-by-handle"></a><h3>unicapgtk_video_display_new_by_handle ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          unicapgtk_video_display_new_by_handle
+                                                        (unicap_handle_t handle);</pre>
+<p>
+Creates a new <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a> and uses the handle to control
+the video device. The handle gets cloned by this call.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td> a handle of the device to be used by this video display
+widget
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-start"></a><h3>unicapgtk_video_display_start ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_video_display_start       (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);</pre>
+<p>
+Calls <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-start-capture"
+><span class="type">unicap_start_capture</span></a> on the device and starts displaying the
+live video stream.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE when the live display could be successfully started.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-stop"></a><h3>unicapgtk_video_display_stop ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_stop        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);</pre>
+<p>
+Calls <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-stop-capture"
+><span class="type">unicap_stop_capture</span></a> on the device and stops displaying the
+live video image.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-device"></a><h3>unicapgtk_video_display_get_device ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a>*    unicapgtk_video_display_get_device  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);</pre>
+<p>
+Returns the device currently used by the video display. The
+returned data is owned by the library and should not be freed by
+the application.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> an <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+><span class="type">unicap_device_t</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-handle"></a><h3>unicapgtk_video_display_get_handle ()</h3>
+<pre class="programlisting">unicap_handle_t     unicapgtk_video_display_get_handle  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugkt);</pre>
+<p>
+Returns a handle to the device currently used by the display. This
+is a clone of the handle used by the display so <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-close"
+><span class="type">unicap_close</span></a> must
+be called on this handle by the calling application.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugkt</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a cloned <span class="type">unicap_handle_t</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-format"></a><h3>unicapgtk_video_display_set_format ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_video_display_set_format  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-format-t"
+>unicap_format_t</a> *format_spec);</pre>
+<p>
+Sets the video format used by the display. If a handle is set on
+the display ( ie. the display controls a device ), the video format
+is also changed and only video formats supported by the device can
+be set.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format_spec</code></em> :</span></p></td>
+<td> a <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-format-t"
+><span class="type">unicap_format_t</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE when the format change was successfull. 
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-format"></a><h3>unicapgtk_video_display_get_format ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_get_format  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-format-t"
+>unicap_format_t</a> *format);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-pause"></a><h3>unicapgtk_video_display_set_pause ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_set_pause   (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> state);</pre>
+<p>
+Pauses or unpauses the video display. If the display is controling
+a device, the device is not stopped or paused by this call. When
+the video display is paused, no new frames are retrieved from the
+device and the display is constantly updated with the last image
+retrieved from the device. 
+</p>
+<p>
+Buffer display events are still called. This way an application can
+still draw an overlay onto the image.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an UnicapgtkVideoDisplay
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>state</code></em> :</span></p></td>
+<td> TRUE to put the device into pause state; FALSE to put it
+into running state
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-pause"></a><h3>unicapgtk_video_display_get_pause ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_video_display_get_pause   (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);</pre>
+<p>
+Retrieve current pause state</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE when the display is currently paused
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-device"></a><h3>unicapgtk_video_display_set_device ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_video_display_set_device  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+>unicap_device_t</a> *device_spec);</pre>
+<p>
+Set a new device on the display.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>device_spec</code></em> :</span></p></td>
+<td> an <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-device-t"
+><span class="type">unicap_device_t</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE when the new device could be successfully set. 
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-handle"></a><h3>unicapgtk_video_display_set_handle ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unicapgtk_video_display_set_handle  (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         unicap_handle_t handle);</pre>
+<p>
+Set a new device on the display, specified by a handle. The handle
+gets cloned by this call.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>handle</code></em> :</span></p></td>
+<td> a <span class="type">unicap_handle_t</span>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE when the device change was successful. 
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-still-image"></a><h3>unicapgtk_video_display_get_still_image ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf.html#GdkPixbuf"
+>GdkPixbuf</a>*          unicapgtk_video_display_get_still_image
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk);</pre>
+<p>
+Retrieves a still image from the live video stream.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new allocated <a
+href="/usr/share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf.html#GdkPixbuf"
+><span class="type">GdkPixbuf</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-still-image"></a><h3>unicapgtk_video_display_set_still_image ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_set_still_image
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-data-buffer-t"
+>unicap_data_buffer_t</a> *buffer);</pre>
+<p>
+Sets a still image. If the video display is currently running, it
+is put to pause state by this call.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>buffer</code></em> :</span></p></td>
+<td> a data_buffer to be displayed
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-data-buffer"></a><h3>unicapgtk_video_display_get_data_buffer ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_get_data_buffer
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-data-buffer-t"
+>unicap_data_buffer_t</a> **dest_buffer);</pre>
+<p>
+Retrieves a still image from the live video stream.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>dest_buffer</code></em> :</span></p></td>
+<td> a pointer where to store the new data_buffer
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-crop"></a><h3>unicapgtk_video_display_set_crop ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_set_crop    (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplayCropping" title="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</a> *crop);</pre>
+<p>
+Set a cropping window. The video display will only display the
+region specified in the cropping window.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <span class="type">UnicagtkVideoDisplay</span>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>crop</code></em> :</span></p></td>
+<td> cropping specification
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-get-crop"></a><h3>unicapgtk_video_display_get_crop ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_get_crop    (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplayCropping" title="UnicapgtkVideoDisplayCropping">UnicapgtkVideoDisplayCropping</a> *crop);</pre>
+<p>
+Retrieves the current cropping window.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>crop</code></em> :</span></p></td>
+<td> pointer to where to store the <a class="link" href="UnicapgtkVideoDisplay.html#UnicapgtkVideoDisplayCropping" title="UnicapgtkVideoDisplayCropping"><span class="type">UnicapgtkVideoDisplayCropping</span></a>
+structure
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-size"></a><h3>unicapgtk_video_display_set_size ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_set_size    (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> width,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> height);</pre>
+<p>
+Sets the output size of the display. Video data that is to be
+displayed will be scaled to this size.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>width</code></em> :</span></p></td>
+<td> new width
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>height</code></em> :</span></p></td>
+<td> new height
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-scale-to-fit"></a><h3>unicapgtk_video_display_set_scale_to_fit ()</h3>
+<pre class="programlisting">void                unicapgtk_video_display_set_scale_to_fit
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> scale);</pre>
+<p>
+If scale_to_fit is set, the video display will get scaled to the
+size allocated to the widget.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>scale</code></em> :</span></p></td>
+<td> TRUE if the display should scale to fit
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="unicapgtk-video-display-set-new-frame-callback"></a><h3>unicapgtk_video_display_set_new_frame_callback ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-new-frame-callback-t"
+>unicap_new_frame_callback_t</a> unicapgtk_video_display_set_new_frame_callback
+                                                        (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *ugtk,
+                                                         UnicapgtkCallbackFlags flags,
+                                                         <a
+href="/usr/share/gtk-doc/html/libunicap/libunicap-unicap.html#unicap-new-frame-callback-t"
+>unicap_new_frame_callback_t</a> cb,
+                                                         void *data);</pre>
+<p>
+Registers a callback function which is called in the unicap capture
+thread context.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ugtk</code></em> :</span></p></td>
+<td> an <a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay"><span class="type">UnicapgtkVideoDisplay</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>flags</code></em> :</span></p></td>
+<td> flags
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>cb</code></em> :</span></p></td>
+<td> a callback function
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>data</code></em> :</span></p></td>
+<td> a pointer to user data that is passed to the callback
+function
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> old callback 
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkVideoDisplay--backend"></a><h3>The <code class="literal">"backend"</code> property</h3>
+<pre class="programlisting">  "backend"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write</pre>
+<p></p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkVideoDisplay--backend-fourcc"></a><h3>The <code class="literal">"backend-fourcc"</code> property</h3>
+<pre class="programlisting">  "backend-fourcc"           <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write</pre>
+<p></p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkVideoDisplay--scale-to-fit"></a><h3>The <code class="literal">"scale-to-fit"</code> property</h3>
+<pre class="programlisting">  "scale-to-fit"             <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p></p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="UnicapgtkVideoDisplay.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="UnicapgtkVideoDisplay-unicapgtk-video-display-predisplay"></a><h3>The <code class="literal">"unicapgtk-video-display-predisplay"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="UnicapgtkVideoDisplay.html" title="UnicapgtkVideoDisplay">UnicapgtkVideoDisplay</a> *unicapgtkvideodisplay,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>               arg1,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>               user_data)                  : Run First / Action</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>unicapgtkvideodisplay</code></em> :</span></p></td>
+<td>the object which received the signal.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>arg1</code></em> :</span></p></td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

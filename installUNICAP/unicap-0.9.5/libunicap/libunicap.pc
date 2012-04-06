@@ -1,0 +1,8 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+
+Name: libunicap
+Description: video capture library
+Version: 0.9.5
+Libs: -L${exec_prefix}/lib -lunicap -lrt
+Cflags: -I${prefix}/include/unicap

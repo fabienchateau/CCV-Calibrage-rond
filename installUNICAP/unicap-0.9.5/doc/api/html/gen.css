@@ -1,0 +1,166 @@
+
+.backgnd {
+	color: #000000;
+	background: #FFFFFF;
+	}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0.75em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	}
+
+
+p {
+	font-weight: normal;
+	}
+
+
+/* ************************************************************************** */
+
+.menu p {
+	font-weight: bold;
+	padding: 1em 0 0 1em;
+	background-color: transparent;
+	}
+
+.menu a:link {
+	color: #003296;
+	text-decoration: none;
+	}
+
+.menu a:visited {
+	color: #003296;
+	text-decoration: none;
+	}
+
+.menu a:hover {
+	color: #A0A0A0;
+	text-decoration: none;
+	}
+
+
+/* ************************************************************************** */
+
+
+p.logo {
+	margin: 0;
+	padding: 1.8em 0 0.3em 0.7em;
+	}
+
+p.projsup {
+	font-size: 0.95em;
+	color: #A0A0A0;
+	}
+
+p.copyright {
+	color: #606060;
+	font-size: 0.85em;
+	font-weight: normal;
+	padding: 0 0 0 1.7em;
+	}
+
+
+/* ************************************************************************** */
+
+
+.intro p {
+	color: #606060;
+	padding: 0 2em 0 2em;
+	}
+
+.content p {
+             color: #606060;
+             padding: 0 2em 0 2em;
+             }
+
+
+.downl {
+	font-size: 0.85em;
+	color: #A0A0A0;
+	}
+
+.downl_desc { 
+              color: #6060F0;
+              }
+
+
+.comp li {
+	color: #606060;
+	padding: 1em 0 1em 0;
+	}
+
+
+.docu li {
+	padding: 1em 0 1em 0;
+	}
+
+.docu a:link {
+	color: #003296;
+	text-decoration: none;
+	}
+
+.docu a:visited {
+	color: #003296;
+	text-decoration: none;
+	}
+
+.docu a:hover {
+	color: #A0A0A0;
+	text-decoration: none;
+	}
+
+
+.srcexp li {
+	padding: 1em 0 1em 0;
+	}
+
+.srcexp a:link {
+	color: #003296;
+	text-decoration: none;
+	}
+
+.srcexp a:visited {
+	color: #003296;
+	text-decoration: none;
+	}
+
+.srcexp a:hover {
+	color: #A0A0A0;
+	text-decoration: none;
+	}
+
+
+
+/* ************************************************************************** */
+
+
+h1 {
+	color: #808080;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 0.5em 0 0.6em 1.4em;
+	}
+
+
+/* ************************************************************************** */
+
+.returnval { 
+             font-weight: bold;
+             }
+
+.funcparamtype { 
+                 font-weight: bold;
+                 }
+
+.fieldtype{ 
+            font-weight: bold;
+            }
+
+.fieldname{  
+            font-style: italic;
+           }
+.paramname{ 
+            font-style: italic;
+            }

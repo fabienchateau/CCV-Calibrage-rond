@@ -1,0 +1,35 @@
+<!-- ##### SECTION Title ##### -->
+queue
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT unicap_queue ##### -->
+<para>
+
+</para>
+
+@sema: 
+@psema: 
+@data: 
+@next: 
+
+<!-- ##### TYPEDEF unicap_queue_t ##### -->
+<para>
+
+</para>
+
+
